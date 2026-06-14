@@ -3,6 +3,11 @@
 *.kicad_pcb-bak
 *.bak
 *.bck
+*.lck
+
+# KiCad lib tables
+fp-lib-table
+sym-lib-table
 
 # KiCad auto-save
 _autosave-*
@@ -11,6 +16,8 @@ _autosave-*
 
 # KiCad project backups directory
 backups/
+.history/
+_restore_backup_*/
 
 # KiCad cache
 fp-info-cache
