@@ -1,0 +1,35 @@
+# KiCad backup files
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*.bak
+*.bck
+
+# KiCad auto-save
+_autosave-*
+*.kicad_sch~
+*.kicad_pcb~
+
+# KiCad project backups directory
+backups/
+
+# KiCad cache
+fp-info-cache
+*.kicad_prl
+
+# Fabrication outputs (regenerate these)
+gerbers/
+*.gbr
+*.drl
+*.csv
+*.pos
+
+# Netlist
+*.net
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+Thumbs.db
