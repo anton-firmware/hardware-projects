@@ -1,0 +1,7572 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "06daaf55-9c92-434a-904b-cbf2a556eb03")
+	(paper "A3")
+	(lib_symbols
+		(symbol "LibraryLoader:ERJ-PC3B4702V"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 13.97 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "ERJ-PC3B4702V"
+				(at 13.97 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "ERJPC3D9763V"
+				(at 13.97 -96.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/ast-ind-394031.pdf"
+				(at 13.97 -196.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "Series/Type: Thick film chip resistors (Super high precision type), Power Rating (W): 0.2, Chip Size (LxW(EIA)) (mm): 1.6 x 0.8 (EIA:0603), Resistance Values (): 47000, Resistance Tolerance (%): 0.1, T.C.R (10/K): +/-25"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "0.55"
+				(at 13.97 -396.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "RS Part Number" ""
+				(at 13.97 -496.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "RS Price/Stock" ""
+				(at 13.97 -596.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "Panasonic"
+				(at 13.97 -696.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "ERJ-PC3B4702V"
+				(at 13.97 -796.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "ERJ-PC3B4702V_1_1"
+				(rectangle
+					(start 5.08 1.27)
+					(end 12.7 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "LibraryLoader:SM0603SRC"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "LED"
+				(at 12.7 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "SM0603SRC"
+				(at 12.7 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "SM0603SRC"
+				(at 12.7 -93.65 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Datasheet" "http://uk.rs-online.com/web/p/products/9063454"
+				(at 12.7 -193.65 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Description" "Standard LEDs - SMD Super Red 660nm Water Clear SURFACE MOUNT LED RED, 0603 PACKAGE"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "0.8"
+				(at 12.7 -393.65 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "RS Part Number" "9063454"
+				(at 12.7 -493.65 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "RS Price/Stock" "http://uk.rs-online.com/web/p/products/9063454"
+				(at 12.7 -593.65 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Manufacturer_Name" "Bivar"
+				(at 12.7 -693.65 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Manufacturer_Part_Number" "SM0603SRC"
+				(at 12.7 -793.65 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Allied_Number" "70536335"
+				(at 12.7 -893.65 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(symbol "SM0603SRC_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 10.16 2.54) (xy 10.16 -2.54) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.334 4.318) (xy 4.572 3.556) (xy 3.81 5.08) (xy 5.334 4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 2.54) (xy 3.81 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.874 4.318) (xy 7.112 3.556) (xy 6.35 5.08) (xy 7.874 4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 2.54) (xy 6.35 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 12.7 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 15.24 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 114.3 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "023c4bc3-8bc7-4664-a0de-2b29ac9706ed")
+	)
+	(junction
+		(at 252.73 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0396d6be-fbb0-45b8-83ea-fb5203732cb3")
+	)
+	(junction
+		(at 135.89 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e41183a-20f2-42e1-9224-d616a619ce3d")
+	)
+	(junction
+		(at 95.25 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "19af8211-c50f-4b32-b500-df987bad9858")
+	)
+	(junction
+		(at 158.75 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2156cd50-0693-45ea-8cd8-4d9c0a94f2e7")
+	)
+	(junction
+		(at 135.89 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "29a8510b-42b0-4d19-ae97-69afdcc46179")
+	)
+	(junction
+		(at 125.73 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2a6e0a22-ecf8-4e7c-9826-5d3f611a9635")
+	)
+	(junction
+		(at 95.25 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2abd6c53-b3e7-4776-9755-f8ce479a2ac1")
+	)
+	(junction
+		(at 95.25 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2eb8ab30-4840-46f8-9490-db0bb9c12851")
+	)
+	(junction
+		(at 200.66 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "38dfd518-95a2-42e8-914f-981d1adbb2dd")
+	)
+	(junction
+		(at 278.13 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "391e849a-6d57-4aad-94ed-caf84c2c0c80")
+	)
+	(junction
+		(at 189.23 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b96c403-26c4-4f1c-9f85-8161b2072ffe")
+	)
+	(junction
+		(at 354.33 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e6c357b-768b-4cbf-b143-c361164e4312")
+	)
+	(junction
+		(at 210.82 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "400f178a-266a-48ea-9820-c1b1ec92b7b6")
+	)
+	(junction
+		(at 200.66 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "45903fac-231d-4ce2-a5c7-d567e842e9a1")
+	)
+	(junction
+		(at 240.03 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "461ff092-4e9d-44c2-9b80-6aad81da7ac2")
+	)
+	(junction
+		(at 334.01 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4c9e38b0-bdac-491f-958f-42a009b4682b")
+	)
+	(junction
+		(at 200.66 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5334531b-e7ab-4c13-b701-e4d439353efd")
+	)
+	(junction
+		(at 114.3 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "537b79c4-5354-46ba-b8a3-81ad26ca663e")
+	)
+	(junction
+		(at 278.13 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c8631e0-2370-4047-a20b-8615f4985dc3")
+	)
+	(junction
+		(at 322.58 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6372ac67-86fa-4313-9cd0-2e2718d0a0b0")
+	)
+	(junction
+		(at 303.53 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "67b6686d-13bf-4dad-a4fa-f4649226f86c")
+	)
+	(junction
+		(at 147.32 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "800c68d9-83c0-40d1-9e0f-7f85277dd085")
+	)
+	(junction
+		(at 252.73 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "80be9038-7628-4144-9186-ba79fe499fa3")
+	)
+	(junction
+		(at 81.28 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "834a0053-71c9-42c9-9c4b-80644885f29d")
+	)
+	(junction
+		(at 95.25 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8eb33585-609f-47a0-ae4c-709b4465e374")
+	)
+	(junction
+		(at 95.25 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "90274f4f-d380-4a04-987b-a8e8aea5b5f8")
+	)
+	(junction
+		(at 314.96 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "95c4329b-7bb7-4ead-9033-73d52d0c0e69")
+	)
+	(junction
+		(at 95.25 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "999495e6-46c7-49ce-a3ae-a79dc468a6c6")
+	)
+	(junction
+		(at 303.53 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9b5f849d-2bbb-4e3a-8da8-013b96af1b6d")
+	)
+	(junction
+		(at 354.33 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a4b07973-1bf7-4cba-b7c2-66788ecfaa18")
+	)
+	(junction
+		(at 81.28 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b6540072-78fa-4fc6-9c03-c2262ae99539")
+	)
+	(junction
+		(at 170.18 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bc22374c-d33f-462c-9a91-e58cc1dbf588")
+	)
+	(junction
+		(at 322.58 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd19bec1-ec2b-44b4-bc73-2654521c0edf")
+	)
+	(junction
+		(at 290.83 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca186a41-c57a-422f-a284-61033662ec28")
+	)
+	(junction
+		(at 189.23 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cfe70468-4250-4a66-a357-f97d9d3e344e")
+	)
+	(junction
+		(at 81.28 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d205782b-082b-4c24-822b-068a0940bc0d")
+	)
+	(junction
+		(at 240.03 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d3bde9f6-2005-4469-9974-ab8b2ff04569")
+	)
+	(junction
+		(at 81.28 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e598fef8-52fd-4cff-aad3-2f9c7d0ef171")
+	)
+	(junction
+		(at 170.18 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e8b05b9f-37e8-439e-bd2a-0571a1661b39")
+	)
+	(junction
+		(at 147.32 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ecb2f964-831a-49aa-9b3d-b050fb532954")
+	)
+	(junction
+		(at 81.28 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f2e56af6-4b52-4854-aad7-a66b61e7c3e3")
+	)
+	(junction
+		(at 158.75 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f3ac0c0b-a6a1-4b21-8c06-c184181b010c")
+	)
+	(junction
+		(at 81.28 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f8177970-f982-4438-bfd4-6698f69afc41")
+	)
+	(junction
+		(at 125.73 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f8af46e1-ca60-4213-b324-664dd95336aa")
+	)
+	(wire
+		(pts
+			(xy 200.66 133.35) (xy 210.82 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0190fcde-79da-46b0-93a1-60d0d98008dc")
+	)
+	(wire
+		(pts
+			(xy 71.12 133.35) (xy 81.28 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03bdb390-dd06-43bf-ab65-c054cc0ee453")
+	)
+	(wire
+		(pts
+			(xy 354.33 67.31) (xy 365.76 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0531e328-81b2-4492-a689-d4961db2a795")
+	)
+	(wire
+		(pts
+			(xy 334.01 116.84) (xy 334.01 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07651123-0eed-4edb-b1d7-82dded24e8ea")
+	)
+	(wire
+		(pts
+			(xy 81.28 113.03) (xy 95.25 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b5605a0-2aa6-48bd-83af-f5d168620841")
+	)
+	(wire
+		(pts
+			(xy 114.3 67.31) (xy 114.3 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bf4fed1-5f2e-40b5-acb3-e93b658f3885")
+	)
+	(wire
+		(pts
+			(xy 200.66 67.31) (xy 200.66 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "129a0ae1-7758-433c-bd52-88dca307b533")
+	)
+	(wire
+		(pts
+			(xy 210.82 133.35) (xy 210.82 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1458ecbd-9256-4adf-81c4-cdc1a15f28ad")
+	)
+	(wire
+		(pts
+			(xy 314.96 153.67) (xy 303.53 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14ed7ae7-a244-4ab9-9bd8-6e210b2e7e02")
+	)
+	(wire
+		(pts
+			(xy 354.33 173.99) (xy 334.01 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15d9914e-d27d-469e-8703-8747e0041cb2")
+	)
+	(wire
+		(pts
+			(xy 81.28 153.67) (xy 95.25 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b3e6982-c026-4c01-9a95-15b9831eb875")
+	)
+	(wire
+		(pts
+			(xy 135.89 133.35) (xy 95.25 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b409a54-3c15-4d9e-913f-7de6a5a9ad88")
+	)
+	(wire
+		(pts
+			(xy 95.25 87.63) (xy 95.25 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c741f58-49b4-4c79-8336-282ae20f6953")
+	)
+	(wire
+		(pts
+			(xy 71.12 113.03) (xy 81.28 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ec69197-0f0b-4d16-b473-734557163805")
+	)
+	(wire
+		(pts
+			(xy 95.25 67.31) (xy 95.25 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "213cbfd5-08f2-4462-881a-e6e55dfd81ee")
+	)
+	(wire
+		(pts
+			(xy 81.28 92.71) (xy 95.25 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "242828f3-e7af-447b-92d5-dc7c5c55c7ce")
+	)
+	(wire
+		(pts
+			(xy 81.28 128.27) (xy 81.28 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2465d941-baea-4b49-af94-b77e946a4b27")
+	)
+	(wire
+		(pts
+			(xy 252.73 92.71) (xy 322.58 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25f9dda5-b58e-4cd4-a133-1f4d39f32257")
+	)
+	(wire
+		(pts
+			(xy 278.13 173.99) (xy 278.13 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "262fb530-5984-4ee0-834e-14da8fd5d50c")
+	)
+	(wire
+		(pts
+			(xy 322.58 173.99) (xy 334.01 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ab105f8-ca06-4402-81bc-5bb00b4018b8")
+	)
+	(wire
+		(pts
+			(xy 322.58 101.6) (xy 322.58 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f4dc768-a18a-453b-808b-193e06c1b515")
+	)
+	(wire
+		(pts
+			(xy 135.89 92.71) (xy 147.32 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30109bfa-7078-4a6b-b9df-110cd21d7a84")
+	)
+	(wire
+		(pts
+			(xy 147.32 92.71) (xy 240.03 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39919727-662b-4575-bebf-c4fd3101441d")
+	)
+	(wire
+		(pts
+			(xy 71.12 173.99) (xy 81.28 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39d58081-ae48-4d4c-beec-8ea9788f04a6")
+	)
+	(wire
+		(pts
+			(xy 114.3 67.31) (xy 125.73 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bde75f1-ecb2-4d2b-9f5f-0501f7c7895b")
+	)
+	(wire
+		(pts
+			(xy 114.3 86.36) (xy 114.3 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fee5228-4012-4cf2-9d7b-eda24edefa66")
+	)
+	(wire
+		(pts
+			(xy 303.53 153.67) (xy 252.73 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40e4d70b-407f-4499-bf87-d4e57f379417")
+	)
+	(wire
+		(pts
+			(xy 158.75 153.67) (xy 170.18 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "431ad7d9-b26c-476e-94c5-128c1dfe1e2b")
+	)
+	(wire
+		(pts
+			(xy 303.53 67.31) (xy 303.53 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "481c3dc7-2d51-4618-a3b6-30136ad6e92f")
+	)
+	(wire
+		(pts
+			(xy 81.28 67.31) (xy 81.28 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55993004-c2d5-4940-813c-6f2fcbe0321d")
+	)
+	(wire
+		(pts
+			(xy 170.18 128.27) (xy 170.18 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5adf244b-2eb7-43df-b03b-92fdf45ed7dd")
+	)
+	(wire
+		(pts
+			(xy 95.25 67.31) (xy 114.3 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b8fe93d-88aa-4472-b6e1-c6339d31b635")
+	)
+	(wire
+		(pts
+			(xy 354.33 67.31) (xy 354.33 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f011d52-f0c9-4d9a-b4f7-86980fa47725")
+	)
+	(wire
+		(pts
+			(xy 81.28 107.95) (xy 81.28 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63378198-1e8e-4e5f-a25e-08dd2fb9f18d")
+	)
+	(wire
+		(pts
+			(xy 39.37 92.71) (xy 53.34 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6402fef2-0b50-4a18-9191-b39c9f94a3f7")
+	)
+	(wire
+		(pts
+			(xy 39.37 113.03) (xy 53.34 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67436040-3fa1-4ef3-b18e-7d074d86e895")
+	)
+	(wire
+		(pts
+			(xy 125.73 67.31) (xy 200.66 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bbde4aa-86d0-4ac5-b363-bd1657e93ef1")
+	)
+	(wire
+		(pts
+			(xy 39.37 153.67) (xy 53.34 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c4dde0d-a66f-486b-8fe7-08bec40baa24")
+	)
+	(wire
+		(pts
+			(xy 334.01 101.6) (xy 334.01 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7130e372-4e3c-4b4d-9cce-beb8192b7a0f")
+	)
+	(wire
+		(pts
+			(xy 135.89 107.95) (xy 135.89 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74b7479d-9f51-4e78-b720-52cd09e49302")
+	)
+	(wire
+		(pts
+			(xy 81.28 67.31) (xy 95.25 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "759edb87-c310-47c6-ab8e-7ac69b1acbac")
+	)
+	(wire
+		(pts
+			(xy 314.96 69.85) (xy 314.96 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77c1be64-fc11-49a3-9c07-abbaaa6943a5")
+	)
+	(wire
+		(pts
+			(xy 322.58 116.84) (xy 322.58 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79fa369b-b7f0-49c2-928a-f9ee91b743cd")
+	)
+	(wire
+		(pts
+			(xy 81.28 133.35) (xy 95.25 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c0fcef3-600d-4803-a614-5a4f4def9607")
+	)
+	(wire
+		(pts
+			(xy 95.25 153.67) (xy 158.75 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d3ffc6a-578d-417c-9d9d-9f65b1c74555")
+	)
+	(wire
+		(pts
+			(xy 240.03 92.71) (xy 252.73 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7df55a65-ac8d-4f54-8982-ae55cf406f8b")
+	)
+	(wire
+		(pts
+			(xy 314.96 67.31) (xy 354.33 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "821745df-f44b-458e-81a0-9cf04628f159")
+	)
+	(wire
+		(pts
+			(xy 39.37 67.31) (xy 53.34 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87607b46-abec-4dc7-b8fa-32f051fc96c2")
+	)
+	(wire
+		(pts
+			(xy 314.96 85.09) (xy 314.96 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88da58a1-5226-4502-825d-2297a3d2c5f0")
+	)
+	(wire
+		(pts
+			(xy 210.82 67.31) (xy 303.53 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89011e4c-f130-4876-90b3-9d0d767fafab")
+	)
+	(wire
+		(pts
+			(xy 39.37 173.99) (xy 53.34 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a704372-9a5f-406f-af90-6ec97d18a814")
+	)
+	(wire
+		(pts
+			(xy 290.83 173.99) (xy 290.83 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8aa11b6f-d813-4e27-a16f-8127acd3aeb3")
+	)
+	(wire
+		(pts
+			(xy 125.73 86.36) (xy 125.73 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d0e4251-9afe-4a67-84cd-e4f7b4a050dc")
+	)
+	(wire
+		(pts
+			(xy 200.66 173.99) (xy 278.13 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e1c62a1-5f55-48b0-9633-b64d6e160050")
+	)
+	(wire
+		(pts
+			(xy 125.73 67.31) (xy 125.73 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f1063ee-ccdd-4a34-ba08-be624573f3cf")
+	)
+	(wire
+		(pts
+			(xy 170.18 153.67) (xy 240.03 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f63194a-7a8f-4b87-953e-2497d51cf237")
+	)
+	(wire
+		(pts
+			(xy 95.25 173.99) (xy 189.23 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "936f033f-d388-48a0-9dcd-51fba432ea92")
+	)
+	(wire
+		(pts
+			(xy 95.25 92.71) (xy 135.89 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93a75bd7-5472-460f-89af-418575450339")
+	)
+	(wire
+		(pts
+			(xy 158.75 113.03) (xy 170.18 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "941815d0-41ed-481a-8d8d-fc7d45717bce")
+	)
+	(wire
+		(pts
+			(xy 39.37 133.35) (xy 53.34 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94610dd0-f831-42f3-b64c-071ea5ac56ce")
+	)
+	(wire
+		(pts
+			(xy 200.66 148.59) (xy 200.66 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97e2b621-1607-48d4-aee3-44d9560d5b05")
+	)
+	(wire
+		(pts
+			(xy 365.76 67.31) (xy 365.76 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98812ee9-428f-4586-8dc2-7e8dc92a6a45")
+	)
+	(wire
+		(pts
+			(xy 240.03 107.95) (xy 240.03 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98c9ad01-af61-49e0-8f40-c462bc272b58")
+	)
+	(wire
+		(pts
+			(xy 170.18 113.03) (xy 278.13 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99274a16-7d85-4004-97bc-1e1563157918")
+	)
+	(wire
+		(pts
+			(xy 81.28 173.99) (xy 95.25 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a5d618e-1db0-49b1-9323-b4047f02a3b3")
+	)
+	(wire
+		(pts
+			(xy 210.82 67.31) (xy 210.82 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a426a6eb-421a-40b4-84b2-e395325edf62")
+	)
+	(wire
+		(pts
+			(xy 278.13 113.03) (xy 290.83 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8a82f42-d7be-44f7-9181-0c445f2be516")
+	)
+	(wire
+		(pts
+			(xy 125.73 113.03) (xy 158.75 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac50f96e-5b9c-453c-8b74-3da83544bfac")
+	)
+	(wire
+		(pts
+			(xy 354.33 115.57) (xy 354.33 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac6269eb-869b-45a1-abd9-ae02bcbfd18e")
+	)
+	(wire
+		(pts
+			(xy 95.25 168.91) (xy 95.25 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aed197a3-f251-4789-83dc-30cc3a348e44")
+	)
+	(wire
+		(pts
+			(xy 200.66 86.36) (xy 200.66 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b18adabf-d01c-4139-b091-0d7f635c704c")
+	)
+	(wire
+		(pts
+			(xy 252.73 107.95) (xy 252.73 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6dc84c8-4b44-4333-9d98-8dc0fd563901")
+	)
+	(wire
+		(pts
+			(xy 71.12 92.71) (xy 81.28 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7ecc2c4-fe84-4532-b9c2-b4260fd7e009")
+	)
+	(wire
+		(pts
+			(xy 303.53 67.31) (xy 314.96 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b82a2f1e-7b3a-4d60-95d7-c4bbbc2ac08f")
+	)
+	(wire
+		(pts
+			(xy 200.66 67.31) (xy 210.82 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b997a512-8527-401e-bc74-6fc813530fc3")
+	)
+	(wire
+		(pts
+			(xy 158.75 153.67) (xy 158.75 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbbd7190-83c9-4325-9f03-2b1f7948f45d")
+	)
+	(wire
+		(pts
+			(xy 189.23 173.99) (xy 189.23 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc44252f-103c-47e0-aa09-540981c53785")
+	)
+	(wire
+		(pts
+			(xy 95.25 128.27) (xy 95.25 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd0faf39-a481-423b-be25-d03b8cfb44e0")
+	)
+	(wire
+		(pts
+			(xy 71.12 67.31) (xy 81.28 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c033ba1e-1a21-49d4-a8b6-8f2774eb5f6a")
+	)
+	(wire
+		(pts
+			(xy 95.25 113.03) (xy 114.3 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0a4a53c-76f7-425d-8045-544ae27bf949")
+	)
+	(wire
+		(pts
+			(xy 322.58 173.99) (xy 290.83 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0bec7b6-9a9a-4643-879c-0f407ba1d448")
+	)
+	(wire
+		(pts
+			(xy 95.25 107.95) (xy 95.25 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5e1dc01-d532-4580-80f8-25e03355b208")
+	)
+	(wire
+		(pts
+			(xy 81.28 87.63) (xy 81.28 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbcceffd-5c43-4bb9-b962-0caa1e251fb7")
+	)
+	(wire
+		(pts
+			(xy 114.3 113.03) (xy 125.73 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccb45d88-12b1-421b-9977-4329a5da4067")
+	)
+	(wire
+		(pts
+			(xy 278.13 173.99) (xy 290.83 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf24f80e-b1d0-4742-9784-050c0316a1d5")
+	)
+	(wire
+		(pts
+			(xy 95.25 148.59) (xy 95.25 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf5a3d7b-d421-4f3b-bab3-bf10dfd860c6")
+	)
+	(wire
+		(pts
+			(xy 334.01 92.71) (xy 322.58 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1bb41a0-32dd-424c-8858-a147fa462be9")
+	)
+	(wire
+		(pts
+			(xy 71.12 153.67) (xy 81.28 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3539a47-d3e9-4302-ae90-0fba6993573d")
+	)
+	(wire
+		(pts
+			(xy 189.23 133.35) (xy 200.66 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3a3d454-b1fb-4e64-a070-c8a252139f6a")
+	)
+	(wire
+		(pts
+			(xy 189.23 173.99) (xy 200.66 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d40af0d8-4dc4-4c29-8228-61af9886a8da")
+	)
+	(wire
+		(pts
+			(xy 303.53 85.09) (xy 303.53 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d967905a-cb0d-43f1-85b9-d766657fe0e8")
+	)
+	(wire
+		(pts
+			(xy 365.76 115.57) (xy 365.76 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd07b99e-dc4a-4f9b-8f02-0306d0d162ca")
+	)
+	(wire
+		(pts
+			(xy 81.28 168.91) (xy 81.28 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1cc46df-9f41-49be-b7eb-34e9ef472865")
+	)
+	(wire
+		(pts
+			(xy 365.76 173.99) (xy 354.33 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea0b9785-f10f-4ff2-8782-58129712bed6")
+	)
+	(wire
+		(pts
+			(xy 135.89 93.98) (xy 135.89 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea62255f-8f6e-4172-be53-6ae104d6b331")
+	)
+	(wire
+		(pts
+			(xy 147.32 107.95) (xy 147.32 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebf69f13-b32f-4e8e-9197-2761acc136b8")
+	)
+	(wire
+		(pts
+			(xy 147.32 133.35) (xy 135.89 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef358103-99e7-4e4c-b3f3-7a9093a9ae27")
+	)
+	(wire
+		(pts
+			(xy 240.03 153.67) (xy 252.73 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7681598-58e9-4ece-b027-b7f92cc5d831")
+	)
+	(wire
+		(pts
+			(xy 189.23 133.35) (xy 147.32 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fae88bd6-aefb-4f91-937f-da067d761c6a")
+	)
+	(wire
+		(pts
+			(xy 81.28 148.59) (xy 81.28 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc18e7d5-ebf3-477e-b0f3-e815fdcd0e7a")
+	)
+	(hierarchical_label "CHARLIEPLEXING_5"
+		(shape bidirectional)
+		(at 39.37 173.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0f5f671c-a5e0-4088-ac8f-eb3ab07d6cea")
+	)
+	(hierarchical_label "CHARLIEPLEXING_0"
+		(shape bidirectional)
+		(at 39.37 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2540a98c-ef1e-452d-95d3-9338bb9c15bb")
+	)
+	(hierarchical_label "CHARLIEPLEXING_4"
+		(shape bidirectional)
+		(at 39.37 153.67 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "59b23438-3db0-4f4c-b99a-2f6d0b1ce476")
+	)
+	(hierarchical_label "CHARLIEPLEXING_1"
+		(shape bidirectional)
+		(at 39.37 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8817d948-e85b-4e51-adb3-501538ba26cd")
+	)
+	(hierarchical_label "CHARLIEPLEXING_2"
+		(shape bidirectional)
+		(at 39.37 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ae9e6a89-023e-4446-bbf4-cc717559a747")
+	)
+	(hierarchical_label "CHARLIEPLEXING_3"
+		(shape bidirectional)
+		(at 39.37 133.35 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fe9dce84-20a1-40e9-a01e-81d9febb274d")
+	)
+	(symbol
+		(lib_id "LibraryLoader:SM0603SRC")
+		(at 200.66 86.36 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "078b7aa2-9b4c-4779-8e8c-334ddf8f284a")
+		(property "Reference" "LED18"
+			(at 203.962 77.724 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SM0603SRC"
+			(at 204.47 80.0099 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SM0603SRC"
+			(at 294.31 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "http://uk.rs-online.com/web/p/products/9063454"
+			(at 394.31 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "Standard LEDs - SMD Super Red 660nm Water Clear SURFACE MOUNT LED RED, 0603 PACKAGE"
+			(at 200.66 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.8"
+			(at 594.31 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "RS Part Number" "9063454"
+			(at 694.31 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "RS Price/Stock" "http://uk.rs-online.com/web/p/products/9063454"
+			(at 794.31 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Name" "Bivar"
+			(at 894.31 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SM0603SRC"
+			(at 994.31 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Allied_Number" "70536335"
+			(at 1094.31 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "2"
+			(uuid "8a952bb5-ae23-4401-a157-9e4c42e296cc")
+		)
+		(pin "1"
+			(uuid "b12a357e-ee03-401e-8950-671d9285eec2")
+		)
+		(instances
+			(project "project_venera"
+				(path "/994eb6c1-35ca-4980-934f-7a1bd8cb7fe5/d4d10b83-c579-40cf-b863-92d7045ade13"
+					(reference "LED18")
+					(unit 1)
+				)
+			)
+			(project "project_venera"
+				(path "/adb9f217-8bfb-42be-baaa-2eb1ee5620bd"
+					(reference "LED18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LibraryLoader:SM0603SRC")
+		(at 189.23 148.59 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "09931201-c1da-4dda-8a67-5e138034d813")
+		(property "Reference" "LED17"
+			(at 192.024 139.446 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SM0603SRC"
+			(at 193.04 142.2399 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SM0603SRC"
+			(at 282.88 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "http://uk.rs-online.com/web/p/products/9063454"
+			(at 382.88 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "Standard LEDs - SMD Super Red 660nm Water Clear SURFACE MOUNT LED RED, 0603 PACKAGE"
+			(at 189.23 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.8"
+			(at 582.88 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "RS Part Number" "9063454"
+			(at 682.88 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "RS Price/Stock" "http://uk.rs-online.com/web/p/products/9063454"
+			(at 782.88 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Name" "Bivar"
+			(at 882.88 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SM0603SRC"
+			(at 982.88 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Allied_Number" "70536335"
+			(at 1082.88 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "2"
+			(uuid "0682e6af-4036-4c42-ba4b-ee26d9834f9d")
+		)
+		(pin "1"
+			(uuid "93ec1905-04d4-4157-9385-58638d52f74a")
+		)
+		(instances
+			(project "project_venera"
+				(path "/994eb6c1-35ca-4980-934f-7a1bd8cb7fe5/d4d10b83-c579-40cf-b863-92d7045ade13"
+					(reference "LED17")
+					(unit 1)
+				)
+			)
+			(project "project_venera"
+				(path "/adb9f217-8bfb-42be-baaa-2eb1ee5620bd"
+					(reference "LED17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LibraryLoader:SM0603SRC")
+		(at 365.76 100.33 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0ab82cdf-883a-4086-89f6-cded1d480dea")
+		(property "Reference" "LED30"
+			(at 372.11 107.9499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SM0603SRC"
+			(at 361.95 106.6801 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SM0603SRC"
+			(at 272.11 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "http://uk.rs-online.com/web/p/products/9063454"
+			(at 172.11 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "Standard LEDs - SMD Super Red 660nm Water Clear SURFACE MOUNT LED RED, 0603 PACKAGE"
+			(at 365.76 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.8"
+			(at -27.89 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "RS Part Number" "9063454"
+			(at -127.89 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "RS Price/Stock" "http://uk.rs-online.com/web/p/products/9063454"
+			(at -227.89 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Name" "Bivar"
+			(at -327.89 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SM0603SRC"
+			(at -427.89 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Allied_Number" "70536335"
+			(at -527.89 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "2"
+			(uuid "b14f1d0a-634b-42ea-a2bd-63af7b1a218b")
+		)
+		(pin "1"
+			(uuid "e503b60c-160c-461b-a771-feb578d137f8")
+		)
+		(instances
+			(project "project_venera"
+				(path "/994eb6c1-35ca-4980-934f-7a1bd8cb7fe5/d4d10b83-c579-40cf-b863-92d7045ade13"
+					(reference "LED30")
+					(unit 1)
+				)
+			)
+			(project "project_venera"
+				(path "/adb9f217-8bfb-42be-baaa-2eb1ee5620bd"
+					(reference "LED30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LibraryLoader:SM0603SRC")
+		(at 95.25 92.71 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1993e410-d6d0-4474-818c-f083eee92056")
+		(property "Reference" "LED7"
+			(at 101.6 100.3299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SM0603SRC"
+			(at 91.44 99.0601 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SM0603SRC"
+			(at 1.6 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "http://uk.rs-online.com/web/p/products/9063454"
+			(at -98.4 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "Standard LEDs - SMD Super Red 660nm Water Clear SURFACE MOUNT LED RED, 0603 PACKAGE"
+			(at 95.25 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.8"
+			(at -298.4 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "RS Part Number" "9063454"
+			(at -398.4 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "RS Price/Stock" "http://uk.rs-online.com/web/p/products/9063454"
+			(at -498.4 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Name" "Bivar"
+			(at -598.4 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SM0603SRC"
+			(at -698.4 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Allied_Number" "70536335"
+			(at -798.4 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "2"
+			(uuid "9f5d7c04-357e-459f-a606-90514b28fe46")
+		)
+		(pin "1"
+			(uuid "9024f049-e0ea-4cf6-86ef-efcebb95f9bf")
+		)
+		(instances
+			(project "project_venera"
+				(path "/994eb6c1-35ca-4980-934f-7a1bd8cb7fe5/d4d10b83-c579-40cf-b863-92d7045ade13"
+					(reference "LED7")
+					(unit 1)
+				)
+			)
+			(project "project_venera"
+				(path "/adb9f217-8bfb-42be-baaa-2eb1ee5620bd"
+					(reference "LED7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LibraryLoader:SM0603SRC")
+		(at 278.13 128.27 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a828e4f-a3b6-466f-bd05-8cddf8c4fde8")
+		(property "Reference" "LED23"
+			(at 281.94 119.3799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SM0603SRC"
+			(at 281.94 121.9199 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SM0603SRC"
+			(at 371.78 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "http://uk.rs-online.com/web/p/products/9063454"
+			(at 471.78 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "Standard LEDs - SMD Super Red 660nm Water Clear SURFACE MOUNT LED RED, 0603 PACKAGE"
+			(at 278.13 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.8"
+			(at 671.78 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "RS Part Number" "9063454"
+			(at 771.78 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "RS Price/Stock" "http://uk.rs-online.com/web/p/products/9063454"
+			(at 871.78 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Name" "Bivar"
+			(at 971.78 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SM0603SRC"
+			(at 1071.78 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Allied_Number" "70536335"
+			(at 1171.78 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "2"
+			(uuid "90fba46a-c206-4126-99ae-a8d89bdec413")
+		)
+		(pin "1"
+			(uuid "9467174e-71f3-41b1-954f-43039fba92ef")
+		)
+		(instances
+			(project "project_venera"
+				(path "/994eb6c1-35ca-4980-934f-7a1bd8cb7fe5/d4d10b83-c579-40cf-b863-92d7045ade13"
+					(reference "LED23")
+					(unit 1)
+				)
+			)
+			(project "project_venera"
+				(path "/adb9f217-8bfb-42be-baaa-2eb1ee5620bd"
+					(reference "LED23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LibraryLoader:SM0603SRC")
+		(at 322.58 116.84 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1dcda2ed-7be6-483b-b851-ba83d3e2cc11")
+		(property "Reference" "LED27"
+			(at 326.39 107.9499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SM0603SRC"
+			(at 326.39 110.4899 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SM0603SRC"
+			(at 416.23 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "http://uk.rs-online.com/web/p/products/9063454"
+			(at 516.23 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "Standard LEDs - SMD Super Red 660nm Water Clear SURFACE MOUNT LED RED, 0603 PACKAGE"
+			(at 322.58 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.8"
+			(at 716.23 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "RS Part Number" "9063454"
+			(at 816.23 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "RS Price/Stock" "http://uk.rs-online.com/web/p/products/9063454"
+			(at 916.23 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Name" "Bivar"
+			(at 1016.23 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SM0603SRC"
+			(at 1116.23 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Allied_Number" "70536335"
+			(at 1216.23 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "2"
+			(uuid "5ac3a226-2480-4ef2-8160-fb2efc298b1f")
+		)
+		(pin "1"
+			(uuid "7907c453-8503-4746-b255-ae7001c058ec")
+		)
+		(instances
+			(project "project_venera"
+				(path "/994eb6c1-35ca-4980-934f-7a1bd8cb7fe5/d4d10b83-c579-40cf-b863-92d7045ade13"
+					(reference "LED27")
+					(unit 1)
+				)
+			)
+			(project "project_venera"
+				(path "/adb9f217-8bfb-42be-baaa-2eb1ee5620bd"
+					(reference "LED27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LibraryLoader:SM0603SRC")
+		(at 125.73 71.12 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2313e732-709d-4990-90b2-47a60b2fcc3b")
+		(property "Reference" "LED12"
+			(at 132.08 78.7399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SM0603SRC"
+			(at 121.92 77.4701 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SM0603SRC"
+			(at 32.08 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "http://uk.rs-online.com/web/p/products/9063454"
+			(at -67.92 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "Standard LEDs - SMD Super Red 660nm Water Clear SURFACE MOUNT LED RED, 0603 PACKAGE"
+			(at 125.73 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.8"
+			(at -267.92 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "RS Part Number" "9063454"
+			(at -367.92 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "RS Price/Stock" "http://uk.rs-online.com/web/p/products/9063454"
+			(at -467.92 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Name" "Bivar"
+			(at -567.92 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SM0603SRC"
+			(at -667.92 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Allied_Number" "70536335"
+			(at -767.92 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "2"
+			(uuid "9aa9f23a-e55a-4737-82c4-c87360489a14")
+		)
+		(pin "1"
+			(uuid "94e73e29-7d31-4397-a9d1-2fbc31350611")
+		)
+		(instances
+			(project "project_venera"
+				(path "/994eb6c1-35ca-4980-934f-7a1bd8cb7fe5/d4d10b83-c579-40cf-b863-92d7045ade13"
+					(reference "LED12")
+					(unit 1)
+				)
+			)
+			(project "project_venera"
+				(path "/adb9f217-8bfb-42be-baaa-2eb1ee5620bd"
+					(reference "LED12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LibraryLoader:SM0603SRC")
+		(at 114.3 86.36 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "29dd0681-11af-4858-be47-9a0bba5e8466")
+		(property "Reference" "LED11"
+			(at 118.11 77.4699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SM0603SRC"
+			(at 118.11 80.0099 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SM0603SRC"
+			(at 207.95 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "http://uk.rs-online.com/web/p/products/9063454"
+			(at 307.95 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "Standard LEDs - SMD Super Red 660nm Water Clear SURFACE MOUNT LED RED, 0603 PACKAGE"
+			(at 114.3 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.8"
+			(at 507.95 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "RS Part Number" "9063454"
+			(at 607.95 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "RS Price/Stock" "http://uk.rs-online.com/web/p/products/9063454"
+			(at 707.95 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Name" "Bivar"
+			(at 807.95 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SM0603SRC"
+			(at 907.95 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Allied_Number" "70536335"
+			(at 1007.95 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "2"
+			(uuid "d6d879ce-5de4-40d1-bc87-c219c8446d76")
+		)
+		(pin "1"
+			(uuid "842ada22-d191-4ca9-bb4b-0dd54208b267")
+		)
+		(instances
+			(project "project_venera"
+				(path "/994eb6c1-35ca-4980-934f-7a1bd8cb7fe5/d4d10b83-c579-40cf-b863-92d7045ade13"
+					(reference "LED11")
+					(unit 1)
+				)
+			)
+			(project "project_venera"
+				(path "/adb9f217-8bfb-42be-baaa-2eb1ee5620bd"
+					(reference "LED11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LibraryLoader:ERJ-PC3B4702V")
+		(at 53.34 67.31 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2e1f34c7-f367-49a4-a4df-7ea0b7654e1e")
+		(property "Reference" "R4"
+			(at 61.976 64.262 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ERJ-PC3B4702V"
+			(at 62.23 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ERJPC3D9763V"
+			(at 67.31 163.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/ast-ind-394031.pdf"
+			(at 67.31 263.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Series/Type: Thick film chip resistors (Super high precision type), Power Rating (W): 0.2, Chip Size (LxW(EIA)) (mm): 1.6 x 0.8 (EIA:0603), Resistance Values (): 47000, Resistance Tolerance (%): 0.1, T.C.R (10/K): +/-25"
+			(at 53.34 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.55"
+			(at 67.31 463.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "RS Part Number" ""
+			(at 67.31 563.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "RS Price/Stock" ""
+			(at 67.31 663.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Panasonic"
+			(at 67.31 763.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERJ-PC3B4702V"
+			(at 67.31 863.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "2"
+			(uuid "6c9fd33b-55e5-4f9a-82f8-d9fb86d6bed9")
+		)
+		(pin "1"
+			(uuid "66db3fcb-4f02-415c-8262-9b758f8049f1")
+		)
+		(instances
+			(project "project_venera"
+				(path "/994eb6c1-35ca-4980-934f-7a1bd8cb7fe5/d4d10b83-c579-40cf-b863-92d7045ade13"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+			(project "project_venera"
+				(path "/adb9f217-8bfb-42be-baaa-2eb1ee5620bd"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LibraryLoader:ERJ-PC3B4702V")
+		(at 53.34 133.35 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "48150b92-a1ba-4549-8a5e-4c71c90bfaa4")
+		(property "Reference" "R7"
+			(at 61.976 130.302 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ERJ-PC3B4702V"
+			(at 62.23 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ERJPC3D9763V"
+			(at 67.31 229.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/ast-ind-394031.pdf"
+			(at 67.31 329.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Series/Type: Thick film chip resistors (Super high precision type), Power Rating (W): 0.2, Chip Size (LxW(EIA)) (mm): 1.6 x 0.8 (EIA:0603), Resistance Values (): 47000, Resistance Tolerance (%): 0.1, T.C.R (10/K): +/-25"
+			(at 53.34 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.55"
+			(at 67.31 529.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "RS Part Number" ""
+			(at 67.31 629.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "RS Price/Stock" ""
+			(at 67.31 729.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Panasonic"
+			(at 67.31 829.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERJ-PC3B4702V"
+			(at 67.31 929.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "2"
+			(uuid "04b28f35-178d-4d5a-b0e3-4579f2769dc1")
+		)
+		(pin "1"
+			(uuid "c62c6078-dc65-4a91-82d1-b286243877c7")
+		)
+		(instances
+			(project "project_venera"
+				(path "/994eb6c1-35ca-4980-934f-7a1bd8cb7fe5/d4d10b83-c579-40cf-b863-92d7045ade13"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+			(project "project_venera"
+				(path "/adb9f217-8bfb-42be-baaa-2eb1ee5620bd"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LibraryLoader:SM0603SRC")
+		(at 303.53 85.09 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53e4b00f-43b5-4d04-b48d-faf74bf37321")
+		(property "Reference" "LED25"
+			(at 307.34 76.1999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SM0603SRC"
+			(at 307.34 78.7399 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SM0603SRC"
+			(at 397.18 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "http://uk.rs-online.com/web/p/products/9063454"
+			(at 497.18 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "Standard LEDs - SMD Super Red 660nm Water Clear SURFACE MOUNT LED RED, 0603 PACKAGE"
+			(at 303.53 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.8"
+			(at 697.18 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "RS Part Number" "9063454"
+			(at 797.18 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "RS Price/Stock" "http://uk.rs-online.com/web/p/products/9063454"
+			(at 897.18 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Name" "Bivar"
+			(at 997.18 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SM0603SRC"
+			(at 1097.18 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Allied_Number" "70536335"
+			(at 1197.18 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "2"
+			(uuid "23e86009-c75a-4f27-8696-9ebb80ce7ea6")
+		)
+		(pin "1"
+			(uuid "73f7f38b-c71e-4459-a2d6-4e38a42a4a65")
+		)
+		(instances
+			(project "project_venera"
+				(path "/994eb6c1-35ca-4980-934f-7a1bd8cb7fe5/d4d10b83-c579-40cf-b863-92d7045ade13"
+					(reference "LED25")
+					(unit 1)
+				)
+			)
+			(project "project_venera"
+				(path "/adb9f217-8bfb-42be-baaa-2eb1ee5620bd"
+					(reference "LED25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LibraryLoader:ERJ-PC3B4702V")
+		(at 53.34 113.03 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "562e1370-5f96-405c-b23c-5fa51a1c66f8")
+		(property "Reference" "R6"
+			(at 61.976 109.982 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ERJ-PC3B4702V"
+			(at 62.23 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ERJPC3D9763V"
+			(at 67.31 209.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/ast-ind-394031.pdf"
+			(at 67.31 309.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Series/Type: Thick film chip resistors (Super high precision type), Power Rating (W): 0.2, Chip Size (LxW(EIA)) (mm): 1.6 x 0.8 (EIA:0603), Resistance Values (): 47000, Resistance Tolerance (%): 0.1, T.C.R (10/K): +/-25"
+			(at 53.34 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.55"
+			(at 67.31 509.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "RS Part Number" ""
+			(at 67.31 609.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "RS Price/Stock" ""
+			(at 67.31 709.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Panasonic"
+			(at 67.31 809.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERJ-PC3B4702V"
+			(at 67.31 909.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "2"
+			(uuid "8b41b65b-3ebc-4bce-89f9-f0abc3b8246e")
+		)
+		(pin "1"
+			(uuid "872e38a9-cfd8-4b1f-8a47-cf7634526640")
+		)
+		(instances
+			(project "project_venera"
+				(path "/994eb6c1-35ca-4980-934f-7a1bd8cb7fe5/d4d10b83-c579-40cf-b863-92d7045ade13"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+			(project "project_venera"
+				(path "/adb9f217-8bfb-42be-baaa-2eb1ee5620bd"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LibraryLoader:SM0603SRC")
+		(at 147.32 92.71 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c564709-bc84-460f-a045-779d66a8cb7f")
+		(property "Reference" "LED14"
+			(at 153.67 100.3299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SM0603SRC"
+			(at 143.51 99.0601 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SM0603SRC"
+			(at 53.67 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "http://uk.rs-online.com/web/p/products/9063454"
+			(at -46.33 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "Standard LEDs - SMD Super Red 660nm Water Clear SURFACE MOUNT LED RED, 0603 PACKAGE"
+			(at 147.32 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.8"
+			(at -246.33 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "RS Part Number" "9063454"
+			(at -346.33 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "RS Price/Stock" "http://uk.rs-online.com/web/p/products/9063454"
+			(at -446.33 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Name" "Bivar"
+			(at -546.33 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SM0603SRC"
+			(at -646.33 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Allied_Number" "70536335"
+			(at -746.33 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "2"
+			(uuid "867e1708-73a5-421c-b986-77b4aee41135")
+		)
+		(pin "1"
+			(uuid "95325cf7-0def-44f4-ab3d-3a248d12293b")
+		)
+		(instances
+			(project "project_venera"
+				(path "/994eb6c1-35ca-4980-934f-7a1bd8cb7fe5/d4d10b83-c579-40cf-b863-92d7045ade13"
+					(reference "LED14")
+					(unit 1)
+				)
+			)
+			(project "project_venera"
+				(path "/adb9f217-8bfb-42be-baaa-2eb1ee5620bd"
+					(reference "LED14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LibraryLoader:SM0603SRC")
+		(at 210.82 71.12 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5dc3b4dd-3dfb-44a9-8756-6c9a3cd59efa")
+		(property "Reference" "LED20"
+			(at 217.17 78.7399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SM0603SRC"
+			(at 207.01 77.4701 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SM0603SRC"
+			(at 117.17 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "http://uk.rs-online.com/web/p/products/9063454"
+			(at 17.17 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "Standard LEDs - SMD Super Red 660nm Water Clear SURFACE MOUNT LED RED, 0603 PACKAGE"
+			(at 210.82 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.8"
+			(at -182.83 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "RS Part Number" "9063454"
+			(at -282.83 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "RS Price/Stock" "http://uk.rs-online.com/web/p/products/9063454"
+			(at -382.83 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Name" "Bivar"
+			(at -482.83 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SM0603SRC"
+			(at -582.83 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Allied_Number" "70536335"
+			(at -682.83 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "2"
+			(uuid "43219051-dfac-421c-aa3d-cb6a29f748c7")
+		)
+		(pin "1"
+			(uuid "5d0fcd47-79ed-4592-942b-5ded253b69be")
+		)
+		(instances
+			(project "project_venera"
+				(path "/994eb6c1-35ca-4980-934f-7a1bd8cb7fe5/d4d10b83-c579-40cf-b863-92d7045ade13"
+					(reference "LED20")
+					(unit 1)
+				)
+			)
+			(project "project_venera"
+				(path "/adb9f217-8bfb-42be-baaa-2eb1ee5620bd"
+					(reference "LED20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LibraryLoader:SM0603SRC")
+		(at 135.89 107.95 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7464e368-6078-45c2-be91-d21fb8822068")
+		(property "Reference" "LED13"
+			(at 139.7 100.3299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SM0603SRC"
+			(at 139.7 101.5999 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SM0603SRC"
+			(at 229.54 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "http://uk.rs-online.com/web/p/products/9063454"
+			(at 329.54 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "Standard LEDs - SMD Super Red 660nm Water Clear SURFACE MOUNT LED RED, 0603 PACKAGE"
+			(at 135.89 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.8"
+			(at 529.54 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "RS Part Number" "9063454"
+			(at 629.54 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "RS Price/Stock" "http://uk.rs-online.com/web/p/products/9063454"
+			(at 729.54 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Name" "Bivar"
+			(at 829.54 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SM0603SRC"
+			(at 929.54 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Allied_Number" "70536335"
+			(at 1029.54 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "2"
+			(uuid "49f62181-8961-47d9-8ad6-4e929a2b0655")
+		)
+		(pin "1"
+			(uuid "b3f1f0f8-a7c3-4e55-8747-fd14d572f8f4")
+		)
+		(instances
+			(project "project_venera"
+				(path "/994eb6c1-35ca-4980-934f-7a1bd8cb7fe5/d4d10b83-c579-40cf-b863-92d7045ade13"
+					(reference "LED13")
+					(unit 1)
+				)
+			)
+			(project "project_venera"
+				(path "/adb9f217-8bfb-42be-baaa-2eb1ee5620bd"
+					(reference "LED13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LibraryLoader:SM0603SRC")
+		(at 95.25 113.03 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7548d0af-3dc7-4040-ae4f-d4bf68697adc")
+		(property "Reference" "LED8"
+			(at 101.6 120.6499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SM0603SRC"
+			(at 91.44 119.3801 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SM0603SRC"
+			(at 1.6 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "http://uk.rs-online.com/web/p/products/9063454"
+			(at -98.4 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "Standard LEDs - SMD Super Red 660nm Water Clear SURFACE MOUNT LED RED, 0603 PACKAGE"
+			(at 95.25 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.8"
+			(at -298.4 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "RS Part Number" "9063454"
+			(at -398.4 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "RS Price/Stock" "http://uk.rs-online.com/web/p/products/9063454"
+			(at -498.4 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Name" "Bivar"
+			(at -598.4 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SM0603SRC"
+			(at -698.4 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Allied_Number" "70536335"
+			(at -798.4 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "2"
+			(uuid "2b626667-2d0e-4e4a-ae0d-70e39e9837e7")
+		)
+		(pin "1"
+			(uuid "d54a4aac-aaec-4ed7-9425-5fa85bd80f3d")
+		)
+		(instances
+			(project "project_venera"
+				(path "/994eb6c1-35ca-4980-934f-7a1bd8cb7fe5/d4d10b83-c579-40cf-b863-92d7045ade13"
+					(reference "LED8")
+					(unit 1)
+				)
+			)
+			(project "project_venera"
+				(path "/adb9f217-8bfb-42be-baaa-2eb1ee5620bd"
+					(reference "LED8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LibraryLoader:SM0603SRC")
+		(at 334.01 101.6 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "86b18752-db40-4af3-8751-6282d25394f5")
+		(property "Reference" "LED28"
+			(at 340.36 109.2199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SM0603SRC"
+			(at 330.2 107.9501 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SM0603SRC"
+			(at 240.36 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "http://uk.rs-online.com/web/p/products/9063454"
+			(at 140.36 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "Standard LEDs - SMD Super Red 660nm Water Clear SURFACE MOUNT LED RED, 0603 PACKAGE"
+			(at 334.01 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.8"
+			(at -59.64 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "RS Part Number" "9063454"
+			(at -159.64 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "RS Price/Stock" "http://uk.rs-online.com/web/p/products/9063454"
+			(at -259.64 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Name" "Bivar"
+			(at -359.64 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SM0603SRC"
+			(at -459.64 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Allied_Number" "70536335"
+			(at -559.64 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "2"
+			(uuid "357467eb-0a4b-4599-86f1-236872880fc4")
+		)
+		(pin "1"
+			(uuid "76391e5e-71f0-42d8-8276-7783bc83f640")
+		)
+		(instances
+			(project "project_venera"
+				(path "/994eb6c1-35ca-4980-934f-7a1bd8cb7fe5/d4d10b83-c579-40cf-b863-92d7045ade13"
+					(reference "LED28")
+					(unit 1)
+				)
+			)
+			(project "project_venera"
+				(path "/adb9f217-8bfb-42be-baaa-2eb1ee5620bd"
+					(reference "LED28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LibraryLoader:SM0603SRC")
+		(at 81.28 107.95 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9143c365-642c-43ff-960b-485805569b5a")
+		(property "Reference" "LED2"
+			(at 85.09 99.0599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SM0603SRC"
+			(at 85.09 101.5999 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SM0603SRC"
+			(at 174.93 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "http://uk.rs-online.com/web/p/products/9063454"
+			(at 274.93 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "Standard LEDs - SMD Super Red 660nm Water Clear SURFACE MOUNT LED RED, 0603 PACKAGE"
+			(at 81.28 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.8"
+			(at 474.93 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "RS Part Number" "9063454"
+			(at 574.93 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "RS Price/Stock" "http://uk.rs-online.com/web/p/products/9063454"
+			(at 674.93 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Name" "Bivar"
+			(at 774.93 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SM0603SRC"
+			(at 874.93 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Allied_Number" "70536335"
+			(at 974.93 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "2"
+			(uuid "d513b9ba-570a-4477-8038-cfd6e9b14f68")
+		)
+		(pin "1"
+			(uuid "9c08f571-9138-4d78-97c2-74934a3549b1")
+		)
+		(instances
+			(project "project_venera"
+				(path "/994eb6c1-35ca-4980-934f-7a1bd8cb7fe5/d4d10b83-c579-40cf-b863-92d7045ade13"
+					(reference "LED2")
+					(unit 1)
+				)
+			)
+			(project "project_venera"
+				(path "/adb9f217-8bfb-42be-baaa-2eb1ee5620bd"
+					(reference "LED2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LibraryLoader:SM0603SRC")
+		(at 95.25 133.35 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "96e2e45a-13ce-40af-b1b9-6e1d3b6e6712")
+		(property "Reference" "LED9"
+			(at 101.6 140.9699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SM0603SRC"
+			(at 91.44 139.7001 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SM0603SRC"
+			(at 1.6 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "http://uk.rs-online.com/web/p/products/9063454"
+			(at -98.4 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "Standard LEDs - SMD Super Red 660nm Water Clear SURFACE MOUNT LED RED, 0603 PACKAGE"
+			(at 95.25 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.8"
+			(at -298.4 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "RS Part Number" "9063454"
+			(at -398.4 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "RS Price/Stock" "http://uk.rs-online.com/web/p/products/9063454"
+			(at -498.4 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Name" "Bivar"
+			(at -598.4 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SM0603SRC"
+			(at -698.4 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Allied_Number" "70536335"
+			(at -798.4 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "2"
+			(uuid "685a8f19-860a-42ee-b4c5-7fc057b3f56e")
+		)
+		(pin "1"
+			(uuid "55e6ac4b-d624-4b24-be8a-1634a7b2a8a4")
+		)
+		(instances
+			(project "project_venera"
+				(path "/994eb6c1-35ca-4980-934f-7a1bd8cb7fe5/d4d10b83-c579-40cf-b863-92d7045ade13"
+					(reference "LED9")
+					(unit 1)
+				)
+			)
+			(project "project_venera"
+				(path "/adb9f217-8bfb-42be-baaa-2eb1ee5620bd"
+					(reference "LED9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LibraryLoader:SM0603SRC")
+		(at 81.28 148.59 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a1aca055-4480-482a-9c51-2e7bb493aaf2")
+		(property "Reference" "LED4"
+			(at 85.09 139.6999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SM0603SRC"
+			(at 85.09 142.2399 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SM0603SRC"
+			(at 174.93 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "http://uk.rs-online.com/web/p/products/9063454"
+			(at 274.93 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "Standard LEDs - SMD Super Red 660nm Water Clear SURFACE MOUNT LED RED, 0603 PACKAGE"
+			(at 81.28 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.8"
+			(at 474.93 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "RS Part Number" "9063454"
+			(at 574.93 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "RS Price/Stock" "http://uk.rs-online.com/web/p/products/9063454"
+			(at 674.93 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Name" "Bivar"
+			(at 774.93 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SM0603SRC"
+			(at 874.93 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Allied_Number" "70536335"
+			(at 974.93 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "2"
+			(uuid "7cf09ccf-7189-4d31-9242-24fcf251f54e")
+		)
+		(pin "1"
+			(uuid "dcfb4fd9-596d-4b3a-b4db-c9fbf7588e4b")
+		)
+		(instances
+			(project "project_venera"
+				(path "/994eb6c1-35ca-4980-934f-7a1bd8cb7fe5/d4d10b83-c579-40cf-b863-92d7045ade13"
+					(reference "LED4")
+					(unit 1)
+				)
+			)
+			(project "project_venera"
+				(path "/adb9f217-8bfb-42be-baaa-2eb1ee5620bd"
+					(reference "LED4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LibraryLoader:SM0603SRC")
+		(at 81.28 128.27 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa0b32a1-aa87-4e12-89da-757eb90e5151")
+		(property "Reference" "LED3"
+			(at 85.09 119.3799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SM0603SRC"
+			(at 85.09 121.9199 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SM0603SRC"
+			(at 174.93 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "http://uk.rs-online.com/web/p/products/9063454"
+			(at 274.93 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "Standard LEDs - SMD Super Red 660nm Water Clear SURFACE MOUNT LED RED, 0603 PACKAGE"
+			(at 81.28 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.8"
+			(at 474.93 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "RS Part Number" "9063454"
+			(at 574.93 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "RS Price/Stock" "http://uk.rs-online.com/web/p/products/9063454"
+			(at 674.93 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Name" "Bivar"
+			(at 774.93 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SM0603SRC"
+			(at 874.93 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Allied_Number" "70536335"
+			(at 974.93 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "2"
+			(uuid "d81ebfc7-6384-4a2e-af6e-b1eb7cf92546")
+		)
+		(pin "1"
+			(uuid "ce400495-f908-4b59-b410-e755c0e6aac5")
+		)
+		(instances
+			(project "project_venera"
+				(path "/994eb6c1-35ca-4980-934f-7a1bd8cb7fe5/d4d10b83-c579-40cf-b863-92d7045ade13"
+					(reference "LED3")
+					(unit 1)
+				)
+			)
+			(project "project_venera"
+				(path "/adb9f217-8bfb-42be-baaa-2eb1ee5620bd"
+					(reference "LED3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LibraryLoader:SM0603SRC")
+		(at 170.18 113.03 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad80e606-0007-4e85-bbe9-12dd9ca2014d")
+		(property "Reference" "LED16"
+			(at 176.53 120.6499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SM0603SRC"
+			(at 166.37 119.3801 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SM0603SRC"
+			(at 76.53 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "http://uk.rs-online.com/web/p/products/9063454"
+			(at -23.47 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "Standard LEDs - SMD Super Red 660nm Water Clear SURFACE MOUNT LED RED, 0603 PACKAGE"
+			(at 170.18 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.8"
+			(at -223.47 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "RS Part Number" "9063454"
+			(at -323.47 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "RS Price/Stock" "http://uk.rs-online.com/web/p/products/9063454"
+			(at -423.47 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Name" "Bivar"
+			(at -523.47 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SM0603SRC"
+			(at -623.47 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Allied_Number" "70536335"
+			(at -723.47 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "2"
+			(uuid "107f769a-94bb-405e-8123-17ca9f9fa92c")
+		)
+		(pin "1"
+			(uuid "298a0a24-b569-4afb-b600-b94355bd028d")
+		)
+		(instances
+			(project "project_venera"
+				(path "/994eb6c1-35ca-4980-934f-7a1bd8cb7fe5/d4d10b83-c579-40cf-b863-92d7045ade13"
+					(reference "LED16")
+					(unit 1)
+				)
+			)
+			(project "project_venera"
+				(path "/adb9f217-8bfb-42be-baaa-2eb1ee5620bd"
+					(reference "LED16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LibraryLoader:SM0603SRC")
+		(at 81.28 168.91 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b2f17bcc-5ce7-40be-b618-7daee7ea116e")
+		(property "Reference" "LED5"
+			(at 85.09 160.0199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SM0603SRC"
+			(at 85.09 162.5599 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SM0603SRC"
+			(at 174.93 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "http://uk.rs-online.com/web/p/products/9063454"
+			(at 274.93 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "Standard LEDs - SMD Super Red 660nm Water Clear SURFACE MOUNT LED RED, 0603 PACKAGE"
+			(at 81.28 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.8"
+			(at 474.93 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "RS Part Number" "9063454"
+			(at 574.93 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "RS Price/Stock" "http://uk.rs-online.com/web/p/products/9063454"
+			(at 674.93 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Name" "Bivar"
+			(at 774.93 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SM0603SRC"
+			(at 874.93 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Allied_Number" "70536335"
+			(at 974.93 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "2"
+			(uuid "f4847b96-9d2c-4bc2-83ec-878e86968c12")
+		)
+		(pin "1"
+			(uuid "c35ec219-16d1-473e-b475-275f85a6f9f5")
+		)
+		(instances
+			(project "project_venera"
+				(path "/994eb6c1-35ca-4980-934f-7a1bd8cb7fe5/d4d10b83-c579-40cf-b863-92d7045ade13"
+					(reference "LED5")
+					(unit 1)
+				)
+			)
+			(project "project_venera"
+				(path "/adb9f217-8bfb-42be-baaa-2eb1ee5620bd"
+					(reference "LED5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LibraryLoader:SM0603SRC")
+		(at 314.96 69.85 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b971fa86-c4f8-4d8c-9466-11109e97b500")
+		(property "Reference" "LED26"
+			(at 321.31 77.4699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SM0603SRC"
+			(at 311.15 76.2001 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SM0603SRC"
+			(at 221.31 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "http://uk.rs-online.com/web/p/products/9063454"
+			(at 121.31 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "Standard LEDs - SMD Super Red 660nm Water Clear SURFACE MOUNT LED RED, 0603 PACKAGE"
+			(at 314.96 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.8"
+			(at -78.69 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "RS Part Number" "9063454"
+			(at -178.69 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "RS Price/Stock" "http://uk.rs-online.com/web/p/products/9063454"
+			(at -278.69 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Name" "Bivar"
+			(at -378.69 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SM0603SRC"
+			(at -478.69 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Allied_Number" "70536335"
+			(at -578.69 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "2"
+			(uuid "07d052a2-3d77-4797-ba39-f098be2065f8")
+		)
+		(pin "1"
+			(uuid "7eabbfc3-2f25-4f60-b604-dfcf97487804")
+		)
+		(instances
+			(project "project_venera"
+				(path "/994eb6c1-35ca-4980-934f-7a1bd8cb7fe5/d4d10b83-c579-40cf-b863-92d7045ade13"
+					(reference "LED26")
+					(unit 1)
+				)
+			)
+			(project "project_venera"
+				(path "/adb9f217-8bfb-42be-baaa-2eb1ee5620bd"
+					(reference "LED26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LibraryLoader:SM0603SRC")
+		(at 200.66 133.35 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bae5c79d-16fb-4dbb-8c2a-134fcc070ed9")
+		(property "Reference" "LED19"
+			(at 207.01 140.9699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SM0603SRC"
+			(at 196.85 139.7001 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SM0603SRC"
+			(at 107.01 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "http://uk.rs-online.com/web/p/products/9063454"
+			(at 7.01 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "Standard LEDs - SMD Super Red 660nm Water Clear SURFACE MOUNT LED RED, 0603 PACKAGE"
+			(at 200.66 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.8"
+			(at -192.99 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "RS Part Number" "9063454"
+			(at -292.99 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "RS Price/Stock" "http://uk.rs-online.com/web/p/products/9063454"
+			(at -392.99 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Name" "Bivar"
+			(at -492.99 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SM0603SRC"
+			(at -592.99 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Allied_Number" "70536335"
+			(at -692.99 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "2"
+			(uuid "1530b5a1-97ae-40f9-8b5d-25ee4a57084a")
+		)
+		(pin "1"
+			(uuid "ba22ea96-e778-41bd-84f8-0fe4b8dd68a9")
+		)
+		(instances
+			(project "project_venera"
+				(path "/994eb6c1-35ca-4980-934f-7a1bd8cb7fe5/d4d10b83-c579-40cf-b863-92d7045ade13"
+					(reference "LED19")
+					(unit 1)
+				)
+			)
+			(project "project_venera"
+				(path "/adb9f217-8bfb-42be-baaa-2eb1ee5620bd"
+					(reference "LED19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LibraryLoader:SM0603SRC")
+		(at 290.83 113.03 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c7f2588d-1cca-409a-9ba0-e4ae7ce215a0")
+		(property "Reference" "LED24"
+			(at 297.18 120.6499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SM0603SRC"
+			(at 287.02 119.3801 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SM0603SRC"
+			(at 197.18 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "http://uk.rs-online.com/web/p/products/9063454"
+			(at 97.18 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "Standard LEDs - SMD Super Red 660nm Water Clear SURFACE MOUNT LED RED, 0603 PACKAGE"
+			(at 290.83 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.8"
+			(at -102.82 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "RS Part Number" "9063454"
+			(at -202.82 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "RS Price/Stock" "http://uk.rs-online.com/web/p/products/9063454"
+			(at -302.82 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Name" "Bivar"
+			(at -402.82 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SM0603SRC"
+			(at -502.82 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Allied_Number" "70536335"
+			(at -602.82 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "2"
+			(uuid "1a604cad-32af-4eaa-b585-cd72a5e0fd6a")
+		)
+		(pin "1"
+			(uuid "ba39e507-f002-4777-ba4e-7573732b6afa")
+		)
+		(instances
+			(project "project_venera"
+				(path "/994eb6c1-35ca-4980-934f-7a1bd8cb7fe5/d4d10b83-c579-40cf-b863-92d7045ade13"
+					(reference "LED24")
+					(unit 1)
+				)
+			)
+			(project "project_venera"
+				(path "/adb9f217-8bfb-42be-baaa-2eb1ee5620bd"
+					(reference "LED24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LibraryLoader:ERJ-PC3B4702V")
+		(at 53.34 92.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d151e57b-da60-4b33-98df-c706e45c9705")
+		(property "Reference" "R5"
+			(at 61.976 89.662 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ERJ-PC3B4702V"
+			(at 62.23 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ERJPC3D9763V"
+			(at 67.31 188.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/ast-ind-394031.pdf"
+			(at 67.31 288.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Series/Type: Thick film chip resistors (Super high precision type), Power Rating (W): 0.2, Chip Size (LxW(EIA)) (mm): 1.6 x 0.8 (EIA:0603), Resistance Values (): 47000, Resistance Tolerance (%): 0.1, T.C.R (10/K): +/-25"
+			(at 53.34 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.55"
+			(at 67.31 488.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "RS Part Number" ""
+			(at 67.31 588.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "RS Price/Stock" ""
+			(at 67.31 688.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Panasonic"
+			(at 67.31 788.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERJ-PC3B4702V"
+			(at 67.31 888.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "2"
+			(uuid "887e1410-c65b-45dc-b82b-0832f87d5e64")
+		)
+		(pin "1"
+			(uuid "4e8cd9dd-f634-4148-ba86-93fb45996be2")
+		)
+		(instances
+			(project "project_venera"
+				(path "/994eb6c1-35ca-4980-934f-7a1bd8cb7fe5/d4d10b83-c579-40cf-b863-92d7045ade13"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+			(project "project_venera"
+				(path "/adb9f217-8bfb-42be-baaa-2eb1ee5620bd"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LibraryLoader:SM0603SRC")
+		(at 158.75 128.27 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e1ac83ed-c2c5-4825-9126-1766b893b55d")
+		(property "Reference" "LED15"
+			(at 162.56 119.3799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SM0603SRC"
+			(at 162.56 121.9199 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SM0603SRC"
+			(at 252.4 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "http://uk.rs-online.com/web/p/products/9063454"
+			(at 352.4 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "Standard LEDs - SMD Super Red 660nm Water Clear SURFACE MOUNT LED RED, 0603 PACKAGE"
+			(at 158.75 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.8"
+			(at 552.4 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "RS Part Number" "9063454"
+			(at 652.4 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "RS Price/Stock" "http://uk.rs-online.com/web/p/products/9063454"
+			(at 752.4 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Name" "Bivar"
+			(at 852.4 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SM0603SRC"
+			(at 952.4 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Allied_Number" "70536335"
+			(at 1052.4 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "2"
+			(uuid "b875c68d-e0ac-4a45-803f-0a7f1a1a297e")
+		)
+		(pin "1"
+			(uuid "b1240777-2fb8-4cbc-8bf3-307899c9a460")
+		)
+		(instances
+			(project "project_venera"
+				(path "/994eb6c1-35ca-4980-934f-7a1bd8cb7fe5/d4d10b83-c579-40cf-b863-92d7045ade13"
+					(reference "LED15")
+					(unit 1)
+				)
+			)
+			(project "project_venera"
+				(path "/adb9f217-8bfb-42be-baaa-2eb1ee5620bd"
+					(reference "LED15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LibraryLoader:SM0603SRC")
+		(at 252.73 92.71 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e40162a2-cc03-4380-a6d7-1e38c62fd02f")
+		(property "Reference" "LED22"
+			(at 259.08 100.3299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SM0603SRC"
+			(at 248.92 99.0601 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SM0603SRC"
+			(at 159.08 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "http://uk.rs-online.com/web/p/products/9063454"
+			(at 59.08 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "Standard LEDs - SMD Super Red 660nm Water Clear SURFACE MOUNT LED RED, 0603 PACKAGE"
+			(at 252.73 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.8"
+			(at -140.92 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "RS Part Number" "9063454"
+			(at -240.92 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "RS Price/Stock" "http://uk.rs-online.com/web/p/products/9063454"
+			(at -340.92 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Name" "Bivar"
+			(at -440.92 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SM0603SRC"
+			(at -540.92 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Allied_Number" "70536335"
+			(at -640.92 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "2"
+			(uuid "a37cc323-4dc7-493f-a8a1-89a9ec96ee2b")
+		)
+		(pin "1"
+			(uuid "9a043736-86bd-4154-ac7f-0e40cebfbc27")
+		)
+		(instances
+			(project "project_venera"
+				(path "/994eb6c1-35ca-4980-934f-7a1bd8cb7fe5/d4d10b83-c579-40cf-b863-92d7045ade13"
+					(reference "LED22")
+					(unit 1)
+				)
+			)
+			(project "project_venera"
+				(path "/adb9f217-8bfb-42be-baaa-2eb1ee5620bd"
+					(reference "LED22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LibraryLoader:SM0603SRC")
+		(at 95.25 72.39 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eae66255-0701-4582-b0f7-bda1b7bfd4e4")
+		(property "Reference" "LED6"
+			(at 101.6 80.0099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SM0603SRC"
+			(at 91.44 78.7401 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SM0603SRC"
+			(at 1.6 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "http://uk.rs-online.com/web/p/products/9063454"
+			(at -98.4 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "Standard LEDs - SMD Super Red 660nm Water Clear SURFACE MOUNT LED RED, 0603 PACKAGE"
+			(at 95.25 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.8"
+			(at -298.4 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "RS Part Number" "9063454"
+			(at -398.4 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "RS Price/Stock" "http://uk.rs-online.com/web/p/products/9063454"
+			(at -498.4 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Name" "Bivar"
+			(at -598.4 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SM0603SRC"
+			(at -698.4 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Allied_Number" "70536335"
+			(at -798.4 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "2"
+			(uuid "965f5309-b6a9-466b-9afd-f62b136b4943")
+		)
+		(pin "1"
+			(uuid "76325008-c8e2-4ee6-b96e-c47e78f6b352")
+		)
+		(instances
+			(project "project_venera"
+				(path "/994eb6c1-35ca-4980-934f-7a1bd8cb7fe5/d4d10b83-c579-40cf-b863-92d7045ade13"
+					(reference "LED6")
+					(unit 1)
+				)
+			)
+			(project "project_venera"
+				(path "/adb9f217-8bfb-42be-baaa-2eb1ee5620bd"
+					(reference "LED6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LibraryLoader:SM0603SRC")
+		(at 95.25 153.67 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec1b1152-610b-410e-8d10-cadb0e389db7")
+		(property "Reference" "LED10"
+			(at 101.6 161.2899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SM0603SRC"
+			(at 91.44 160.0201 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SM0603SRC"
+			(at 1.6 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "http://uk.rs-online.com/web/p/products/9063454"
+			(at -98.4 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "Standard LEDs - SMD Super Red 660nm Water Clear SURFACE MOUNT LED RED, 0603 PACKAGE"
+			(at 95.25 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.8"
+			(at -298.4 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "RS Part Number" "9063454"
+			(at -398.4 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "RS Price/Stock" "http://uk.rs-online.com/web/p/products/9063454"
+			(at -498.4 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Name" "Bivar"
+			(at -598.4 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SM0603SRC"
+			(at -698.4 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Allied_Number" "70536335"
+			(at -798.4 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "2"
+			(uuid "8c024558-3662-41d4-930e-db613ee53b5f")
+		)
+		(pin "1"
+			(uuid "4cd030d8-b3fe-4002-a9a8-3cb711c05f2d")
+		)
+		(instances
+			(project "project_venera"
+				(path "/994eb6c1-35ca-4980-934f-7a1bd8cb7fe5/d4d10b83-c579-40cf-b863-92d7045ade13"
+					(reference "LED10")
+					(unit 1)
+				)
+			)
+			(project "project_venera"
+				(path "/adb9f217-8bfb-42be-baaa-2eb1ee5620bd"
+					(reference "LED10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LibraryLoader:SM0603SRC")
+		(at 354.33 115.57 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee33cc07-2a8a-4473-892e-cd68779498e3")
+		(property "Reference" "LED29"
+			(at 358.14 106.6799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SM0603SRC"
+			(at 358.14 109.2199 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SM0603SRC"
+			(at 447.98 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "http://uk.rs-online.com/web/p/products/9063454"
+			(at 547.98 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "Standard LEDs - SMD Super Red 660nm Water Clear SURFACE MOUNT LED RED, 0603 PACKAGE"
+			(at 354.33 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.8"
+			(at 747.98 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "RS Part Number" "9063454"
+			(at 847.98 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "RS Price/Stock" "http://uk.rs-online.com/web/p/products/9063454"
+			(at 947.98 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Name" "Bivar"
+			(at 1047.98 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SM0603SRC"
+			(at 1147.98 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Allied_Number" "70536335"
+			(at 1247.98 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "2"
+			(uuid "630c3b66-c757-487b-93fe-86c33ae6c878")
+		)
+		(pin "1"
+			(uuid "aed54841-0e43-4c58-8df1-2d4eba39507e")
+		)
+		(instances
+			(project "project_venera"
+				(path "/994eb6c1-35ca-4980-934f-7a1bd8cb7fe5/d4d10b83-c579-40cf-b863-92d7045ade13"
+					(reference "LED29")
+					(unit 1)
+				)
+			)
+			(project "project_venera"
+				(path "/adb9f217-8bfb-42be-baaa-2eb1ee5620bd"
+					(reference "LED29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LibraryLoader:ERJ-PC3B4702V")
+		(at 53.34 173.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ef3c4feb-431b-463a-a7be-6cf814d56bac")
+		(property "Reference" "R9"
+			(at 61.976 170.942 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ERJ-PC3B4702V"
+			(at 62.23 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ERJPC3D9763V"
+			(at 67.31 270.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/ast-ind-394031.pdf"
+			(at 67.31 370.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Series/Type: Thick film chip resistors (Super high precision type), Power Rating (W): 0.2, Chip Size (LxW(EIA)) (mm): 1.6 x 0.8 (EIA:0603), Resistance Values (): 47000, Resistance Tolerance (%): 0.1, T.C.R (10/K): +/-25"
+			(at 53.34 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.55"
+			(at 67.31 570.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "RS Part Number" ""
+			(at 67.31 670.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "RS Price/Stock" ""
+			(at 67.31 770.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Panasonic"
+			(at 67.31 870.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERJ-PC3B4702V"
+			(at 67.31 970.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "2"
+			(uuid "12f29bc9-0077-4c62-ab3f-7824ea1e235b")
+		)
+		(pin "1"
+			(uuid "4f2a6702-7fa1-4ad6-9341-6164e520f498")
+		)
+		(instances
+			(project "project_venera"
+				(path "/994eb6c1-35ca-4980-934f-7a1bd8cb7fe5/d4d10b83-c579-40cf-b863-92d7045ade13"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+			(project "project_venera"
+				(path "/adb9f217-8bfb-42be-baaa-2eb1ee5620bd"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LibraryLoader:SM0603SRC")
+		(at 81.28 87.63 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f392b26c-66da-449c-aeaf-7d8c58d2d2fb")
+		(property "Reference" "LED1"
+			(at 85.09 78.7399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SM0603SRC"
+			(at 85.09 81.2799 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SM0603SRC"
+			(at 174.93 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "http://uk.rs-online.com/web/p/products/9063454"
+			(at 274.93 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "Standard LEDs - SMD Super Red 660nm Water Clear SURFACE MOUNT LED RED, 0603 PACKAGE"
+			(at 81.28 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.8"
+			(at 474.93 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "RS Part Number" "9063454"
+			(at 574.93 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "RS Price/Stock" "http://uk.rs-online.com/web/p/products/9063454"
+			(at 674.93 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Name" "Bivar"
+			(at 774.93 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SM0603SRC"
+			(at 874.93 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Allied_Number" "70536335"
+			(at 974.93 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "2"
+			(uuid "e8a8e292-ac5b-4900-82c3-b4a982c08193")
+		)
+		(pin "1"
+			(uuid "7171381f-23f8-4c0f-a65b-ecf04078ee4d")
+		)
+		(instances
+			(project "project_venera"
+				(path "/994eb6c1-35ca-4980-934f-7a1bd8cb7fe5/d4d10b83-c579-40cf-b863-92d7045ade13"
+					(reference "LED1")
+					(unit 1)
+				)
+			)
+			(project "project_venera"
+				(path "/adb9f217-8bfb-42be-baaa-2eb1ee5620bd"
+					(reference "LED1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LibraryLoader:ERJ-PC3B4702V")
+		(at 53.34 153.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f7df9dab-51dc-4f63-8957-1b50d9caa370")
+		(property "Reference" "R8"
+			(at 61.976 150.622 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ERJ-PC3B4702V"
+			(at 62.23 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ERJPC3D9763V"
+			(at 67.31 249.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/ast-ind-394031.pdf"
+			(at 67.31 349.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Series/Type: Thick film chip resistors (Super high precision type), Power Rating (W): 0.2, Chip Size (LxW(EIA)) (mm): 1.6 x 0.8 (EIA:0603), Resistance Values (): 47000, Resistance Tolerance (%): 0.1, T.C.R (10/K): +/-25"
+			(at 53.34 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.55"
+			(at 67.31 549.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "RS Part Number" ""
+			(at 67.31 649.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "RS Price/Stock" ""
+			(at 67.31 749.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Panasonic"
+			(at 67.31 849.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERJ-PC3B4702V"
+			(at 67.31 949.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "2"
+			(uuid "d85f3fee-08f2-4734-89e3-ee597077ac84")
+		)
+		(pin "1"
+			(uuid "f722c769-cc90-4a3a-b200-f3dfa42543e8")
+		)
+		(instances
+			(project "project_venera"
+				(path "/994eb6c1-35ca-4980-934f-7a1bd8cb7fe5/d4d10b83-c579-40cf-b863-92d7045ade13"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+			(project "project_venera"
+				(path "/adb9f217-8bfb-42be-baaa-2eb1ee5620bd"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LibraryLoader:SM0603SRC")
+		(at 240.03 107.95 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe5e22e1-2246-40b1-94e6-0ddc4141cf54")
+		(property "Reference" "LED21"
+			(at 243.84 99.0599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SM0603SRC"
+			(at 243.84 101.5999 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SM0603SRC"
+			(at 333.68 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "http://uk.rs-online.com/web/p/products/9063454"
+			(at 433.68 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "Standard LEDs - SMD Super Red 660nm Water Clear SURFACE MOUNT LED RED, 0603 PACKAGE"
+			(at 240.03 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.8"
+			(at 633.68 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "RS Part Number" "9063454"
+			(at 733.68 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "RS Price/Stock" "http://uk.rs-online.com/web/p/products/9063454"
+			(at 833.68 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Name" "Bivar"
+			(at 933.68 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SM0603SRC"
+			(at 1033.68 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Allied_Number" "70536335"
+			(at 1133.68 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "2"
+			(uuid "70722185-7a6c-4b91-9c77-efb5241581ef")
+		)
+		(pin "1"
+			(uuid "b39cd832-e9c0-4efb-b325-5e34e8ca3e8b")
+		)
+		(instances
+			(project "project_venera"
+				(path "/994eb6c1-35ca-4980-934f-7a1bd8cb7fe5/d4d10b83-c579-40cf-b863-92d7045ade13"
+					(reference "LED21")
+					(unit 1)
+				)
+			)
+			(project "project_venera"
+				(path "/adb9f217-8bfb-42be-baaa-2eb1ee5620bd"
+					(reference "LED21")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
