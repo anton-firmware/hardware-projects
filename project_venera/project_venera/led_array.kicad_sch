@@ -1947,12 +1947,6 @@
 					(unit 1)
 				)
 			)
-			(project "project_venera"
-				(path "/adb9f217-8bfb-42be-baaa-2eb1ee5620bd"
-					(reference "LED18")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -2105,12 +2099,6 @@
 		(instances
 			(project "project_venera"
 				(path "/994eb6c1-35ca-4980-934f-7a1bd8cb7fe5/d4d10b83-c579-40cf-b863-92d7045ade13"
-					(reference "LED17")
-					(unit 1)
-				)
-			)
-			(project "project_venera"
-				(path "/adb9f217-8bfb-42be-baaa-2eb1ee5620bd"
 					(reference "LED17")
 					(unit 1)
 				)
@@ -2272,12 +2260,6 @@
 					(unit 1)
 				)
 			)
-			(project "project_venera"
-				(path "/adb9f217-8bfb-42be-baaa-2eb1ee5620bd"
-					(reference "LED30")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -2431,12 +2413,6 @@
 		(instances
 			(project "project_venera"
 				(path "/994eb6c1-35ca-4980-934f-7a1bd8cb7fe5/d4d10b83-c579-40cf-b863-92d7045ade13"
-					(reference "LED7")
-					(unit 1)
-				)
-			)
-			(project "project_venera"
-				(path "/adb9f217-8bfb-42be-baaa-2eb1ee5620bd"
 					(reference "LED7")
 					(unit 1)
 				)
@@ -2598,12 +2574,6 @@
 					(unit 1)
 				)
 			)
-			(project "project_venera"
-				(path "/adb9f217-8bfb-42be-baaa-2eb1ee5620bd"
-					(reference "LED23")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -2757,12 +2727,6 @@
 		(instances
 			(project "project_venera"
 				(path "/994eb6c1-35ca-4980-934f-7a1bd8cb7fe5/d4d10b83-c579-40cf-b863-92d7045ade13"
-					(reference "LED27")
-					(unit 1)
-				)
-			)
-			(project "project_venera"
-				(path "/adb9f217-8bfb-42be-baaa-2eb1ee5620bd"
 					(reference "LED27")
 					(unit 1)
 				)
@@ -2924,12 +2888,6 @@
 					(unit 1)
 				)
 			)
-			(project "project_venera"
-				(path "/adb9f217-8bfb-42be-baaa-2eb1ee5620bd"
-					(reference "LED12")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -3087,12 +3045,6 @@
 					(unit 1)
 				)
 			)
-			(project "project_venera"
-				(path "/adb9f217-8bfb-42be-baaa-2eb1ee5620bd"
-					(reference "LED11")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -3235,12 +3187,6 @@
 					(unit 1)
 				)
 			)
-			(project "project_venera"
-				(path "/adb9f217-8bfb-42be-baaa-2eb1ee5620bd"
-					(reference "R4")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -3379,12 +3325,6 @@
 		(instances
 			(project "project_venera"
 				(path "/994eb6c1-35ca-4980-934f-7a1bd8cb7fe5/d4d10b83-c579-40cf-b863-92d7045ade13"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-			(project "project_venera"
-				(path "/adb9f217-8bfb-42be-baaa-2eb1ee5620bd"
 					(reference "R7")
 					(unit 1)
 				)
@@ -3546,12 +3486,6 @@
 					(unit 1)
 				)
 			)
-			(project "project_venera"
-				(path "/adb9f217-8bfb-42be-baaa-2eb1ee5620bd"
-					(reference "LED25")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -3690,12 +3624,6 @@
 		(instances
 			(project "project_venera"
 				(path "/994eb6c1-35ca-4980-934f-7a1bd8cb7fe5/d4d10b83-c579-40cf-b863-92d7045ade13"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-			(project "project_venera"
-				(path "/adb9f217-8bfb-42be-baaa-2eb1ee5620bd"
 					(reference "R6")
 					(unit 1)
 				)
@@ -3857,12 +3785,6 @@
 					(unit 1)
 				)
 			)
-			(project "project_venera"
-				(path "/adb9f217-8bfb-42be-baaa-2eb1ee5620bd"
-					(reference "LED14")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -4016,12 +3938,6 @@
 		(instances
 			(project "project_venera"
 				(path "/994eb6c1-35ca-4980-934f-7a1bd8cb7fe5/d4d10b83-c579-40cf-b863-92d7045ade13"
-					(reference "LED20")
-					(unit 1)
-				)
-			)
-			(project "project_venera"
-				(path "/adb9f217-8bfb-42be-baaa-2eb1ee5620bd"
 					(reference "LED20")
 					(unit 1)
 				)
@@ -4183,12 +4099,6 @@
 					(unit 1)
 				)
 			)
-			(project "project_venera"
-				(path "/adb9f217-8bfb-42be-baaa-2eb1ee5620bd"
-					(reference "LED13")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -4342,12 +4252,6 @@
 		(instances
 			(project "project_venera"
 				(path "/994eb6c1-35ca-4980-934f-7a1bd8cb7fe5/d4d10b83-c579-40cf-b863-92d7045ade13"
-					(reference "LED8")
-					(unit 1)
-				)
-			)
-			(project "project_venera"
-				(path "/adb9f217-8bfb-42be-baaa-2eb1ee5620bd"
 					(reference "LED8")
 					(unit 1)
 				)
@@ -4509,12 +4413,6 @@
 					(unit 1)
 				)
 			)
-			(project "project_venera"
-				(path "/adb9f217-8bfb-42be-baaa-2eb1ee5620bd"
-					(reference "LED28")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -4668,12 +4566,6 @@
 		(instances
 			(project "project_venera"
 				(path "/994eb6c1-35ca-4980-934f-7a1bd8cb7fe5/d4d10b83-c579-40cf-b863-92d7045ade13"
-					(reference "LED2")
-					(unit 1)
-				)
-			)
-			(project "project_venera"
-				(path "/adb9f217-8bfb-42be-baaa-2eb1ee5620bd"
 					(reference "LED2")
 					(unit 1)
 				)
@@ -4835,12 +4727,6 @@
 					(unit 1)
 				)
 			)
-			(project "project_venera"
-				(path "/adb9f217-8bfb-42be-baaa-2eb1ee5620bd"
-					(reference "LED9")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -4994,12 +4880,6 @@
 		(instances
 			(project "project_venera"
 				(path "/994eb6c1-35ca-4980-934f-7a1bd8cb7fe5/d4d10b83-c579-40cf-b863-92d7045ade13"
-					(reference "LED4")
-					(unit 1)
-				)
-			)
-			(project "project_venera"
-				(path "/adb9f217-8bfb-42be-baaa-2eb1ee5620bd"
 					(reference "LED4")
 					(unit 1)
 				)
@@ -5161,12 +5041,6 @@
 					(unit 1)
 				)
 			)
-			(project "project_venera"
-				(path "/adb9f217-8bfb-42be-baaa-2eb1ee5620bd"
-					(reference "LED3")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -5320,12 +5194,6 @@
 		(instances
 			(project "project_venera"
 				(path "/994eb6c1-35ca-4980-934f-7a1bd8cb7fe5/d4d10b83-c579-40cf-b863-92d7045ade13"
-					(reference "LED16")
-					(unit 1)
-				)
-			)
-			(project "project_venera"
-				(path "/adb9f217-8bfb-42be-baaa-2eb1ee5620bd"
 					(reference "LED16")
 					(unit 1)
 				)
@@ -5487,12 +5355,6 @@
 					(unit 1)
 				)
 			)
-			(project "project_venera"
-				(path "/adb9f217-8bfb-42be-baaa-2eb1ee5620bd"
-					(reference "LED5")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -5646,12 +5508,6 @@
 		(instances
 			(project "project_venera"
 				(path "/994eb6c1-35ca-4980-934f-7a1bd8cb7fe5/d4d10b83-c579-40cf-b863-92d7045ade13"
-					(reference "LED26")
-					(unit 1)
-				)
-			)
-			(project "project_venera"
-				(path "/adb9f217-8bfb-42be-baaa-2eb1ee5620bd"
 					(reference "LED26")
 					(unit 1)
 				)
@@ -5813,12 +5669,6 @@
 					(unit 1)
 				)
 			)
-			(project "project_venera"
-				(path "/adb9f217-8bfb-42be-baaa-2eb1ee5620bd"
-					(reference "LED19")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -5976,12 +5826,6 @@
 					(unit 1)
 				)
 			)
-			(project "project_venera"
-				(path "/adb9f217-8bfb-42be-baaa-2eb1ee5620bd"
-					(reference "LED24")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -6120,12 +5964,6 @@
 		(instances
 			(project "project_venera"
 				(path "/994eb6c1-35ca-4980-934f-7a1bd8cb7fe5/d4d10b83-c579-40cf-b863-92d7045ade13"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-			(project "project_venera"
-				(path "/adb9f217-8bfb-42be-baaa-2eb1ee5620bd"
 					(reference "R5")
 					(unit 1)
 				)
@@ -6287,12 +6125,6 @@
 					(unit 1)
 				)
 			)
-			(project "project_venera"
-				(path "/adb9f217-8bfb-42be-baaa-2eb1ee5620bd"
-					(reference "LED15")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -6446,12 +6278,6 @@
 		(instances
 			(project "project_venera"
 				(path "/994eb6c1-35ca-4980-934f-7a1bd8cb7fe5/d4d10b83-c579-40cf-b863-92d7045ade13"
-					(reference "LED22")
-					(unit 1)
-				)
-			)
-			(project "project_venera"
-				(path "/adb9f217-8bfb-42be-baaa-2eb1ee5620bd"
 					(reference "LED22")
 					(unit 1)
 				)
@@ -6613,12 +6439,6 @@
 					(unit 1)
 				)
 			)
-			(project "project_venera"
-				(path "/adb9f217-8bfb-42be-baaa-2eb1ee5620bd"
-					(reference "LED6")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -6772,12 +6592,6 @@
 		(instances
 			(project "project_venera"
 				(path "/994eb6c1-35ca-4980-934f-7a1bd8cb7fe5/d4d10b83-c579-40cf-b863-92d7045ade13"
-					(reference "LED10")
-					(unit 1)
-				)
-			)
-			(project "project_venera"
-				(path "/adb9f217-8bfb-42be-baaa-2eb1ee5620bd"
 					(reference "LED10")
 					(unit 1)
 				)
@@ -6939,12 +6753,6 @@
 					(unit 1)
 				)
 			)
-			(project "project_venera"
-				(path "/adb9f217-8bfb-42be-baaa-2eb1ee5620bd"
-					(reference "LED29")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -7083,12 +6891,6 @@
 		(instances
 			(project "project_venera"
 				(path "/994eb6c1-35ca-4980-934f-7a1bd8cb7fe5/d4d10b83-c579-40cf-b863-92d7045ade13"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-			(project "project_venera"
-				(path "/adb9f217-8bfb-42be-baaa-2eb1ee5620bd"
 					(reference "R9")
 					(unit 1)
 				)
@@ -7250,12 +7052,6 @@
 					(unit 1)
 				)
 			)
-			(project "project_venera"
-				(path "/adb9f217-8bfb-42be-baaa-2eb1ee5620bd"
-					(reference "LED1")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -7394,12 +7190,6 @@
 		(instances
 			(project "project_venera"
 				(path "/994eb6c1-35ca-4980-934f-7a1bd8cb7fe5/d4d10b83-c579-40cf-b863-92d7045ade13"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-			(project "project_venera"
-				(path "/adb9f217-8bfb-42be-baaa-2eb1ee5620bd"
 					(reference "R8")
 					(unit 1)
 				)
@@ -7557,12 +7347,6 @@
 		(instances
 			(project "project_venera"
 				(path "/994eb6c1-35ca-4980-934f-7a1bd8cb7fe5/d4d10b83-c579-40cf-b863-92d7045ade13"
-					(reference "LED21")
-					(unit 1)
-				)
-			)
-			(project "project_venera"
-				(path "/adb9f217-8bfb-42be-baaa-2eb1ee5620bd"
 					(reference "LED21")
 					(unit 1)
 				)
