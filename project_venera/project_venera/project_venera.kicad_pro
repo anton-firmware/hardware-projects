@@ -648,7 +648,7 @@
         "uuid": "994eb6c1-35ca-4980-934f-7a1bd8cb7fe5"
       }
     ],
-    "used_designators": "R1-15,IC1-3,#PWR1-14,LED1-60,C1-3,USB1",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
