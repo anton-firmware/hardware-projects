@@ -1834,8 +1834,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "078b7aa2-9b4c-4779-8e8c-334ddf8f284a")
-		(property "Reference" "LED18"
-			(at 223.012 63.754 90)
+		(property "Reference" "LED18_T"
+			(at 210.058 60.706 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1973,7 +1973,7 @@
 		(instances
 			(project "project_venera"
 				(path "/994eb6c1-35ca-4980-934f-7a1bd8cb7fe5/d4d10b83-c579-40cf-b863-92d7045ade13"
-					(reference "LED18")
+					(reference "LED18_T")
 					(unit 1)
 				)
 			)
@@ -2145,10 +2145,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0ab82cdf-883a-4086-89f6-cded1d480dea")
-		(property "Reference" "LED30"
-			(at 391.16 93.9799 90)
+		(property "Reference" "LED30_P"
+			(at 385.572 98.044 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2286,7 +2285,7 @@
 		(instances
 			(project "project_venera"
 				(path "/994eb6c1-35ca-4980-934f-7a1bd8cb7fe5/d4d10b83-c579-40cf-b863-92d7045ade13"
-					(reference "LED30")
+					(reference "LED30_P")
 					(unit 1)
 				)
 			)
@@ -2304,7 +2303,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1993e410-d6d0-4474-818c-f083eee92056")
-		(property "Reference" "LED7"
+		(property "Reference" "LED7_S"
 			(at 120.65 86.3599 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2443,7 +2442,7 @@
 		(instances
 			(project "project_venera"
 				(path "/994eb6c1-35ca-4980-934f-7a1bd8cb7fe5/d4d10b83-c579-40cf-b863-92d7045ade13"
-					(reference "LED7")
+					(reference "LED7_S")
 					(unit 1)
 				)
 			)
@@ -2459,10 +2458,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1a828e4f-a3b6-466f-bd05-8cddf8c4fde8")
-		(property "Reference" "LED23"
-			(at 300.99 105.4099 90)
+		(property "Reference" "LED23_V"
+			(at 297.688 111.506 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2600,7 +2598,7 @@
 		(instances
 			(project "project_venera"
 				(path "/994eb6c1-35ca-4980-934f-7a1bd8cb7fe5/d4d10b83-c579-40cf-b863-92d7045ade13"
-					(reference "LED23")
+					(reference "LED23_V")
 					(unit 1)
 				)
 			)
@@ -2616,10 +2614,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1dcda2ed-7be6-483b-b851-ba83d3e2cc11")
-		(property "Reference" "LED27"
-			(at 345.44 93.9799 90)
+		(property "Reference" "LED27_J"
+			(at 342.9 99.568 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2757,7 +2754,7 @@
 		(instances
 			(project "project_venera"
 				(path "/994eb6c1-35ca-4980-934f-7a1bd8cb7fe5/d4d10b83-c579-40cf-b863-92d7045ade13"
-					(reference "LED27")
+					(reference "LED27_J")
 					(unit 1)
 				)
 			)
@@ -2773,10 +2770,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2313e732-709d-4990-90b2-47a60b2fcc3b")
-		(property "Reference" "LED12"
-			(at 151.13 64.7699 90)
+		(property "Reference" "LED12_R"
+			(at 145.542 68.834 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2914,7 +2910,7 @@
 		(instances
 			(project "project_venera"
 				(path "/994eb6c1-35ca-4980-934f-7a1bd8cb7fe5/d4d10b83-c579-40cf-b863-92d7045ade13"
-					(reference "LED12")
+					(reference "LED12_R")
 					(unit 1)
 				)
 			)
@@ -2930,10 +2926,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "29dd0681-11af-4858-be47-9a0bba5e8466")
-		(property "Reference" "LED11"
-			(at 137.16 63.4999 90)
+		(property "Reference" "LED11_E"
+			(at 133.858 68.834 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3071,7 +3066,7 @@
 		(instances
 			(project "project_venera"
 				(path "/994eb6c1-35ca-4980-934f-7a1bd8cb7fe5/d4d10b83-c579-40cf-b863-92d7045ade13"
-					(reference "LED11")
+					(reference "LED11_E")
 					(unit 1)
 				)
 			)
@@ -3369,10 +3364,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "53e4b00f-43b5-4d04-b48d-faf74bf37321")
-		(property "Reference" "LED25"
-			(at 326.39 62.2299 90)
+		(property "Reference" "LED25_U"
+			(at 313.182 59.436 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3510,7 +3504,7 @@
 		(instances
 			(project "project_venera"
 				(path "/994eb6c1-35ca-4980-934f-7a1bd8cb7fe5/d4d10b83-c579-40cf-b863-92d7045ade13"
-					(reference "LED25")
+					(reference "LED25_U")
 					(unit 1)
 				)
 			)
@@ -3667,10 +3661,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5c564709-bc84-460f-a045-779d66a8cb7f")
-		(property "Reference" "LED14"
-			(at 172.72 86.3599 90)
+		(property "Reference" "LED14_F"
+			(at 167.386 90.932 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3808,7 +3801,7 @@
 		(instances
 			(project "project_venera"
 				(path "/994eb6c1-35ca-4980-934f-7a1bd8cb7fe5/d4d10b83-c579-40cf-b863-92d7045ade13"
-					(reference "LED14")
+					(reference "LED14_F")
 					(unit 1)
 				)
 			)
@@ -3824,10 +3817,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5dc3b4dd-3dfb-44a9-8756-6c9a3cd59efa")
-		(property "Reference" "LED20"
-			(at 236.22 64.7699 90)
+		(property "Reference" "LED20_Y"
+			(at 235.966 61.976 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3965,7 +3957,7 @@
 		(instances
 			(project "project_venera"
 				(path "/994eb6c1-35ca-4980-934f-7a1bd8cb7fe5/d4d10b83-c579-40cf-b863-92d7045ade13"
-					(reference "LED20")
+					(reference "LED20_Y")
 					(unit 1)
 				)
 			)
@@ -3983,7 +3975,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7548d0af-3dc7-4040-ae4f-d4bf68697adc")
-		(property "Reference" "LED8"
+		(property "Reference" "LED8_Z"
 			(at 120.65 106.6799 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4122,7 +4114,7 @@
 		(instances
 			(project "project_venera"
 				(path "/994eb6c1-35ca-4980-934f-7a1bd8cb7fe5/d4d10b83-c579-40cf-b863-92d7045ade13"
-					(reference "LED8")
+					(reference "LED8_Z")
 					(unit 1)
 				)
 			)
@@ -4138,10 +4130,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "86b18752-db40-4af3-8751-6282d25394f5")
-		(property "Reference" "LED28"
-			(at 359.41 95.2499 90)
+		(property "Reference" "LED28_K"
+			(at 354.076 99.822 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4279,7 +4270,7 @@
 		(instances
 			(project "project_venera"
 				(path "/994eb6c1-35ca-4980-934f-7a1bd8cb7fe5/d4d10b83-c579-40cf-b863-92d7045ade13"
-					(reference "LED28")
+					(reference "LED28_K")
 					(unit 1)
 				)
 			)
@@ -4297,8 +4288,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9143c365-642c-43ff-960b-485805569b5a")
-		(property "Reference" "LED2"
-			(at 104.14 85.0899 90)
+		(property "Reference" "LED2_A"
+			(at 104.14 86.3599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4436,7 +4427,7 @@
 		(instances
 			(project "project_venera"
 				(path "/994eb6c1-35ca-4980-934f-7a1bd8cb7fe5/d4d10b83-c579-40cf-b863-92d7045ade13"
-					(reference "LED2")
+					(reference "LED2_A")
 					(unit 1)
 				)
 			)
@@ -4452,10 +4443,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "96862df6-5f8e-40b5-b2e5-2201fd7f4788")
-		(property "Reference" "LED13"
-			(at 158.75 86.3599 90)
+		(property "Reference" "LED13_D"
+			(at 155.956 90.424 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4593,7 +4583,7 @@
 		(instances
 			(project "project_venera"
 				(path "/994eb6c1-35ca-4980-934f-7a1bd8cb7fe5/d4d10b83-c579-40cf-b863-92d7045ade13"
-					(reference "LED13")
+					(reference "LED13_D")
 					(unit 1)
 				)
 			)
@@ -4611,7 +4601,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "96e2e45a-13ce-40af-b1b9-6e1d3b6e6712")
-		(property "Reference" "LED9"
+		(property "Reference" "LED9_M"
 			(at 120.65 126.9999 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4750,7 +4740,7 @@
 		(instances
 			(project "project_venera"
 				(path "/994eb6c1-35ca-4980-934f-7a1bd8cb7fe5/d4d10b83-c579-40cf-b863-92d7045ade13"
-					(reference "LED9")
+					(reference "LED9_M")
 					(unit 1)
 				)
 			)
@@ -4768,8 +4758,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a1aca055-4480-482a-9c51-2e7bb493aaf2")
-		(property "Reference" "LED4"
-			(at 104.14 125.7299 90)
+		(property "Reference" "LED4_N"
+			(at 104.14 126.9999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4907,7 +4897,7 @@
 		(instances
 			(project "project_venera"
 				(path "/994eb6c1-35ca-4980-934f-7a1bd8cb7fe5/d4d10b83-c579-40cf-b863-92d7045ade13"
-					(reference "LED4")
+					(reference "LED4_N")
 					(unit 1)
 				)
 			)
@@ -4925,8 +4915,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa0b32a1-aa87-4e12-89da-757eb90e5151")
-		(property "Reference" "LED3"
-			(at 104.14 105.4099 90)
+		(property "Reference" "LED3_L"
+			(at 104.14 106.6799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5064,7 +5054,7 @@
 		(instances
 			(project "project_venera"
 				(path "/994eb6c1-35ca-4980-934f-7a1bd8cb7fe5/d4d10b83-c579-40cf-b863-92d7045ade13"
-					(reference "LED3")
+					(reference "LED3_L")
 					(unit 1)
 				)
 			)
@@ -5080,10 +5070,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ad80e606-0007-4e85-bbe9-12dd9ca2014d")
-		(property "Reference" "LED16"
-			(at 195.58 106.6799 90)
+		(property "Reference" "LED16_C"
+			(at 189.992 111.506 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5221,7 +5210,7 @@
 		(instances
 			(project "project_venera"
 				(path "/994eb6c1-35ca-4980-934f-7a1bd8cb7fe5/d4d10b83-c579-40cf-b863-92d7045ade13"
-					(reference "LED16")
+					(reference "LED16_C")
 					(unit 1)
 				)
 			)
@@ -5237,10 +5226,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b2f17bcc-5ce7-40be-b618-7daee7ea116e")
-		(property "Reference" "LED5"
-			(at 104.14 146.0499 90)
+		(property "Reference" "LED5_SPACE"
+			(at 101.346 151.892 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5378,7 +5366,7 @@
 		(instances
 			(project "project_venera"
 				(path "/994eb6c1-35ca-4980-934f-7a1bd8cb7fe5/d4d10b83-c579-40cf-b863-92d7045ade13"
-					(reference "LED5")
+					(reference "LED5_SPACE")
 					(unit 1)
 				)
 			)
@@ -5396,7 +5384,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b971fa86-c4f8-4d8c-9466-11109e97b500")
-		(property "Reference" "LED26"
+		(property "Reference" "LED26_I"
 			(at 340.36 63.4999 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5535,7 +5523,7 @@
 		(instances
 			(project "project_venera"
 				(path "/994eb6c1-35ca-4980-934f-7a1bd8cb7fe5/d4d10b83-c579-40cf-b863-92d7045ade13"
-					(reference "LED26")
+					(reference "LED26_I")
 					(unit 1)
 				)
 			)
@@ -5708,10 +5696,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c7f2588d-1cca-409a-9ba0-e4ae7ce215a0")
-		(property "Reference" "LED24"
-			(at 316.23 106.6799 90)
+		(property "Reference" "LED24_B"
+			(at 310.642 111.506 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5849,7 +5836,7 @@
 		(instances
 			(project "project_venera"
 				(path "/994eb6c1-35ca-4980-934f-7a1bd8cb7fe5/d4d10b83-c579-40cf-b863-92d7045ade13"
-					(reference "LED24")
+					(reference "LED24_B")
 					(unit 1)
 				)
 			)
@@ -6006,10 +5993,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e1ac83ed-c2c5-4825-9126-1766b893b55d")
-		(property "Reference" "LED15"
-			(at 181.61 105.4099 90)
+		(property "Reference" "LED15_X"
+			(at 178.308 111.252 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6147,7 +6133,7 @@
 		(instances
 			(project "project_venera"
 				(path "/994eb6c1-35ca-4980-934f-7a1bd8cb7fe5/d4d10b83-c579-40cf-b863-92d7045ade13"
-					(reference "LED15")
+					(reference "LED15_X")
 					(unit 1)
 				)
 			)
@@ -6163,10 +6149,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e40162a2-cc03-4380-a6d7-1e38c62fd02f")
-		(property "Reference" "LED22"
-			(at 278.13 86.3599 90)
+		(property "Reference" "LED22_H"
+			(at 275.082 88.9 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6304,7 +6289,7 @@
 		(instances
 			(project "project_venera"
 				(path "/994eb6c1-35ca-4980-934f-7a1bd8cb7fe5/d4d10b83-c579-40cf-b863-92d7045ade13"
-					(reference "LED22")
+					(reference "LED22_H")
 					(unit 1)
 				)
 			)
@@ -6322,7 +6307,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eae66255-0701-4582-b0f7-bda1b7bfd4e4")
-		(property "Reference" "LED6"
+		(property "Reference" "LED6_W"
 			(at 120.65 66.0399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6461,7 +6446,7 @@
 		(instances
 			(project "project_venera"
 				(path "/994eb6c1-35ca-4980-934f-7a1bd8cb7fe5/d4d10b83-c579-40cf-b863-92d7045ade13"
-					(reference "LED6")
+					(reference "LED6_W")
 					(unit 1)
 				)
 			)
@@ -6634,10 +6619,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ee33cc07-2a8a-4473-892e-cd68779498e3")
-		(property "Reference" "LED29"
-			(at 377.19 92.7099 90)
+		(property "Reference" "LED29_O"
+			(at 374.396 89.916 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6775,7 +6759,7 @@
 		(instances
 			(project "project_venera"
 				(path "/994eb6c1-35ca-4980-934f-7a1bd8cb7fe5/d4d10b83-c579-40cf-b863-92d7045ade13"
-					(reference "LED29")
+					(reference "LED29_O")
 					(unit 1)
 				)
 			)
@@ -6934,8 +6918,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f392b26c-66da-449c-aeaf-7d8c58d2d2fb")
-		(property "Reference" "LED1"
-			(at 104.14 64.7699 90)
+		(property "Reference" "LED1_Q"
+			(at 104.14 66.0399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7073,7 +7057,7 @@
 		(instances
 			(project "project_venera"
 				(path "/994eb6c1-35ca-4980-934f-7a1bd8cb7fe5/d4d10b83-c579-40cf-b863-92d7045ade13"
-					(reference "LED1")
+					(reference "LED1_Q")
 					(unit 1)
 				)
 			)
@@ -7230,10 +7214,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fe5e22e1-2246-40b1-94e6-0ddc4141cf54")
-		(property "Reference" "LED21"
-			(at 262.89 85.0899 90)
+		(property "Reference" "LED21_G"
+			(at 250.19 82.55 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7371,7 +7354,7 @@
 		(instances
 			(project "project_venera"
 				(path "/994eb6c1-35ca-4980-934f-7a1bd8cb7fe5/d4d10b83-c579-40cf-b863-92d7045ade13"
-					(reference "LED21")
+					(reference "LED21_G")
 					(unit 1)
 				)
 			)

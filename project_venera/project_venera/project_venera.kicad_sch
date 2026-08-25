@@ -7002,7 +7002,7 @@
 		(dnp no)
 		(uuid "5b1b1804-eec5-4909-9f19-a751038615c7")
 		(property "Reference" "R3"
-			(at 58.42 73.6599 90)
+			(at 65.278 73.406 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7013,7 +7013,7 @@
 			)
 		)
 		(property "Value" "5.1K"
-			(at 58.42 76.1999 90)
+			(at 67.31 76.2 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
