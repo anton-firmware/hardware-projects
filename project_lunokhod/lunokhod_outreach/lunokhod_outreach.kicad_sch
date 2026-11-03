@@ -2997,7 +2997,7 @@
 		)
 		(uuid "0e59e8ca-bc72-4b2d-961c-5856ed39245e")
 	)
-	(text "LUNOKOHD OUTREACH SCOUTS BOARD V1\n"
+	(text "LUNOKHOD OUTREACH SCOUTS BOARD V1\n"
 		(exclude_from_sim no)
 		(at 208.28 189.738 0)
 		(effects
@@ -3038,6 +3038,19 @@
 			)
 		)
 		(uuid "821dad82-24f2-467f-a5a1-f4fef989ac8b")
+	)
+	(text "Copyright Anton 2026\nLicensed under CERN-OHL-P v2"
+		(exclude_from_sim no)
+		(at 178.054 169.418 0)
+		(effects
+			(font
+				(size 1.397 1.397)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "8a97343f-111b-4361-9543-1b8e816d9ed0")
 	)
 	(text "USB C HEADER"
 		(exclude_from_sim no)
@@ -3081,9 +3094,9 @@
 		)
 		(uuid "f192d944-6d60-4358-adbd-82f802bf01f5")
 	)
-	(text "1ST NOVEMBER 2026"
+	(text "3RD NOVEMBER 2026"
 		(exclude_from_sim no)
-		(at 216.2042 193.4056 0)
+		(at 216.6836 193.4544 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3268,8 +3281,24 @@
 		(uuid "ff41ad46-1395-4fa9-89c4-5665c6d7327e")
 	)
 	(no_connect
+		(at 58.42 175.26)
+		(uuid "11594ae4-9ff0-44db-89d9-5c1c2db85b1b")
+	)
+	(no_connect
+		(at 58.42 158.75)
+		(uuid "163d03f5-88a7-4c7f-9b69-1a06398d0978")
+	)
+	(no_connect
 		(at 36.83 53.34)
 		(uuid "3554daa0-bd27-459c-9294-b74de6976e80")
+	)
+	(no_connect
+		(at 66.04 158.75)
+		(uuid "365b1d46-0316-43db-b584-b25e585a16ce")
+	)
+	(no_connect
+		(at 66.04 172.72)
+		(uuid "399efa49-0866-443d-b4e4-051c57fd1f65")
 	)
 	(no_connect
 		(at 171.45 66.04)
@@ -3284,6 +3313,18 @@
 		(uuid "6238b6fd-cbaa-4526-983a-167a5f9afc3a")
 	)
 	(no_connect
+		(at 66.04 156.21)
+		(uuid "8d062fee-15b6-4dff-ace5-3e60125ce407")
+	)
+	(no_connect
+		(at 58.42 172.72)
+		(uuid "90b4e3fd-79c1-4ea9-a278-155e0e9930b9")
+	)
+	(no_connect
+		(at 58.42 156.21)
+		(uuid "98937ac2-62ca-44ad-8f87-e82a536c6677")
+	)
+	(no_connect
 		(at 133.35 60.96)
 		(uuid "a2237de1-be61-402c-a085-1b7579d644be")
 	)
@@ -3294,6 +3335,10 @@
 	(no_connect
 		(at 171.45 63.5)
 		(uuid "ea818ff2-f307-429d-a619-914e31f8f14d")
+	)
+	(no_connect
+		(at 66.04 175.26)
+		(uuid "f14da3d6-0d4c-4c6a-8d3e-0a11428915a5")
 	)
 	(no_connect
 		(at 133.35 66.04)
