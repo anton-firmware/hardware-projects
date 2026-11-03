@@ -5,6 +5,468 @@
 	(uuid "9eb57010-b30c-4ba8-8b6a-122b94c9fa39")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Library:B3F-1020"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "S1"
+				(at 10.16 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "B3F-1020"
+				(at 10.16 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "B3F1000"
+				(at 16.51 -94.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "http://uk.rs-online.com/web/p/products/6821131P"
+				(at 16.51 -194.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "Switch Tact SPST,flat 5mm act,PC Pins Black Plunger Tactile Switch, SPST-NO 0.05 A@ 24 V dc 0.9mm"
+				(at 0.508 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" ""
+				(at 16.51 -394.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "RS Part Number" "6821131P"
+				(at 16.51 -494.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "RS Price/Stock" "http://uk.rs-online.com/web/p/products/6821131P"
+				(at 16.51 -594.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "OMRON Electronics"
+				(at 16.51 -694.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "B3F-1020"
+				(at 16.51 -794.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Allied_Number" "70176105"
+				(at 16.51 -894.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "B3F-1020_0_1"
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 12.7 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 12.7 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 10.16 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 11.43 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "B3F-1020_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 15.24 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 20.32 -2.54 180)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 0 180)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "LibraryLoader:0022285034"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 16.51 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "0022285034"
+				(at 16.51 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "0022285034"
+				(at 16.51 -94.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/22285034?display=pdf"
+				(at 16.51 -194.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "KK 254 Breakaway Header, Vertical, 3 Circuits, 0.38m Gold (Au) Selective Plating, Mating Pin Length 8.13mm, with Kinked PC Tails"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "10.67"
+				(at 16.51 -394.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "RS Part Number" ""
+				(at 16.51 -494.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "RS Price/Stock" ""
+				(at 16.51 -594.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "Molex"
+				(at 16.51 -694.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "0022285034"
+				(at 16.51 -794.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "0022285034_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 15.24 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "LibraryLoader:ATSAMD11D14A-SSUT"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -894,6 +1356,766 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "LibraryLoader:MCKNP02WJ0102A19"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 13.97 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "MCKNP02WJ0102A19"
+				(at 13.97 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "RESAD3800W75L1600D550"
+				(at 13.97 -96.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" ""
+				(at 13.97 -196.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "MULTICOMP - MCKNP02WJ0102A19 - RES, 1000R, 5%, 2W, AXIAL, WIREWOUND"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" ""
+				(at 13.97 -396.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "RS Part Number" ""
+				(at 13.97 -496.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "RS Price/Stock" ""
+				(at 13.97 -596.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "Multicomp Pro"
+				(at 13.97 -696.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "MCKNP02WJ0102A19"
+				(at 13.97 -796.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "MCKNP02WJ0102A19_1_1"
+				(rectangle
+					(start 5.08 1.27)
+					(end 12.7 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "LibraryLoader:TC1262-3.3VDBTR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "IC"
+				(at 26.67 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "TC1262-3.3VDBTR"
+				(at 26.67 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SOT230P700X180-4N"
+				(at 26.67 -94.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "http://uk.rs-online.com/web/p/products/8211116"
+				(at 26.67 -194.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "TC1262-3.3VDBTR, Low Dropout Voltage Regulator, 500mA, 3.3 V +/-0.5%, 2.7  6 Vin, 3-Pin SOT-223"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "1.8"
+				(at 26.67 -394.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "RS Part Number" "8211116"
+				(at 26.67 -494.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "RS Price/Stock" "http://uk.rs-online.com/web/p/products/8211116"
+				(at 26.67 -594.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "Microchip"
+				(at 26.67 -694.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "TC1262-3.3VDBTR"
+				(at 26.67 -794.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Allied_Number" "70046815"
+				(at 26.67 -894.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "TC1262-3.3VDBTR_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 25.4 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "GND_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 0 180)
+					(length 5.08)
+					(name "GND_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PCBSym:703-0100"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "LED"
+				(at 12.7 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "Value" "703-0100"
+				(at 12.7 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "Footprint" "7030100"
+				(at 12.7 -93.65 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 12.7 -193.65 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Description" "LED, 5MM, RED, 400MCD, 643NM"
+				(at 15.24 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "9.2"
+				(at 12.7 -393.65 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "RS Part Number" ""
+				(at 12.7 -493.65 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "RS Price/Stock" ""
+				(at 12.7 -593.65 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Manufacturer_Name" "Multicomp Pro"
+				(at 12.7 -693.65 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Manufacturer_Part_Number" "703-0100"
+				(at 12.7 -793.65 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(symbol "703-0100_1_1"
+				(polyline
+					(pts
+						(xy 2.794 4.318) (xy 2.032 3.556) (xy 1.27 5.08) (xy 2.794 4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 2.54) (xy 1.27 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.064 5.588) (xy 3.302 4.826) (xy 2.54 6.35) (xy 4.064 5.588)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 3.81) (xy 2.54 6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 5.08 -2.54) (xy 5.08 2.54) (xy 10.16 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 10.16 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 0) (xy 10.16 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 15.24 0 180)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "PCBSym:USB4105-GF-A-060"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1765,32 +2987,61 @@
 			(embedded_fonts no)
 		)
 	)
-	(rectangle
-		(start 46.1219 30.402)
-		(end 91.1012 39.7121)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "5b545d2c-7926-487f-9d6e-7b938d8f8c65")
-	)
-	(text "CC1/CC2 are configuration channels,\nthe resistors on these 2 pins are used\nto indicate to the host the orientation of the \nconnection and whether or not to supply 5V"
+	(text "SWITCHES"
 		(exclude_from_sim no)
-		(at 46.482 35.052 0)
+		(at 63.246 145.034 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
 		)
-		(uuid "36f99de4-dff5-4bd3-9373-2efd72af59c1")
+		(uuid "0e59e8ca-bc72-4b2d-961c-5856ed39245e")
+	)
+	(text "LUNOKOHD OUTREACH SCOUTS BOARD V1\n"
+		(exclude_from_sim no)
+		(at 208.28 189.738 0)
+		(effects
+			(font
+				(size 1.397 1.397)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "47c626c5-b35b-4642-8f37-7b3a0f1c1d0e")
+	)
+	(text "POWER REGULATION\n"
+		(exclude_from_sim no)
+		(at 53.34 94.742 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "69a2ae01-9721-44bc-b4df-1d982ce47bc7")
+	)
+	(text "CHARLIEPLEX MATRIX"
+		(exclude_from_sim no)
+		(at 212.344 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7cae54c7-83cb-44a0-bedd-3c3e8ebffd3d")
+	)
+	(text "TEST PADS\n"
+		(exclude_from_sim no)
+		(at 261.112 20.828 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "821dad82-24f2-467f-a5a1-f4fef989ac8b")
 	)
 	(text "USB C HEADER"
 		(exclude_from_sim no)
-		(at 45.466 19.304 0)
+		(at 39.116 21.844 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1798,81 +3049,289 @@
 		)
 		(uuid "a99df019-fcbb-41d5-b96b-17a06472b64b")
 	)
+	(text "MCU + Programmer"
+		(exclude_from_sim no)
+		(at 195.834 21.082 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b61ca445-839e-47c3-975e-02dcbaa20b48")
+	)
+	(text "MOUNTING HOLES"
+		(exclude_from_sim no)
+		(at 164.338 174.498 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "efcf5ad2-b8d0-47e3-91dc-41bf850683bf")
+	)
+	(text "1"
+		(exclude_from_sim no)
+		(at 269.2171 193.3916 0)
+		(effects
+			(font
+				(size 1.397 1.397)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "f192d944-6d60-4358-adbd-82f802bf01f5")
+	)
+	(text "1ST NOVEMBER 2026"
+		(exclude_from_sim no)
+		(at 216.2042 193.4056 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "f67ef1f5-d23a-481f-b309-692f9f9d856f")
+	)
 	(junction
-		(at 43.18 43.18)
+		(at 193.04 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "01772d76-118c-46b5-a64b-d7d257ad7fa3")
+	)
+	(junction
+		(at 36.83 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "03580191-765a-4d89-9907-85ca07f82ec5")
 	)
 	(junction
-		(at 43.18 38.1)
+		(at 203.2 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0f17e789-3e6e-41a6-9d26-17d9347b4a1b")
+	)
+	(junction
+		(at 203.2 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "14046940-0bfc-421f-83ae-9f22bf6def2c")
+	)
+	(junction
+		(at 193.04 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "230023d4-c1bc-45d3-8580-b88b6371efaa")
+	)
+	(junction
+		(at 227.33 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "27b8ee61-11dc-40eb-9013-dee78fea5e01")
+	)
+	(junction
+		(at 46.99 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2c220461-1015-4da1-abd5-8543fc6b218b")
+	)
+	(junction
+		(at 113.03 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3023e35e-0822-4e8c-8ce4-da0cc168a712")
+	)
+	(junction
+		(at 129.54 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3afc4316-809e-4c9f-a12d-3155585beabc")
+	)
+	(junction
+		(at 217.17 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4086dc43-9fa1-4eec-aff4-d603b02a89c4")
+	)
+	(junction
+		(at 203.2 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "52e5bd39-df8a-4a37-b286-22f7a26e69b5")
+	)
+	(junction
+		(at 193.04 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "56ac80eb-7a32-4d8f-a558-690d74894c0c")
+	)
+	(junction
+		(at 36.83 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "649c03d7-5996-45f1-a5b6-8f1f50454099")
 	)
 	(junction
-		(at 36.83 134.62)
+		(at 236.22 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "69a4360e-964e-4a35-8319-8e50e5460681")
+		(uuid "7f31b9dd-cb1c-466e-a034-4ea8dff2d3e8")
 	)
 	(junction
-		(at 48.26 71.12)
+		(at 41.91 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "70240a71-7f68-44ce-ab05-d6cedfd7ec97")
+		(uuid "884674a1-b4af-417d-b9d4-c23ca0c914b1")
 	)
 	(junction
-		(at 45.72 45.72)
+		(at 39.37 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "90b7261d-06f3-4f5f-bb44-aadbf4551782")
 	)
 	(junction
-		(at 43.18 35.56)
+		(at 217.17 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "964c8985-3dd3-4aff-a482-00b5b6158830")
+	)
+	(junction
+		(at 267.97 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9b105664-e291-4009-be61-628823e253f8")
+	)
+	(junction
+		(at 267.97 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a16bc0a7-bfa9-4f85-8b0a-12a76c20062c")
+	)
+	(junction
+		(at 203.2 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a499abe6-84c9-4976-87c3-2648d260c2e3")
+	)
+	(junction
+		(at 36.83 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a61ef425-8493-49a4-b0aa-4fe19b5b3e10")
 	)
 	(junction
-		(at 59.69 53.34)
+		(at 53.34 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c9e74be1-4c50-4bcd-826a-18b0a010073c")
 	)
 	(junction
-		(at 24.13 134.62)
+		(at 193.04 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cbac72df-2e67-4ee2-893a-338378f3b01c")
+		(uuid "cb36b977-6a72-4a87-920c-cfbb8edc6ba9")
 	)
 	(junction
-		(at 53.34 55.88)
+		(at 246.38 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d5da471f-4985-4a7b-9577-22158167397d")
+	)
+	(junction
+		(at 34.29 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d6c47927-57ee-4ddb-94b9-1194f8d7f973")
+	)
+	(junction
+		(at 46.99 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e20510ea-3b9e-45e4-b276-59bfb77220e4")
 	)
 	(junction
-		(at 43.18 40.64)
+		(at 36.83 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fcab22b4-02b8-4c76-bf6c-0ab012e4412d")
 	)
+	(junction
+		(at 236.22 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fe763ab6-c2d3-4253-8c0b-604c64ea8fa6")
+	)
+	(junction
+		(at 100.33 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ff41ad46-1395-4fa9-89c4-5665c6d7327e")
+	)
 	(no_connect
-		(at 43.18 50.8)
+		(at 36.83 53.34)
 		(uuid "3554daa0-bd27-459c-9294-b74de6976e80")
 	)
 	(no_connect
-		(at 43.18 66.04)
+		(at 171.45 66.04)
+		(uuid "39f0b984-8a12-4542-bcc3-9886846fe211")
+	)
+	(no_connect
+		(at 36.83 68.58)
 		(uuid "3da2b760-1194-4ca5-afb6-3e4c0104c646")
 	)
 	(no_connect
-		(at 90.17 172.72)
+		(at 224.79 41.91)
 		(uuid "6238b6fd-cbaa-4526-983a-167a5f9afc3a")
+	)
+	(no_connect
+		(at 133.35 60.96)
+		(uuid "a2237de1-be61-402c-a085-1b7579d644be")
+	)
+	(no_connect
+		(at 133.35 63.5)
+		(uuid "a881ff35-53e9-4fc8-aaa0-84824e4bce6c")
+	)
+	(no_connect
+		(at 171.45 63.5)
+		(uuid "ea818ff2-f307-429d-a619-914e31f8f14d")
+	)
+	(no_connect
+		(at 133.35 66.04)
+		(uuid "f2214af3-59b5-488e-8c95-119332a9efa7")
 	)
 	(wire
 		(pts
-			(xy 24.13 102.87) (xy 24.13 134.62)
+			(xy 171.45 48.26) (xy 186.69 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00e6f400-aa06-4e73-a432-95a0d5bb179f")
+	)
+	(wire
+		(pts
+			(xy 129.54 43.18) (xy 123.19 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03f9f129-b1cf-4dc2-8bfa-1d3cd114cf0a")
+	)
+	(wire
+		(pts
+			(xy 151.13 161.29) (xy 161.29 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0884336f-97ee-4094-b3b8-9b503b294820")
+	)
+	(wire
+		(pts
+			(xy 100.33 24.13) (xy 100.33 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1882,7 +3341,27 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 148.59) (xy 24.13 152.4)
+			(xy 236.22 133.35) (xy 236.22 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d050683-1f2e-42a7-a482-e1ea1c306b42")
+	)
+	(wire
+		(pts
+			(xy 203.2 110.49) (xy 193.04 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d2311aa-8f39-466a-8e7e-a593b19670ea")
+	)
+	(wire
+		(pts
+			(xy 100.33 74.93) (xy 100.33 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1892,7 +3371,17 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 58.42) (xy 43.18 58.42)
+			(xy 179.07 161.29) (xy 193.04 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "115c8815-0248-44e6-b8ea-42e895cf830c")
+	)
+	(wire
+		(pts
+			(xy 53.34 60.96) (xy 36.83 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1902,7 +3391,17 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 60.96) (xy 43.18 60.96)
+			(xy 34.29 109.22) (xy 34.29 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1598131e-7a65-4667-b0f1-178ac31c02a7")
+	)
+	(wire
+		(pts
+			(xy 46.99 63.5) (xy 36.83 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1912,7 +3411,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 53.34) (xy 59.69 53.34)
+			(xy 36.83 55.88) (xy 53.34 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1922,7 +3421,17 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 33.02) (xy 43.18 35.56)
+			(xy 171.45 43.18) (xy 186.69 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "173ef6ba-aee4-469e-999a-6ba158e62741")
+	)
+	(wire
+		(pts
+			(xy 36.83 35.56) (xy 36.83 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1932,7 +3441,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 38.1) (xy 43.18 40.64)
+			(xy 36.83 40.64) (xy 36.83 43.18)
 		)
 		(stroke
 			(width 0)
@@ -1942,7 +3451,17 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 48.26) (xy 43.18 48.26)
+			(xy 227.33 135.89) (xy 217.17 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fb8e99e-4d62-432a-b4d2-fa35f54529ce")
+	)
+	(wire
+		(pts
+			(xy 63.5 50.8) (xy 36.83 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1952,93 +3471,23 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 53.34) (xy 59.69 58.42)
+			(xy 24.13 109.22) (xy 34.29 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "28c11b9e-fb4a-43cc-80de-22f199594798")
+		(uuid "27bc19c2-7934-4108-af86-6469ae0382fd")
 	)
 	(wire
 		(pts
-			(xy 57.15 129.54) (xy 53.34 129.54)
+			(xy 34.29 109.22) (xy 49.53 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "30649599-8a5d-4125-ab16-0d97e79d2d0a")
-	)
-	(wire
-		(pts
-			(xy 57.15 142.24) (xy 53.34 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3303efc5-79cb-4625-b9e8-6d1fa4e68747")
-	)
-	(wire
-		(pts
-			(xy 48.26 71.12) (xy 48.26 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36d8a733-bbd1-4078-a1b1-56293ba85c46")
-	)
-	(wire
-		(pts
-			(xy 90.17 170.18) (xy 93.98 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a85c115-722c-419c-90d7-1cc7cb4d0bbf")
-	)
-	(wire
-		(pts
-			(xy 43.18 43.18) (xy 48.26 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45d8816f-d3f4-4c1a-a043-b9903716cd72")
-	)
-	(wire
-		(pts
-			(xy 48.26 43.18) (xy 48.26 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ce9e306-4121-4e14-b23b-0c16c0d0e587")
-	)
-	(wire
-		(pts
-			(xy 57.15 137.16) (xy 53.34 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60e39de5-2e4f-429e-9758-da4fdcdad9d0")
-	)
-	(wire
-		(pts
-			(xy 57.15 139.7) (xy 53.34 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65c177fe-fe47-497b-9c0b-2ca2c1ce267e")
+		(uuid "2863ef1c-842b-4231-9019-6881eb3c695a")
 	)
 	(wire
 		(pts
@@ -2048,11 +3497,301 @@
 			(width 0)
 			(type default)
 		)
+		(uuid "28c11b9e-fb4a-43cc-80de-22f199594798")
+	)
+	(wire
+		(pts
+			(xy 236.22 110.49) (xy 236.22 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2debfe0f-7499-41e9-9608-b70cba376a93")
+	)
+	(wire
+		(pts
+			(xy 133.35 53.34) (xy 129.54 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30649599-8a5d-4125-ab16-0d97e79d2d0a")
+	)
+	(wire
+		(pts
+			(xy 246.38 133.35) (xy 246.38 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3482005f-4b96-4231-a50b-48a675beef96")
+	)
+	(wire
+		(pts
+			(xy 179.07 110.49) (xy 193.04 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35a39a25-c714-4c86-9ed3-fdeb7709a30f")
+	)
+	(wire
+		(pts
+			(xy 179.07 85.09) (xy 193.04 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "366bd458-e45a-44e5-8d9b-b9b84b983379")
+	)
+	(wire
+		(pts
+			(xy 41.91 73.66) (xy 41.91 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36d8a733-bbd1-4078-a1b1-56293ba85c46")
+	)
+	(wire
+		(pts
+			(xy 49.53 111.76) (xy 24.13 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "373ba175-a358-41d4-8830-8b9cdc74fb92")
+	)
+	(wire
+		(pts
+			(xy 224.79 39.37) (xy 228.6 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a85c115-722c-419c-90d7-1cc7cb4d0bbf")
+	)
+	(wire
+		(pts
+			(xy 278.13 161.29) (xy 267.97 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3aada905-49d2-40ed-92f9-d641a43d4178")
+	)
+	(wire
+		(pts
+			(xy 236.22 110.49) (xy 246.38 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3af478cf-49e6-4442-bbfb-c2c00cea5c9d")
+	)
+	(wire
+		(pts
+			(xy 267.97 85.09) (xy 278.13 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cd78409-5fa9-4d2f-923c-0c77f4a57454")
+	)
+	(wire
+		(pts
+			(xy 203.2 110.49) (xy 236.22 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40446e2e-0eb6-40d9-9e37-0d01658249a0")
+	)
+	(wire
+		(pts
+			(xy 252.73 38.1) (xy 252.73 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42d16441-4491-4141-9a95-709028138478")
+	)
+	(wire
+		(pts
+			(xy 36.83 45.72) (xy 41.91 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45d8816f-d3f4-4c1a-a043-b9903716cd72")
+	)
+	(wire
+		(pts
+			(xy 41.91 45.72) (xy 41.91 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ce9e306-4121-4e14-b23b-0c16c0d0e587")
+	)
+	(wire
+		(pts
+			(xy 203.2 161.29) (xy 193.04 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4efd10da-a1e4-4177-9470-e3af3a0e1bca")
+	)
+	(wire
+		(pts
+			(xy 86.36 158.75) (xy 88.9 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "514e1590-6de2-4eea-8aed-7b8816fb4775")
+	)
+	(wire
+		(pts
+			(xy 193.04 90.17) (xy 193.04 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b0a7855-e17a-4960-9c01-a92d39d31392")
+	)
+	(wire
+		(pts
+			(xy 227.33 85.09) (xy 227.33 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b94a895-4f88-4ae3-8d79-6e83391538c2")
+	)
+	(wire
+		(pts
+			(xy 257.81 38.1) (xy 252.73 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f453083-3ae0-4012-9711-c098bbc4a8f2")
+	)
+	(wire
+		(pts
+			(xy 49.53 114.3) (xy 46.99 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61146f72-a504-4304-ab11-9c15ce360508")
+	)
+	(wire
+		(pts
+			(xy 151.13 110.49) (xy 161.29 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61183308-aa1f-4d02-a580-81d0b966fb2b")
+	)
+	(wire
+		(pts
+			(xy 278.13 85.09) (xy 278.13 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6afdbe62-a35f-4db9-aa5a-8139d029178d")
+	)
+	(wire
+		(pts
+			(xy 267.97 130.81) (xy 267.97 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d8471c9-857e-43eb-aba8-dd8cc07c4434")
+	)
+	(wire
+		(pts
+			(xy 46.99 58.42) (xy 46.99 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
 		(uuid "6e686785-cba1-48b4-a75a-8bd81c1ff974")
 	)
 	(wire
 		(pts
-			(xy 43.18 40.64) (xy 43.18 43.18)
+			(xy 151.13 85.09) (xy 161.29 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f9e6edd-fa95-410c-ab18-2e800bde7ea1")
+	)
+	(wire
+		(pts
+			(xy 38.1 175.26) (xy 35.56 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7184f066-54a8-4724-901c-71b98b83516f")
+	)
+	(wire
+		(pts
+			(xy 193.04 140.97) (xy 193.04 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72e95cf9-bce8-4636-a373-159d0d64438c")
+	)
+	(wire
+		(pts
+			(xy 24.13 111.76) (xy 24.13 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7444d7ae-96ef-43ae-973b-b829adaa9d8e")
+	)
+	(wire
+		(pts
+			(xy 36.83 43.18) (xy 36.83 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2062,17 +3801,17 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 81.28) (xy 58.42 83.82)
+			(xy 171.45 53.34) (xy 186.69 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "74841ecc-032e-4dcf-b6d7-0d5fa306b813")
+		(uuid "7694eba2-6db0-4d28-90ff-c6f1e7ef8360")
 	)
 	(wire
 		(pts
-			(xy 43.18 63.5) (xy 58.42 63.5)
+			(xy 36.83 66.04) (xy 52.07 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2082,7 +3821,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 170.18) (xy 67.31 170.18)
+			(xy 196.85 39.37) (xy 201.93 39.37)
 		)
 		(stroke
 			(width 0)
@@ -2092,7 +3831,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 71.12) (xy 48.26 71.12)
+			(xy 36.83 73.66) (xy 41.91 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2102,7 +3841,17 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 167.64) (xy 62.23 167.64)
+			(xy 252.73 35.56) (xy 257.81 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7813de33-a19c-498d-858f-b9a3e4fb3294")
+	)
+	(wire
+		(pts
+			(xy 201.93 36.83) (xy 196.85 36.83)
 		)
 		(stroke
 			(width 0)
@@ -2112,7 +3861,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 53.34) (xy 63.5 53.34)
+			(xy 53.34 55.88) (xy 57.15 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2122,17 +3871,17 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 81.28) (xy 69.85 83.82)
+			(xy 246.38 161.29) (xy 236.22 161.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "79a4a547-e296-4e1b-b563-183064490f85")
+		(uuid "78b4f369-4d7e-48e1-9f3d-a155c4c07cdc")
 	)
 	(wire
 		(pts
-			(xy 43.18 55.88) (xy 53.34 55.88)
+			(xy 36.83 58.42) (xy 46.99 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2142,7 +3891,47 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 162.56) (xy 62.23 167.64)
+			(xy 193.04 115.57) (xy 193.04 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f49420b-0c81-4585-a9cc-d8591f517128")
+	)
+	(wire
+		(pts
+			(xy 193.04 85.09) (xy 203.2 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fcf441a-fd75-4bf6-8e9d-170138d0f0cb")
+	)
+	(wire
+		(pts
+			(xy 236.22 161.29) (xy 203.2 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8139ca2a-a4de-4925-b02c-46fcf023fb3a")
+	)
+	(wire
+		(pts
+			(xy 267.97 85.09) (xy 267.97 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "829eeaba-009e-43e2-b37c-61804467ced4")
+	)
+	(wire
+		(pts
+			(xy 196.85 31.75) (xy 196.85 36.83)
 		)
 		(stroke
 			(width 0)
@@ -2152,7 +3941,57 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 172.72) (xy 62.23 172.72)
+			(xy 203.2 115.57) (xy 203.2 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84377c63-f1f3-46da-9725-5387f911a5ce")
+	)
+	(wire
+		(pts
+			(xy 227.33 85.09) (xy 267.97 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88fe2628-2075-41e3-92f8-01e89b92fdcf")
+	)
+	(wire
+		(pts
+			(xy 257.81 33.02) (xy 252.73 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b4cd9fc-58fd-4161-900b-8cc696878538")
+	)
+	(wire
+		(pts
+			(xy 171.45 50.8) (xy 186.69 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d67685e-0039-4af7-b8d4-977df3fb60bc")
+	)
+	(wire
+		(pts
+			(xy 86.36 175.26) (xy 88.9 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e1cbe8b-61a7-493a-9585-56a7ecf0e175")
+	)
+	(wire
+		(pts
+			(xy 201.93 41.91) (xy 196.85 41.91)
 		)
 		(stroke
 			(width 0)
@@ -2162,7 +4001,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 132.08) (xy 44.45 132.08)
+			(xy 133.35 55.88) (xy 120.65 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2172,7 +4011,57 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 134.62) (xy 24.13 134.62)
+			(xy 38.1 158.75) (xy 35.56 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9071a65a-a01e-411b-9d6d-d10a0911e711")
+	)
+	(wire
+		(pts
+			(xy 129.54 41.91) (xy 129.54 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "909495ac-f7f6-4467-80b6-c4bb7c1d2ad1")
+	)
+	(wire
+		(pts
+			(xy 217.17 105.41) (xy 217.17 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "912d89fa-edaf-45ae-866e-34465d425db1")
+	)
+	(wire
+		(pts
+			(xy 171.45 58.42) (xy 186.69 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9267396d-6a9f-4696-812c-0658873e1fc1")
+	)
+	(wire
+		(pts
+			(xy 171.45 60.96) (xy 186.69 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9296e695-7672-4e8e-906b-560fcfeba6b1")
+	)
+	(wire
+		(pts
+			(xy 113.03 58.42) (xy 100.33 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2182,7 +4071,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 45.72) (xy 43.18 45.72)
+			(xy 39.37 48.26) (xy 36.83 48.26)
 		)
 		(stroke
 			(width 0)
@@ -2192,7 +4081,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 151.13) (xy 36.83 152.4)
+			(xy 113.03 74.93) (xy 113.03 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2202,7 +4091,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 121.92) (xy 53.34 121.92)
+			(xy 133.35 45.72) (xy 129.54 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2212,7 +4101,47 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 68.58) (xy 45.72 68.58)
+			(xy 46.99 114.3) (xy 43.18 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d91833a-d88e-46da-8ac5-40fcaf710dc7")
+	)
+	(wire
+		(pts
+			(xy 193.04 156.21) (xy 193.04 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9eb727c2-efcc-4541-8e64-95003af3fb68")
+	)
+	(wire
+		(pts
+			(xy 227.33 105.41) (xy 227.33 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7e9342c-8758-4205-be52-bb006c1f7a61")
+	)
+	(wire
+		(pts
+			(xy 278.13 130.81) (xy 278.13 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8373457-4a19-4a42-8184-a4e19e7b7021")
+	)
+	(wire
+		(pts
+			(xy 36.83 71.12) (xy 39.37 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2222,7 +4151,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 134.62) (xy 36.83 138.43)
+			(xy 113.03 58.42) (xy 113.03 62.23)
 		)
 		(stroke
 			(width 0)
@@ -2232,7 +4161,37 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 134.62) (xy 24.13 135.89)
+			(xy 252.73 30.48) (xy 252.73 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac0ea11e-3652-48de-9b85-f86293b8bffa")
+	)
+	(wire
+		(pts
+			(xy 217.17 85.09) (xy 227.33 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad3409cc-0678-4a2e-ba00-f4969882e034")
+	)
+	(wire
+		(pts
+			(xy 193.04 130.81) (xy 193.04 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af042fc9-da15-40f7-a361-8c7456d68c0e")
+	)
+	(wire
+		(pts
+			(xy 100.33 58.42) (xy 100.33 62.23)
 		)
 		(stroke
 			(width 0)
@@ -2242,7 +4201,17 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 63.5) (xy 69.85 48.26)
+			(xy 171.45 55.88) (xy 186.69 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3f6af98-f044-49a6-939d-96ae7af2065c")
+	)
+	(wire
+		(pts
+			(xy 63.5 66.04) (xy 63.5 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2252,7 +4221,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 35.56) (xy 43.18 38.1)
+			(xy 36.83 38.1) (xy 36.83 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2262,7 +4231,37 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 132.08) (xy 44.45 152.4)
+			(xy 43.18 104.14) (xy 43.18 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf9661c1-fe39-4629-a6f3-663c27519ec6")
+	)
+	(wire
+		(pts
+			(xy 217.17 135.89) (xy 203.2 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bff2cef3-6694-40d8-9df0-6ee7c38994e6")
+	)
+	(wire
+		(pts
+			(xy 203.2 140.97) (xy 203.2 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0182688-ce0a-45b6-b5e8-685aa4de50c6")
+	)
+	(wire
+		(pts
+			(xy 120.65 55.88) (xy 120.65 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2272,7 +4271,17 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 167.64) (xy 93.98 167.64)
+			(xy 179.07 135.89) (xy 193.04 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c18984d0-5ff4-4ce9-941d-efcab237a1a5")
+	)
+	(wire
+		(pts
+			(xy 224.79 36.83) (xy 228.6 36.83)
 		)
 		(stroke
 			(width 0)
@@ -2282,7 +4291,37 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 124.46) (xy 53.34 124.46)
+			(xy 203.2 90.17) (xy 203.2 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6276fd5-92c1-4b9a-9ed3-0a50c3d9ce8d")
+	)
+	(wire
+		(pts
+			(xy 203.2 105.41) (xy 203.2 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c931a055-61fa-46b9-b545-5fab7c4122a7")
+	)
+	(wire
+		(pts
+			(xy 203.2 156.21) (xy 203.2 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ced09be4-96d8-4a0b-9b88-be0a4061470b")
+	)
+	(wire
+		(pts
+			(xy 133.35 48.26) (xy 129.54 48.26)
 		)
 		(stroke
 			(width 0)
@@ -2292,7 +4331,47 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 55.88) (xy 63.5 55.88)
+			(xy 203.2 135.89) (xy 193.04 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0c923c5-e2b1-4cfb-a149-a958fdafdd81")
+	)
+	(wire
+		(pts
+			(xy 203.2 85.09) (xy 217.17 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3f7aa72-e810-4acd-986e-7305e6351aa6")
+	)
+	(wire
+		(pts
+			(xy 46.99 114.3) (xy 46.99 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7629bdd-7b8c-4112-a137-f339aa53add5")
+	)
+	(wire
+		(pts
+			(xy 246.38 110.49) (xy 246.38 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7a06d6b-e7ae-4897-931e-6eeff0c7b012")
+	)
+	(wire
+		(pts
+			(xy 46.99 58.42) (xy 57.15 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2302,7 +4381,17 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 119.38) (xy 53.34 119.38)
+			(xy 80.01 109.22) (xy 80.01 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc6b0ec7-a616-43f2-95ce-32ce80fd516b")
+	)
+	(wire
+		(pts
+			(xy 133.35 43.18) (xy 129.54 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2312,7 +4401,17 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 45.72) (xy 63.5 45.72)
+			(xy 151.13 135.89) (xy 161.29 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ded41c1b-7562-456b-8e46-c67f95a375d3")
+	)
+	(wire
+		(pts
+			(xy 39.37 48.26) (xy 57.15 48.26)
 		)
 		(stroke
 			(width 0)
@@ -2322,7 +4421,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 127) (xy 53.34 127)
+			(xy 133.35 50.8) (xy 129.54 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2332,7 +4431,37 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 172.72) (xy 62.23 173.99)
+			(xy 203.2 130.81) (xy 203.2 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb7aaf96-6e1d-4c36-972f-7193f9ee8ab9")
+	)
+	(wire
+		(pts
+			(xy 171.45 45.72) (xy 186.69 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edd111dd-0c4c-4365-b108-5fcf89f9d1f5")
+	)
+	(wire
+		(pts
+			(xy 267.97 161.29) (xy 246.38 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee316a36-1be7-4e76-a0b1-49a8c3da476f")
+	)
+	(wire
+		(pts
+			(xy 196.85 41.91) (xy 196.85 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2342,7 +4471,17 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 134.62) (xy 57.15 134.62)
+			(xy 217.17 85.09) (xy 217.17 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef579f80-01a0-4592-9a3f-3f4ef913024f")
+	)
+	(wire
+		(pts
+			(xy 113.03 58.42) (xy 133.35 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2352,7 +4491,17 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 68.58) (xy 45.72 45.72)
+			(xy 193.04 105.41) (xy 193.04 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1e1ddf9-50f9-42cc-9c91-763d2e898a74")
+	)
+	(wire
+		(pts
+			(xy 39.37 71.12) (xy 39.37 48.26)
 		)
 		(stroke
 			(width 0)
@@ -2360,8 +4509,18 @@
 		)
 		(uuid "f50e233c-a91e-4148-9863-921fef28724c")
 	)
+	(label "SWITCH_STEP"
+		(at 186.69 53.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "00420d97-22d7-4af1-9df1-3a7bc75443e6")
+	)
 	(label "VBUS"
-		(at 63.5 45.72 0)
+		(at 57.15 48.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2371,7 +4530,7 @@
 		(uuid "0f6f0f54-e7b2-4533-9497-3c0cc30d7c1f")
 	)
 	(label "SWCLK"
-		(at 53.34 121.92 180)
+		(at 129.54 45.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2380,8 +4539,18 @@
 		)
 		(uuid "189fe791-15a5-4f06-9021-89a1bad28d16")
 	)
+	(label "CHARLIEPLEX_0"
+		(at 151.13 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1b77752e-0b58-4acc-aa2a-efbd93674a61")
+	)
 	(label "SWDIO"
-		(at 53.34 124.46 180)
+		(at 129.54 48.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2391,7 +4560,7 @@
 		(uuid "1bdb4d1a-a02d-4877-b66b-a6c3b9ed1c47")
 	)
 	(label "DP+"
-		(at 63.5 53.34 0)
+		(at 57.15 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2401,7 +4570,7 @@
 		(uuid "1be8c2cb-a06a-46eb-bab4-174c6904f778")
 	)
 	(label "DP-"
-		(at 53.34 127 180)
+		(at 129.54 50.8 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2410,8 +4579,18 @@
 		)
 		(uuid "1d69d59c-7d96-48bd-b24b-8ce950da0737")
 	)
+	(label "CHARLIEPLEX_2"
+		(at 186.6774 48.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "22027768-988c-46e7-a041-5472f7aa69c6")
+	)
 	(label "DP-"
-		(at 63.5 55.88 0)
+		(at 57.15 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2420,8 +4599,88 @@
 		)
 		(uuid "251cd300-9cd5-47d9-a44c-0576a6c472f1")
 	)
+	(label "CHARLIEPLEX_3"
+		(at 151.13 161.29 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2756ba4d-231d-4eab-afb3-5fff8f13c466")
+	)
+	(label "VBUS"
+		(at 24.13 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3a9717d3-5477-42fc-a432-22bd18520e85")
+	)
+	(label "SWITCH_STEP"
+		(at 38.1 156.21 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5135caae-f382-4253-b19d-9217e843a9f9")
+	)
+	(label "CHARLIEPLEX_2"
+		(at 151.13 135.89 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "66df851f-b426-4c1d-b006-26aaeab90261")
+	)
+	(label "SWITCH_MODE"
+		(at 86.36 172.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6a483ab5-a7e6-439b-8c71-547700d4de92")
+	)
+	(label "SWITCH_MODE"
+		(at 186.69 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6f99cfad-26c6-49ca-b1f8-c2baadf12aa0")
+	)
+	(label "CHARLIEPLEX_1"
+		(at 151.13 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "700cc2ff-2700-49ef-998e-963c3a04cca1")
+	)
 	(label "NRST"
-		(at 53.34 119.38 180)
+		(at 252.73 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "82f96c7f-c53e-4631-aabc-268acfd7f938")
+	)
+	(label "NRST"
+		(at 123.19 43.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2430,8 +4689,28 @@
 		)
 		(uuid "87c4b7e0-3fd8-444b-b08a-a2a5a3a66571")
 	)
+	(label "CHARLIEPLEX_0"
+		(at 186.69 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9176e528-63de-476e-8e38-7e2bbeee5775")
+	)
+	(label "SWITCH_PAGE"
+		(at 186.69 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "962daf41-10fa-41a9-9321-b2b169442785")
+	)
 	(label "DP+"
-		(at 53.34 129.54 180)
+		(at 129.54 53.34 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2440,8 +4719,18 @@
 		)
 		(uuid "9c9d658b-c9cb-4980-a379-2a86f5ef47a8")
 	)
+	(label "SWITCH_PAGE"
+		(at 86.36 156.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a41174a8-ceec-47ac-a9bd-830d6213811b")
+	)
 	(label "SWCLK"
-		(at 93.98 170.18 0)
+		(at 228.6 39.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2451,7 +4740,7 @@
 		(uuid "ab8878e0-a27f-4a43-be8b-53d290801eaf")
 	)
 	(label "NRST"
-		(at 62.23 170.18 0)
+		(at 196.85 39.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2460,8 +4749,18 @@
 		)
 		(uuid "ccf0a724-bc4e-4a0b-9df4-f34b8381d2d9")
 	)
+	(label "SWITCH_TOGGLE"
+		(at 186.69 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d37501d3-6265-4d93-b0c7-d9867f0e8e12")
+	)
 	(label "SWDIO"
-		(at 93.98 167.64 0)
+		(at 228.6 36.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2470,9 +4769,39 @@
 		)
 		(uuid "d50f6f04-fefc-4a4a-9623-df1a18840e41")
 	)
+	(label "CHARLIEPLEX_3"
+		(at 186.69 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "da4d1351-874b-4c34-8ae1-26a75749c5c6")
+	)
+	(label "CHARLIEPLEX_1"
+		(at 186.69 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e57ff93d-57a2-4370-bfd5-83aaa5504949")
+	)
+	(label "SWITCH_TOGGLE"
+		(at 38.1 172.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fa4af332-b4fa-4c7b-900c-11ee303543a0")
+	)
 	(symbol
 		(lib_id "power:GND")
-		(at 36.83 152.4 0)
+		(at 113.03 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2482,8 +4811,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "010a42c2-007f-472b-b643-afb07cea70a1")
-		(property "Reference" "#PWR026"
-			(at 36.83 158.75 0)
+		(property "Reference" "#PWR015"
+			(at 113.03 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2494,7 +4823,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 36.83 157.48 0)
+			(at 113.03 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2504,7 +4833,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 36.83 152.4 0)
+			(at 113.03 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2515,7 +4844,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 152.4 0)
+			(at 113.03 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2526,7 +4855,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 36.83 152.4 0)
+			(at 113.03 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2542,7 +4871,7 @@
 		(instances
 			(project "lunokhod_outreach"
 				(path "/9eb57010-b30c-4ba8-8b6a-122b94c9fa39"
-					(reference "#PWR026")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -2550,7 +4879,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 24.13 102.87 0)
+		(at 100.33 24.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2560,8 +4889,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d70044a-25c0-46ee-9e2b-49dd05d045ad")
-		(property "Reference" "#PWR028"
-			(at 24.13 106.68 0)
+		(property "Reference" "#PWR013"
+			(at 100.33 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2572,7 +4901,7 @@
 			)
 		)
 		(property "Value" "VDD"
-			(at 24.13 97.79 0)
+			(at 100.33 19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2582,7 +4911,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 24.13 102.87 0)
+			(at 100.33 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2593,7 +4922,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 102.87 0)
+			(at 100.33 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2604,7 +4933,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 24.13 102.87 0)
+			(at 100.33 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2620,7 +4949,7 @@
 		(instances
 			(project "lunokhod_outreach"
 				(path "/9eb57010-b30c-4ba8-8b6a-122b94c9fa39"
-					(reference "#PWR028")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -2628,7 +4957,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 48.26 83.82 0)
+		(at 35.56 158.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2637,9 +4966,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1a20a76b-9eeb-4716-8033-ad1407f9b635")
-		(property "Reference" "#PWR05"
-			(at 48.26 90.17 0)
+		(uuid "0e00cf2c-da6b-4552-9144-151564cbad3c")
+		(property "Reference" "#PWR03"
+			(at 35.56 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2650,7 +4979,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 48.26 88.9 0)
+			(at 35.56 163.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2660,7 +4989,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 48.26 83.82 0)
+			(at 35.56 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2671,7 +5000,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 83.82 0)
+			(at 35.56 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2682,7 +5011,307 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 48.26 83.82 0)
+			(at 35.56 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d4cba8f2-1755-4c24-b68e-91f370893ff0")
+		)
+		(instances
+			(project "lunokhod_outreach"
+				(path "/9eb57010-b30c-4ba8-8b6a-122b94c9fa39"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCBSym:703-0100")
+		(at 217.17 90.17 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "17e4681d-7c79-4d8e-8a21-c64ffd73c778")
+		(property "Reference" "LED7"
+			(at 219.71 97.028 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "703-0100"
+			(at 221.488 101.346 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LibraryLoader:7030100"
+			(at 123.52 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 23.52 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "LED, 5MM, RED, 400MCD, 643NM"
+			(at 217.17 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "9.2"
+			(at -176.48 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "RS Part Number" ""
+			(at -276.48 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "RS Price/Stock" ""
+			(at -376.48 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Name" "Multicomp Pro"
+			(at -476.48 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Part_Number" "703-0100"
+			(at -576.48 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "2"
+			(uuid "c8eb88fa-3893-4f66-aef9-18c0439bf995")
+		)
+		(pin "1"
+			(uuid "9227a2b1-9573-4b53-b746-29927f5f9973")
+		)
+		(instances
+			(project "lunokhod_outreach"
+				(path "/9eb57010-b30c-4ba8-8b6a-122b94c9fa39"
+					(reference "LED7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 252.73 39.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "18f81531-aaf0-418d-8e23-7754366a7834")
+		(property "Reference" "#PWR021"
+			(at 252.73 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 252.73 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 252.73 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 252.73 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0586491d-19e4-4af0-b3c7-4a7a1a868089")
+		)
+		(instances
+			(project "lunokhod_outreach"
+				(path "/9eb57010-b30c-4ba8-8b6a-122b94c9fa39"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 41.91 83.82 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a20a76b-9eeb-4716-8033-ad1407f9b635")
+		(property "Reference" "#PWR05"
+			(at 41.91 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 41.91 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 41.91 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2706,7 +5335,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 58.42 83.82 0)
+		(at 52.07 83.82 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2716,8 +5345,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1de7c213-208b-45b2-a9e0-051952b23f09")
-		(property "Reference" "#PWR06"
-			(at 58.42 90.17 0)
+		(property "Reference" "#PWR08"
+			(at 52.07 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2728,7 +5357,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 58.42 88.9 0)
+			(at 52.07 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2738,7 +5367,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 83.82 0)
+			(at 52.07 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2749,7 +5378,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 83.82 0)
+			(at 52.07 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2760,7 +5389,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 58.42 83.82 0)
+			(at 52.07 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2776,7 +5405,246 @@
 		(instances
 			(project "lunokhod_outreach"
 				(path "/9eb57010-b30c-4ba8-8b6a-122b94c9fa39"
-					(reference "#PWR06")
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library:B3F-1020")
+		(at 38.1 172.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e7c9a9a-e9f1-4637-bdb3-b1c8726d1625")
+		(property "Reference" "S2"
+			(at 48.26 165.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "B3F-1020"
+			(at 48.26 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LibraryLoader:B3F1000"
+			(at 54.61 267.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "http://uk.rs-online.com/web/p/products/6821131P"
+			(at 54.61 367.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Switch Tact SPST,flat 5mm act,PC Pins Black Plunger Tactile Switch, SPST-NO 0.05 A@ 24 V dc 0.9mm"
+			(at 38.608 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 54.61 567.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "RS Part Number" "6821131P"
+			(at 54.61 667.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "RS Price/Stock" "http://uk.rs-online.com/web/p/products/6821131P"
+			(at 54.61 767.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "OMRON Electronics"
+			(at 54.61 867.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "B3F-1020"
+			(at 54.61 967.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Allied_Number" "70176105"
+			(at 54.61 1067.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3"
+			(uuid "21cdacd0-31b2-45aa-9913-2b174a993d23")
+		)
+		(pin "1"
+			(uuid "c85374b1-3897-40ed-972f-a644eee220c3")
+		)
+		(pin "4"
+			(uuid "2cb5d5b1-1b04-4154-ae28-7c685e7380f4")
+		)
+		(pin "2"
+			(uuid "2e12cc62-cec1-460e-b1ef-f0b5e0495359")
+		)
+		(instances
+			(project "lunokhod_outreach"
+				(path "/9eb57010-b30c-4ba8-8b6a-122b94c9fa39"
+					(reference "S2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 34.29 130.81 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "285c3dd5-5e9e-4588-b528-2c0e8bcdcb24")
+		(property "Reference" "#PWR02"
+			(at 34.29 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 34.29 135.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 34.29 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 34.29 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "84b6a527-ea0d-40eb-8861-3556c5207a4f")
+		)
+		(instances
+			(project "lunokhod_outreach"
+				(path "/9eb57010-b30c-4ba8-8b6a-122b94c9fa39"
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -2784,7 +5652,7 @@
 	)
 	(symbol
 		(lib_id "LibraryLoader:ERJ-PC3B4702V")
-		(at 69.85 81.28 270)
+		(at 63.5 83.82 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -2794,8 +5662,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2e4dccab-6c77-4f68-8944-afcf1cf711ba")
-		(property "Reference" "R3"
-			(at 74.168 70.866 90)
+		(property "Reference" "R2"
+			(at 67.818 73.406 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2806,7 +5674,7 @@
 			)
 		)
 		(property "Value" "5.1K"
-			(at 76.2 73.66 90)
+			(at 69.85 76.2 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2817,7 +5685,7 @@
 			)
 		)
 		(property "Footprint" "LibraryLoader:ERJPC3D9763V"
-			(at -26.34 67.31 0)
+			(at -32.69 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2829,7 +5697,7 @@
 			)
 		)
 		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/ast-ind-394031.pdf"
-			(at -126.34 67.31 0)
+			(at -132.69 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2841,7 +5709,7 @@
 			)
 		)
 		(property "Description" "Series/Type: Thick film chip resistors (Super high precision type), Power Rating (W): 0.2, Chip Size (LxW(EIA)) (mm): 1.6 x 0.8 (EIA:0603), Resistance Values (): 47000, Resistance Tolerance (%): 0.1, T.C.R (10/K): +/-25"
-			(at 69.85 81.28 0)
+			(at 63.5 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2852,7 +5720,7 @@
 			)
 		)
 		(property "Height" "0.55"
-			(at -326.34 67.31 0)
+			(at -332.69 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2864,7 +5732,7 @@
 			)
 		)
 		(property "RS Part Number" ""
-			(at -426.34 67.31 0)
+			(at -432.69 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2876,7 +5744,7 @@
 			)
 		)
 		(property "RS Price/Stock" ""
-			(at -526.34 67.31 0)
+			(at -532.69 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2888,7 +5756,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Panasonic"
-			(at -626.34 67.31 0)
+			(at -632.69 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2900,7 +5768,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "ERJ-PC3B4702V"
-			(at -726.34 67.31 0)
+			(at -732.69 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2920,7 +5788,7 @@
 		(instances
 			(project "lunokhod_outreach"
 				(path "/9eb57010-b30c-4ba8-8b6a-122b94c9fa39"
-					(reference "R3")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -2928,7 +5796,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 44.45 152.4 0)
+		(at 120.65 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2938,8 +5806,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31a95d2f-afc2-496b-84cf-fe4cc911db05")
-		(property "Reference" "#PWR025"
-			(at 44.45 158.75 0)
+		(property "Reference" "#PWR016"
+			(at 120.65 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2950,7 +5818,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 44.45 157.48 0)
+			(at 120.65 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2960,7 +5828,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 152.4 0)
+			(at 120.65 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2971,7 +5839,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 152.4 0)
+			(at 120.65 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2982,7 +5850,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 44.45 152.4 0)
+			(at 120.65 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2998,46 +5866,48 @@
 		(instances
 			(project "lunokhod_outreach"
 				(path "/9eb57010-b30c-4ba8-8b6a-122b94c9fa39"
-					(reference "#PWR025")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "TagConnect:TC2030-CTX")
-		(at 78.74 170.18 0)
+		(lib_id "Mechanical:MountingHole")
+		(at 157.48 179.07 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3492dbc6-74b9-4467-a2bf-cbf1caf0a42b")
-		(property "Reference" "P1"
-			(at 78.74 161.29 0)
+		(uuid "33b4f2df-f0b7-489b-8ad1-4e256266b83e")
+		(property "Reference" "H1"
+			(at 160.02 177.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.016 1.016)
+					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "TC2030-CTX"
-			(at 78.74 163.83 0)
+		(property "Value" "MountingHole"
+			(at 160.02 180.3399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.016 1.016)
+					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "TagConnect:TC2030_SMALL"
-			(at 78.74 170.18 0)
+		(property "Footprint" "MountingHole:MountingHole_2.5mm"
+			(at 157.48 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3048,7 +5918,81 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 170.18 0)
+			(at 157.48 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 157.48 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "lunokhod_outreach"
+				(path "/9eb57010-b30c-4ba8-8b6a-122b94c9fa39"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TagConnect:TC2030-CTX")
+		(at 213.36 39.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3492dbc6-74b9-4467-a2bf-cbf1caf0a42b")
+		(property "Reference" "P1"
+			(at 213.36 30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "TC2030-CTX"
+			(at 213.36 33.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "TagConnect:TC2030_SMALL"
+			(at 213.36 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3059,7 +6003,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 78.74 170.18 0)
+			(at 213.36 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3097,8 +6041,152 @@
 		)
 	)
 	(symbol
+		(lib_id "PCBSym:703-0100")
+		(at 193.04 90.17 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "39d87bf8-3b63-46df-859c-5591c7106338")
+		(property "Reference" "LED1"
+			(at 195.58 97.028 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "703-0100"
+			(at 197.358 101.346 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LibraryLoader:7030100"
+			(at 99.39 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at -0.61 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "LED, 5MM, RED, 400MCD, 643NM"
+			(at 193.04 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "9.2"
+			(at -200.61 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "RS Part Number" ""
+			(at -300.61 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "RS Price/Stock" ""
+			(at -400.61 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Name" "Multicomp Pro"
+			(at -500.61 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Part_Number" "703-0100"
+			(at -600.61 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "2"
+			(uuid "c99c65ed-6d72-409d-9491-44f94a5ba58c")
+		)
+		(pin "1"
+			(uuid "d5808f14-44f3-4966-b332-e2e573696b26")
+		)
+		(instances
+			(project "lunokhod_outreach"
+				(path "/9eb57010-b30c-4ba8-8b6a-122b94c9fa39"
+					(reference "LED1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 69.85 83.82 0)
+		(at 63.5 83.82 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3108,8 +6196,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "469e3cc6-2826-4dfa-b91d-e31569444a5d")
-		(property "Reference" "#PWR07"
-			(at 69.85 90.17 0)
+		(property "Reference" "#PWR09"
+			(at 63.5 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3120,7 +6208,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 69.85 88.9 0)
+			(at 63.5 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3130,7 +6218,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 83.82 0)
+			(at 63.5 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3141,7 +6229,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 83.82 0)
+			(at 63.5 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3152,7 +6240,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 69.85 83.82 0)
+			(at 63.5 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3168,7 +6256,7 @@
 		(instances
 			(project "lunokhod_outreach"
 				(path "/9eb57010-b30c-4ba8-8b6a-122b94c9fa39"
-					(reference "#PWR07")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -3176,7 +6264,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 24.13 152.4 0)
+		(at 100.33 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3186,8 +6274,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "48744700-c731-437c-9131-4cc4db5dbe80")
-		(property "Reference" "#PWR027"
-			(at 24.13 158.75 0)
+		(property "Reference" "#PWR014"
+			(at 100.33 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3198,7 +6286,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 24.13 157.48 0)
+			(at 100.33 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3208,7 +6296,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 24.13 152.4 0)
+			(at 100.33 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3219,7 +6307,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 152.4 0)
+			(at 100.33 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3230,7 +6318,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 24.13 152.4 0)
+			(at 100.33 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3246,15 +6334,159 @@
 		(instances
 			(project "lunokhod_outreach"
 				(path "/9eb57010-b30c-4ba8-8b6a-122b94c9fa39"
-					(reference "#PWR027")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "LibraryLoader:C0603C101K5RACAUTO7411")
-		(at 24.13 148.59 90)
+		(lib_id "PCBSym:703-0100")
+		(at 227.33 105.41 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4ed2f757-e285-4eea-90b3-3eaf788571aa")
+		(property "Reference" "LED8"
+			(at 234.696 97.028 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "703-0100"
+			(at 223.012 94.234 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LibraryLoader:7030100"
+			(at 320.98 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 420.98 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "LED, 5MM, RED, 400MCD, 643NM"
+			(at 227.33 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "9.2"
+			(at 620.98 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "RS Part Number" ""
+			(at 720.98 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "RS Price/Stock" ""
+			(at 820.98 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Name" "Multicomp Pro"
+			(at 920.98 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Part_Number" "703-0100"
+			(at 1020.98 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "2"
+			(uuid "09bd4f5c-7151-48ae-bc63-15f6e7dbac9c")
+		)
+		(pin "1"
+			(uuid "c026262a-317c-490f-af4d-f0496710bd75")
+		)
+		(instances
+			(project "lunokhod_outreach"
+				(path "/9eb57010-b30c-4ba8-8b6a-122b94c9fa39"
+					(reference "LED8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LibraryLoader:0022285034")
+		(at 257.81 33.02 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3263,31 +6495,32 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7fce7906-06c2-480e-92a8-85dfa4098c61")
-		(property "Reference" "C4"
-			(at 27.94 140.9699 90)
+		(uuid "4ede99f5-30a9-4e72-9f54-6743353e8abc")
+		(property "Reference" "J1"
+			(at 274.32 34.2899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "4.7uF"
-			(at 27.94 143.5099 90)
+		(property "Value" "0022285034"
+			(at 274.32 36.8299 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "LibraryLoader:C0603"
-			(at 120.32 139.7 0)
+		(property "Footprint" "LibraryLoader:0022285034"
+			(at 274.32 127.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3298,8 +6531,8 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf"
-			(at 220.32 139.7 0)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/22285034?display=pdf"
+			(at 274.32 227.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3310,8 +6543,8 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "SMD Auto X7R, Ceramic, 100 pF, 10%, 50 VDC, 125 VDC, 125C, -55C, X7R, SMD, MLCC, Temperature Stable, Automotive Grade, 2.5 % , 100 GOhms, 4.8 mg, 0603, 1.6mm, 0.8mm, 0.8mm, 0.7mm, 0.35mm, 15000, 78  Weeks, 80"
-			(at 24.13 148.59 0)
+		(property "Description" "KK 254 Breakaway Header, Vertical, 3 Circuits, 0.38m Gold (Au) Selective Plating, Mating Pin Length 8.13mm, with Kinked PC Tails"
+			(at 257.81 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3321,8 +6554,8 @@
 				)
 			)
 		)
-		(property "Height" "0.87"
-			(at 420.32 139.7 0)
+		(property "Height" "10.67"
+			(at 274.32 427.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3334,7 +6567,7 @@
 			)
 		)
 		(property "RS Part Number" ""
-			(at 520.32 139.7 0)
+			(at 274.32 527.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3346,7 +6579,376 @@
 			)
 		)
 		(property "RS Price/Stock" ""
-			(at 620.32 139.7 0)
+			(at 274.32 627.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Molex"
+			(at 274.32 727.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0022285034"
+			(at 274.32 827.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "2"
+			(uuid "a83f0f9f-33e9-49c7-a615-67c91150ab9c")
+		)
+		(pin "3"
+			(uuid "031d2a61-fba9-455b-94c2-05e485e63563")
+		)
+		(pin "1"
+			(uuid "b69c544b-164c-4fa0-9801-cacd5bdf20ca")
+		)
+		(instances
+			(project "lunokhod_outreach"
+				(path "/9eb57010-b30c-4ba8-8b6a-122b94c9fa39"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 88.9 158.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "548e666e-2596-4c9c-889a-ce984d1ae143")
+		(property "Reference" "#PWR011"
+			(at 88.9 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 88.9 163.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 88.9 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "df389530-9d7d-4571-a5c7-0b41461fac27")
+		)
+		(instances
+			(project "lunokhod_outreach"
+				(path "/9eb57010-b30c-4ba8-8b6a-122b94c9fa39"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCBSym:703-0100")
+		(at 203.2 105.41 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5c485410-54f1-4519-86f4-a409aa21320a")
+		(property "Reference" "LED4"
+			(at 210.566 97.028 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "703-0100"
+			(at 198.882 94.234 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LibraryLoader:7030100"
+			(at 296.85 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 396.85 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "LED, 5MM, RED, 400MCD, 643NM"
+			(at 203.2 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "9.2"
+			(at 596.85 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "RS Part Number" ""
+			(at 696.85 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "RS Price/Stock" ""
+			(at 796.85 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Name" "Multicomp Pro"
+			(at 896.85 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Part_Number" "703-0100"
+			(at 996.85 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "2"
+			(uuid "e68758a6-10f9-40f4-a1cd-86bc1965627a")
+		)
+		(pin "1"
+			(uuid "ba657950-c76b-43cf-8da1-c59f41add824")
+		)
+		(instances
+			(project "lunokhod_outreach"
+				(path "/9eb57010-b30c-4ba8-8b6a-122b94c9fa39"
+					(reference "LED4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LibraryLoader:C0603C101K5RACAUTO7411")
+		(at 34.29 130.81 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "61a51961-f95f-4b26-98fe-66820f2628d3")
+		(property "Reference" "C1"
+			(at 38.1 123.1899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1uF"
+			(at 38.1 125.7299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LibraryLoader:C0603"
+			(at 130.48 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf"
+			(at 230.48 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "SMD Auto X7R, Ceramic, 100 pF, 10%, 50 VDC, 125 VDC, 125C, -55C, X7R, SMD, MLCC, Temperature Stable, Automotive Grade, 2.5 % , 100 GOhms, 4.8 mg, 0603, 1.6mm, 0.8mm, 0.8mm, 0.7mm, 0.35mm, 15000, 78  Weeks, 80"
+			(at 34.29 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.87"
+			(at 430.48 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "RS Part Number" ""
+			(at 530.48 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "RS Price/Stock" ""
+			(at 630.48 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3358,7 +6960,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Yageo Group"
-			(at 720.32 139.7 0)
+			(at 730.48 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3370,7 +6972,724 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "C0603C101K5RACAUTO7411"
-			(at 820.32 139.7 0)
+			(at 830.48 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1"
+			(uuid "823041c9-f4a9-445e-acb4-adfacee5b63a")
+		)
+		(pin "2"
+			(uuid "bff6a412-8416-4b91-9ec2-7fd8246d4822")
+		)
+		(instances
+			(project "lunokhod_outreach"
+				(path "/9eb57010-b30c-4ba8-8b6a-122b94c9fa39"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCBSym:703-0100")
+		(at 246.38 133.35 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6944c408-29a9-4a71-a305-85a3833d9e63")
+		(property "Reference" "LED10"
+			(at 253.746 124.968 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "703-0100"
+			(at 242.062 122.174 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LibraryLoader:7030100"
+			(at 340.03 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 440.03 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "LED, 5MM, RED, 400MCD, 643NM"
+			(at 246.38 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "9.2"
+			(at 640.03 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "RS Part Number" ""
+			(at 740.03 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "RS Price/Stock" ""
+			(at 840.03 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Name" "Multicomp Pro"
+			(at 940.03 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Part_Number" "703-0100"
+			(at 1040.03 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "2"
+			(uuid "e55f41a3-7e37-491e-aedd-5d8b28bf26e8")
+		)
+		(pin "1"
+			(uuid "49a2daa0-d976-4491-b3f0-d9d5f03717fe")
+		)
+		(instances
+			(project "lunokhod_outreach"
+				(path "/9eb57010-b30c-4ba8-8b6a-122b94c9fa39"
+					(reference "LED10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LibraryLoader:MCKNP02WJ0102A19")
+		(at 161.29 161.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "71fb928a-2f2d-477f-93c7-61680bbbb253")
+		(property "Reference" "R7"
+			(at 170.18 158.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MCKNP02WJ0102A19"
+			(at 170.18 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LibraryLoader:ERJPC3D9763V"
+			(at 175.26 257.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 357.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "MULTICOMP - MCKNP02WJ0102A19 - RES, 1000R, 5%, 2W, AXIAL, WIREWOUND"
+			(at 161.29 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 175.26 557.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "RS Part Number" ""
+			(at 175.26 657.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "RS Price/Stock" ""
+			(at 175.26 757.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Multicomp Pro"
+			(at 175.26 857.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MCKNP02WJ0102A19"
+			(at 175.26 957.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "2"
+			(uuid "498bfde4-400f-42b7-88a2-f1c131e13a7c")
+		)
+		(pin "1"
+			(uuid "19bd73a4-734c-46a7-a95d-7550631bdf33")
+		)
+		(instances
+			(project "lunokhod_outreach"
+				(path "/9eb57010-b30c-4ba8-8b6a-122b94c9fa39"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCBSym:703-0100")
+		(at 236.22 118.11 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "737d8a3a-4d52-4665-b1b6-a963b6759a8c")
+		(property "Reference" "LED9"
+			(at 238.76 124.968 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "703-0100"
+			(at 240.538 129.286 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LibraryLoader:7030100"
+			(at 142.57 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 42.57 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "LED, 5MM, RED, 400MCD, 643NM"
+			(at 236.22 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "9.2"
+			(at -157.43 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "RS Part Number" ""
+			(at -257.43 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "RS Price/Stock" ""
+			(at -357.43 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Name" "Multicomp Pro"
+			(at -457.43 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Part_Number" "703-0100"
+			(at -557.43 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "2"
+			(uuid "3b736ef2-422d-4ebf-a2cb-b8bb3ce540db")
+		)
+		(pin "1"
+			(uuid "1fff317b-a7ea-4441-a7bb-348edd2dc83f")
+		)
+		(instances
+			(project "lunokhod_outreach"
+				(path "/9eb57010-b30c-4ba8-8b6a-122b94c9fa39"
+					(reference "LED9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCBSym:703-0100")
+		(at 203.2 130.81 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7b2364de-440f-42d0-b99e-7faf121b0799")
+		(property "Reference" "LED5"
+			(at 210.566 122.428 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "703-0100"
+			(at 198.882 119.634 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LibraryLoader:7030100"
+			(at 296.85 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 396.85 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "LED, 5MM, RED, 400MCD, 643NM"
+			(at 203.2 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "9.2"
+			(at 596.85 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "RS Part Number" ""
+			(at 696.85 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "RS Price/Stock" ""
+			(at 796.85 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Name" "Multicomp Pro"
+			(at 896.85 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Part_Number" "703-0100"
+			(at 996.85 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "2"
+			(uuid "f3f4640b-acac-462f-9e77-793fa2b3e905")
+		)
+		(pin "1"
+			(uuid "6ba614b7-42fb-45fb-8c60-60e541e41765")
+		)
+		(instances
+			(project "lunokhod_outreach"
+				(path "/9eb57010-b30c-4ba8-8b6a-122b94c9fa39"
+					(reference "LED5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LibraryLoader:C0603C101K5RACAUTO7411")
+		(at 100.33 74.93 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7fce7906-06c2-480e-92a8-85dfa4098c61")
+		(property "Reference" "C3"
+			(at 101.854 66.548 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 102.108 70.612 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LibraryLoader:C0603"
+			(at 196.52 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf"
+			(at 296.52 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "SMD Auto X7R, Ceramic, 100 pF, 10%, 50 VDC, 125 VDC, 125C, -55C, X7R, SMD, MLCC, Temperature Stable, Automotive Grade, 2.5 % , 100 GOhms, 4.8 mg, 0603, 1.6mm, 0.8mm, 0.8mm, 0.7mm, 0.35mm, 15000, 78  Weeks, 80"
+			(at 100.33 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.87"
+			(at 496.52 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "RS Part Number" ""
+			(at 596.52 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "RS Price/Stock" ""
+			(at 696.52 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Yageo Group"
+			(at 796.52 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C0603C101K5RACAUTO7411"
+			(at 896.52 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3390,7 +7709,7 @@
 		(instances
 			(project "lunokhod_outreach"
 				(path "/9eb57010-b30c-4ba8-8b6a-122b94c9fa39"
-					(reference "C4")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -3398,7 +7717,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 62.23 173.99 0)
+		(at 196.85 43.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3408,8 +7727,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8323cc5f-b383-4ae4-92ea-917344f8832d")
-		(property "Reference" "#PWR024"
-			(at 62.23 180.34 0)
+		(property "Reference" "#PWR019"
+			(at 196.85 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3420,7 +7739,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 62.23 179.07 0)
+			(at 196.85 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3430,7 +7749,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 173.99 0)
+			(at 196.85 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3441,7 +7760,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 173.99 0)
+			(at 196.85 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3452,7 +7771,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 62.23 173.99 0)
+			(at 196.85 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3468,15 +7787,15 @@
 		(instances
 			(project "lunokhod_outreach"
 				(path "/9eb57010-b30c-4ba8-8b6a-122b94c9fa39"
-					(reference "#PWR024")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "PCBSym:USB4105-GF-A-060")
-		(at 38.1 50.8 180)
+		(lib_id "power:VDD")
+		(at 252.73 30.48 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3485,9 +7804,10 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "95078f67-8db2-49f0-a85f-b02704872f79")
-		(property "Reference" "USB1"
-			(at 35.56 25.4 0)
+		(uuid "833c9453-a01a-4cf9-814a-974d6760d5d3")
+		(property "Reference" "#PWR020"
+			(at 252.73 34.29 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3496,8 +7816,8 @@
 				)
 			)
 		)
-		(property "Value" "USB4105-GF-A-060"
-			(at 35.56 27.94 0)
+		(property "Value" "VDD"
+			(at 252.73 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3506,8 +7826,8 @@
 				)
 			)
 		)
-		(property "Footprint" "CustomLib:USB-C-SMD_GT-USB-7010E-1"
-			(at 38.1 50.8 0)
+		(property "Footprint" ""
+			(at 252.73 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3518,7 +7838,384 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 50.8 0)
+			(at 252.73 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 252.73 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "21e90d5b-dae3-4769-a8cd-c55756134427")
+		)
+		(instances
+			(project "lunokhod_outreach"
+				(path "/9eb57010-b30c-4ba8-8b6a-122b94c9fa39"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCBSym:703-0100")
+		(at 278.13 130.81 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "851c4caa-94d8-45e8-b562-6dc59a26060a")
+		(property "Reference" "LED12"
+			(at 285.496 122.428 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "703-0100"
+			(at 273.812 119.634 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LibraryLoader:7030100"
+			(at 371.78 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 471.78 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "LED, 5MM, RED, 400MCD, 643NM"
+			(at 278.13 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "9.2"
+			(at 671.78 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "RS Part Number" ""
+			(at 771.78 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "RS Price/Stock" ""
+			(at 871.78 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Name" "Multicomp Pro"
+			(at 971.78 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Part_Number" "703-0100"
+			(at 1071.78 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "2"
+			(uuid "11e26ca8-3213-464e-8867-3c2a78f23a65")
+		)
+		(pin "1"
+			(uuid "b696e227-e134-490d-8108-0dca29f28afd")
+		)
+		(instances
+			(project "lunokhod_outreach"
+				(path "/9eb57010-b30c-4ba8-8b6a-122b94c9fa39"
+					(reference "LED12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 80.01 130.81 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8c4caf49-0fd7-4722-90a3-682a1b82fce5")
+		(property "Reference" "#PWR010"
+			(at 80.01 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 80.01 135.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 80.01 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4ddd1a8f-785c-4474-bac2-6d10cca485b3")
+		)
+		(instances
+			(project "lunokhod_outreach"
+				(path "/9eb57010-b30c-4ba8-8b6a-122b94c9fa39"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 129.54 24.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d2bbd1f-bd79-43f6-8069-b809bb3c139d")
+		(property "Reference" "#PWR017"
+			(at 129.54 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDD"
+			(at 129.54 19.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 129.54 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "03b28446-89ff-4c29-9507-a07332bbb0c8")
+		)
+		(instances
+			(project "lunokhod_outreach"
+				(path "/9eb57010-b30c-4ba8-8b6a-122b94c9fa39"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCBSym:USB4105-GF-A-060")
+		(at 31.75 53.34 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "95078f67-8db2-49f0-a85f-b02704872f79")
+		(property "Reference" "USB1"
+			(at 29.21 27.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB4105-GF-A-060"
+			(at 29.21 30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CustomLib:USB-C-SMD_GT-USB-7010E-1"
+			(at 31.75 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3529,7 +8226,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 38.1 50.8 0)
+			(at 31.75 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3540,7 +8237,7 @@
 			)
 		)
 		(property "Manufacturer Part" "USB4105-GF-A-060"
-			(at 38.1 50.8 0)
+			(at 31.75 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3551,7 +8248,7 @@
 			)
 		)
 		(property "Manufacturer" "GCT"
-			(at 38.1 50.8 0)
+			(at 31.75 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3562,7 +8259,7 @@
 			)
 		)
 		(property "Supplier Part" "C3025063"
-			(at 38.1 50.8 0)
+			(at 31.75 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3573,7 +8270,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 38.1 50.8 0)
+			(at 31.75 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3641,8 +8338,401 @@
 		)
 	)
 	(symbol
+		(lib_id "Library:B3F-1020")
+		(at 66.04 172.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9b4caa6a-73c7-4b41-a273-8023eee9c3ca")
+		(property "Reference" "S4"
+			(at 76.2 165.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "B3F-1020"
+			(at 76.2 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LibraryLoader:B3F1000"
+			(at 82.55 267.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "http://uk.rs-online.com/web/p/products/6821131P"
+			(at 82.55 367.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Switch Tact SPST,flat 5mm act,PC Pins Black Plunger Tactile Switch, SPST-NO 0.05 A@ 24 V dc 0.9mm"
+			(at 66.548 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 82.55 567.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "RS Part Number" "6821131P"
+			(at 82.55 667.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "RS Price/Stock" "http://uk.rs-online.com/web/p/products/6821131P"
+			(at 82.55 767.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "OMRON Electronics"
+			(at 82.55 867.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "B3F-1020"
+			(at 82.55 967.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Allied_Number" "70176105"
+			(at 82.55 1067.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3"
+			(uuid "18948b17-5cb1-43bc-b021-28bff2c79cac")
+		)
+		(pin "1"
+			(uuid "d8d32483-3c09-4b70-9ffe-cb25c55dfe23")
+		)
+		(pin "4"
+			(uuid "19c41c81-5872-4593-af8a-d597340498fd")
+		)
+		(pin "2"
+			(uuid "18335f13-7ab2-486e-8214-c3a04cd1fd86")
+		)
+		(instances
+			(project "lunokhod_outreach"
+				(path "/9eb57010-b30c-4ba8-8b6a-122b94c9fa39"
+					(reference "S4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 35.56 175.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5701b5b-7764-49b7-a66f-2a7d90fa12ea")
+		(property "Reference" "#PWR04"
+			(at 35.56 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 35.56 180.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 35.56 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5a9159ba-4a98-4f3f-860c-19ccb0ce7af6")
+		)
+		(instances
+			(project "lunokhod_outreach"
+				(path "/9eb57010-b30c-4ba8-8b6a-122b94c9fa39"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 88.9 175.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a7356a94-e801-4ec6-9a79-5eb8513b411a")
+		(property "Reference" "#PWR012"
+			(at 88.9 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 88.9 180.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 88.9 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b0cd1097-ad24-4d45-aff5-b271352fe83f")
+		)
+		(instances
+			(project "lunokhod_outreach"
+				(path "/9eb57010-b30c-4ba8-8b6a-122b94c9fa39"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 157.48 194.31 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "abaa41d4-905c-40cb-a233-0caef394da99")
+		(property "Reference" "H4"
+			(at 160.02 193.0399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 160.02 195.5799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.5mm"
+			(at 157.48 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 157.48 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "lunokhod_outreach"
+				(path "/9eb57010-b30c-4ba8-8b6a-122b94c9fa39"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LibraryLoader:ATSAMD11D14A-SSUT")
-		(at 95.25 142.24 180)
+		(at 171.45 66.04 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3652,8 +8742,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b61e93b8-5d69-4122-8081-f1ac5ba74193")
-		(property "Reference" "IC3"
-			(at 76.2 149.86 0)
+		(property "Reference" "IC2"
+			(at 152.4 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3663,7 +8753,7 @@
 			)
 		)
 		(property "Value" "ATSAMD11D14A-SSUT"
-			(at 76.2 147.32 0)
+			(at 152.4 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3673,7 +8763,7 @@
 			)
 		)
 		(property "Footprint" "LibraryLoader:SOIC127P1032X265-20N"
-			(at 60.96 47.32 0)
+			(at 137.16 -28.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3685,7 +8775,7 @@
 			)
 		)
 		(property "Datasheet" "http://ww1.microchip.com/downloads/en/devicedoc/atmel-42363-sam-d11_datasheet.pdf"
-			(at 60.96 -52.68 0)
+			(at 137.16 -128.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3697,7 +8787,7 @@
 			)
 		)
 		(property "Description" "MICROCHIP - ATSAMD11D14A-SSUT - MCU, 32BIT, CORTEX-M0+, 48MHZ, WSOIC-20"
-			(at 95.25 142.24 0)
+			(at 171.45 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3708,7 +8798,7 @@
 			)
 		)
 		(property "Height" "2.65"
-			(at 60.96 -252.68 0)
+			(at 137.16 -328.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3720,7 +8810,7 @@
 			)
 		)
 		(property "RS Part Number" ""
-			(at 60.96 -352.68 0)
+			(at 137.16 -428.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3732,7 +8822,7 @@
 			)
 		)
 		(property "RS Price/Stock" ""
-			(at 60.96 -452.68 0)
+			(at 137.16 -528.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3744,7 +8834,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Microchip"
-			(at 60.96 -552.68 0)
+			(at 137.16 -628.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3756,7 +8846,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "ATSAMD11D14A-SSUT"
-			(at 60.96 -652.68 0)
+			(at 137.16 -728.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3830,15 +8920,15 @@
 		(instances
 			(project "lunokhod_outreach"
 				(path "/9eb57010-b30c-4ba8-8b6a-122b94c9fa39"
-					(reference "IC3")
+					(reference "IC2")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "LibraryLoader:ERJ-PC3B4702V")
-		(at 58.42 81.28 90)
+		(lib_id "power:GND")
+		(at 24.13 130.81 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3847,9 +8937,375 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d56b294c-0b3a-4c9d-b624-5c36b4a97567")
-		(property "Reference" "R2"
-			(at 60.96 71.1199 90)
+		(uuid "b7222dc3-ec27-4075-83f9-c74937eda979")
+		(property "Reference" "#PWR01"
+			(at 24.13 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 24.13 135.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.13 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 24.13 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "34db169c-331a-49bb-99b2-d784fcdbe719")
+		)
+		(instances
+			(project "lunokhod_outreach"
+				(path "/9eb57010-b30c-4ba8-8b6a-122b94c9fa39"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCBSym:703-0100")
+		(at 203.2 156.21 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bd0b471e-0179-45d8-bce0-8ee3ed69eaf3")
+		(property "Reference" "LED6"
+			(at 210.566 147.828 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "703-0100"
+			(at 198.882 145.034 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LibraryLoader:7030100"
+			(at 296.85 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 396.85 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "LED, 5MM, RED, 400MCD, 643NM"
+			(at 203.2 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "9.2"
+			(at 596.85 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "RS Part Number" ""
+			(at 696.85 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "RS Price/Stock" ""
+			(at 796.85 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Name" "Multicomp Pro"
+			(at 896.85 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Part_Number" "703-0100"
+			(at 996.85 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "2"
+			(uuid "f21c582d-6588-41c8-9f03-d671cc3bd6ce")
+		)
+		(pin "1"
+			(uuid "dec2679a-f79c-4dab-beb4-8bdb2ac1045b")
+		)
+		(instances
+			(project "lunokhod_outreach"
+				(path "/9eb57010-b30c-4ba8-8b6a-122b94c9fa39"
+					(reference "LED6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCBSym:703-0100")
+		(at 193.04 140.97 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c1d9c05f-2e42-42ff-80f2-fe523945041d")
+		(property "Reference" "LED3"
+			(at 195.58 147.828 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "703-0100"
+			(at 197.358 152.146 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LibraryLoader:7030100"
+			(at 99.39 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at -0.61 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "LED, 5MM, RED, 400MCD, 643NM"
+			(at 193.04 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "9.2"
+			(at -200.61 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "RS Part Number" ""
+			(at -300.61 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "RS Price/Stock" ""
+			(at -400.61 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Name" "Multicomp Pro"
+			(at -500.61 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Part_Number" "703-0100"
+			(at -600.61 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "2"
+			(uuid "421fc241-80b9-4e3c-bcc7-fcb161f7febd")
+		)
+		(pin "1"
+			(uuid "5ac7607a-a839-471e-95e6-4d86476215ff")
+		)
+		(instances
+			(project "lunokhod_outreach"
+				(path "/9eb57010-b30c-4ba8-8b6a-122b94c9fa39"
+					(reference "LED3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LibraryLoader:C0603C101K5RACAUTO7411")
+		(at 46.99 130.81 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c37bca76-28e1-48c4-9d9d-085019722174")
+		(property "Reference" "C2"
+			(at 50.8 123.1899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3859,8 +9315,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5.1K"
-			(at 60.96 73.6599 90)
+		(property "Value" "1uF"
+			(at 50.8 125.7299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3870,8 +9326,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LibraryLoader:ERJPC3D9763V"
-			(at 154.61 67.31 0)
+		(property "Footprint" "LibraryLoader:C0603"
+			(at 143.18 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3882,8 +9338,8 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/ast-ind-394031.pdf"
-			(at 254.61 67.31 0)
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf"
+			(at 243.18 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3894,8 +9350,8 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "Series/Type: Thick film chip resistors (Super high precision type), Power Rating (W): 0.2, Chip Size (LxW(EIA)) (mm): 1.6 x 0.8 (EIA:0603), Resistance Values (): 47000, Resistance Tolerance (%): 0.1, T.C.R (10/K): +/-25"
-			(at 58.42 81.28 0)
+		(property "Description" "SMD Auto X7R, Ceramic, 100 pF, 10%, 50 VDC, 125 VDC, 125C, -55C, X7R, SMD, MLCC, Temperature Stable, Automotive Grade, 2.5 % , 100 GOhms, 4.8 mg, 0603, 1.6mm, 0.8mm, 0.8mm, 0.7mm, 0.35mm, 15000, 78  Weeks, 80"
+			(at 46.99 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3905,8 +9361,8 @@
 				)
 			)
 		)
-		(property "Height" "0.55"
-			(at 454.61 67.31 0)
+		(property "Height" "0.87"
+			(at 443.18 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3918,7 +9374,7 @@
 			)
 		)
 		(property "RS Part Number" ""
-			(at 554.61 67.31 0)
+			(at 543.18 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3930,7 +9386,472 @@
 			)
 		)
 		(property "RS Price/Stock" ""
-			(at 654.61 67.31 0)
+			(at 643.18 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Yageo Group"
+			(at 743.18 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C0603C101K5RACAUTO7411"
+			(at 843.18 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1"
+			(uuid "116495c7-bb57-4e2d-8653-6bdfae08ffbf")
+		)
+		(pin "2"
+			(uuid "2ec34692-bdb4-4196-bc91-5471b03d49ca")
+		)
+		(instances
+			(project "lunokhod_outreach"
+				(path "/9eb57010-b30c-4ba8-8b6a-122b94c9fa39"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LibraryLoader:TC1262-3.3VDBTR")
+		(at 49.53 109.22 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5c82286-c015-459f-9d88-8de0339dd485")
+		(property "Reference" "IC1"
+			(at 64.77 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TC1262-3.3VDBTR"
+			(at 64.77 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LibraryLoader:SOT230P700X180-4N"
+			(at 76.2 204.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "http://uk.rs-online.com/web/p/products/8211116"
+			(at 76.2 304.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "TC1262-3.3VDBTR, Low Dropout Voltage Regulator, 500mA, 3.3 V +/-0.5%, 2.7  6 Vin, 3-Pin SOT-223"
+			(at 49.53 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "1.8"
+			(at 76.2 504.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "RS Part Number" "8211116"
+			(at 76.2 604.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "RS Price/Stock" "http://uk.rs-online.com/web/p/products/8211116"
+			(at 76.2 704.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Microchip"
+			(at 76.2 804.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TC1262-3.3VDBTR"
+			(at 76.2 904.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Allied_Number" "70046815"
+			(at 76.2 1004.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3"
+			(uuid "bcc3ae52-ba84-4442-8913-cdbf3a8bced8")
+		)
+		(pin "4"
+			(uuid "07b5c50c-9c80-46f9-bff8-e504eeb73481")
+		)
+		(pin "2"
+			(uuid "564c703d-4c4a-4215-898d-f8ab1deb8be5")
+		)
+		(pin "1"
+			(uuid "1a0aefe1-5996-43c1-823e-2d1fa859a5e8")
+		)
+		(instances
+			(project "lunokhod_outreach"
+				(path "/9eb57010-b30c-4ba8-8b6a-122b94c9fa39"
+					(reference "IC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library:B3F-1020")
+		(at 38.1 156.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ca31cf40-22f6-439a-8eb7-8c31b3855e73")
+		(property "Reference" "S1"
+			(at 48.26 148.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "B3F-1020"
+			(at 48.26 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LibraryLoader:B3F1000"
+			(at 54.61 251.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "http://uk.rs-online.com/web/p/products/6821131P"
+			(at 54.61 351.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Switch Tact SPST,flat 5mm act,PC Pins Black Plunger Tactile Switch, SPST-NO 0.05 A@ 24 V dc 0.9mm"
+			(at 38.608 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 54.61 551.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "RS Part Number" "6821131P"
+			(at 54.61 651.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "RS Price/Stock" "http://uk.rs-online.com/web/p/products/6821131P"
+			(at 54.61 751.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "OMRON Electronics"
+			(at 54.61 851.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "B3F-1020"
+			(at 54.61 951.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Allied_Number" "70176105"
+			(at 54.61 1051.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3"
+			(uuid "39bbb3ef-9756-4771-b17e-ee51bcc0edd9")
+		)
+		(pin "1"
+			(uuid "fcf37d59-2b51-4bb2-8b54-dfcf1d4640e7")
+		)
+		(pin "4"
+			(uuid "29140f15-0d81-4373-a46b-2ebd9b33e009")
+		)
+		(pin "2"
+			(uuid "967fe7e0-c333-4775-a58e-e2c0d7debd24")
+		)
+		(instances
+			(project "lunokhod_outreach"
+				(path "/9eb57010-b30c-4ba8-8b6a-122b94c9fa39"
+					(reference "S1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LibraryLoader:ERJ-PC3B4702V")
+		(at 129.54 41.91 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ca87a04a-db7e-4eb2-8c7d-91824f660b68")
+		(property "Reference" "R3"
+			(at 133.858 31.496 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10K"
+			(at 135.89 34.29 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LibraryLoader:ERJPC3D9763V"
+			(at 33.35 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/ast-ind-394031.pdf"
+			(at -66.65 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Series/Type: Thick film chip resistors (Super high precision type), Power Rating (W): 0.2, Chip Size (LxW(EIA)) (mm): 1.6 x 0.8 (EIA:0603), Resistance Values (): 47000, Resistance Tolerance (%): 0.1, T.C.R (10/K): +/-25"
+			(at 129.54 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.55"
+			(at -266.65 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "RS Part Number" ""
+			(at -366.65 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "RS Price/Stock" ""
+			(at -466.65 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3942,7 +9863,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Panasonic"
-			(at 754.61 67.31 0)
+			(at -566.65 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3954,7 +9875,515 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "ERJ-PC3B4702V"
-			(at 854.61 67.31 0)
+			(at -666.65 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1"
+			(uuid "d0dc31cd-3c99-4c8e-84f1-155a283f929c")
+		)
+		(pin "2"
+			(uuid "bbe2ec02-649f-4446-a499-4879d35db33f")
+		)
+		(instances
+			(project "lunokhod_outreach"
+				(path "/9eb57010-b30c-4ba8-8b6a-122b94c9fa39"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCBSym:703-0100")
+		(at 193.04 115.57 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cb264304-6ffb-4b4b-a846-daa9afd61f0e")
+		(property "Reference" "LED2"
+			(at 195.58 122.428 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "703-0100"
+			(at 197.358 126.746 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LibraryLoader:7030100"
+			(at 99.39 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at -0.61 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "LED, 5MM, RED, 400MCD, 643NM"
+			(at 193.04 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "9.2"
+			(at -200.61 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "RS Part Number" ""
+			(at -300.61 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "RS Price/Stock" ""
+			(at -400.61 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Name" "Multicomp Pro"
+			(at -500.61 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Part_Number" "703-0100"
+			(at -600.61 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "2"
+			(uuid "341652ba-7cdf-476d-926f-d3dba0668b33")
+		)
+		(pin "1"
+			(uuid "206c7b22-6dcc-44be-b1e6-afa3230a4ca0")
+		)
+		(instances
+			(project "lunokhod_outreach"
+				(path "/9eb57010-b30c-4ba8-8b6a-122b94c9fa39"
+					(reference "LED2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 46.99 130.81 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce2ef9b2-951f-4551-a7be-aec0bde1cfb1")
+		(property "Reference" "#PWR07"
+			(at 46.99 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 46.99 135.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 46.99 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "019a1c19-736e-4a74-a9da-770aedeb7aeb")
+		)
+		(instances
+			(project "lunokhod_outreach"
+				(path "/9eb57010-b30c-4ba8-8b6a-122b94c9fa39"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LibraryLoader:MCKNP02WJ0102A19")
+		(at 161.29 85.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ced90f22-3298-49e3-aaf7-b6dc90ca6280")
+		(property "Reference" "R4"
+			(at 170.18 82.296 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LibraryLoader:RESAD3800W75L1600D550"
+			(at 170.18 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LibraryLoader:ERJPC3D9763V"
+			(at 175.26 181.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 281.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "MULTICOMP - MCKNP02WJ0102A19 - RES, 1000R, 5%, 2W, AXIAL, WIREWOUND"
+			(at 161.29 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 175.26 481.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "RS Part Number" ""
+			(at 175.26 581.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "RS Price/Stock" ""
+			(at 175.26 681.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Multicomp Pro"
+			(at 175.26 781.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MCKNP02WJ0102A19"
+			(at 175.26 881.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "2"
+			(uuid "d6346a27-099c-4207-9c72-8c327e1cb104")
+		)
+		(pin "1"
+			(uuid "9d8175d5-1813-429a-87c3-f3263d80bf7c")
+		)
+		(instances
+			(project "lunokhod_outreach"
+				(path "/9eb57010-b30c-4ba8-8b6a-122b94c9fa39"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LibraryLoader:ERJ-PC3B4702V")
+		(at 52.07 83.82 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d56b294c-0b3a-4c9d-b624-5c36b4a97567")
+		(property "Reference" "R1"
+			(at 54.61 73.6599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5.1K"
+			(at 54.61 76.1999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LibraryLoader:ERJPC3D9763V"
+			(at 148.26 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/ast-ind-394031.pdf"
+			(at 248.26 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Series/Type: Thick film chip resistors (Super high precision type), Power Rating (W): 0.2, Chip Size (LxW(EIA)) (mm): 1.6 x 0.8 (EIA:0603), Resistance Values (): 47000, Resistance Tolerance (%): 0.1, T.C.R (10/K): +/-25"
+			(at 52.07 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.55"
+			(at 448.26 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "RS Part Number" ""
+			(at 548.26 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "RS Price/Stock" ""
+			(at 648.26 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Panasonic"
+			(at 748.26 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERJ-PC3B4702V"
+			(at 848.26 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3974,47 +10403,48 @@
 		(instances
 			(project "lunokhod_outreach"
 				(path "/9eb57010-b30c-4ba8-8b6a-122b94c9fa39"
-					(reference "R2")
+					(reference "R1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:VDD")
-		(at 62.23 162.56 0)
+		(lib_id "Mechanical:MountingHole")
+		(at 157.48 184.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f5c5d6b3-5062-4246-867f-4e0a101e11ee")
-		(property "Reference" "#PWR023"
-			(at 62.23 166.37 0)
-			(hide yes)
+		(uuid "d82a8daa-e8b2-4038-ba3b-669295326c73")
+		(property "Reference" "H2"
+			(at 160.02 182.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "VDD"
-			(at 62.23 157.48 0)
+		(property "Value" "MountingHole"
+			(at 160.02 185.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 62.23 162.56 0)
+		(property "Footprint" "MountingHole:MountingHole_2.5mm"
+			(at 157.48 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4025,7 +10455,82 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 162.56 0)
+			(at 157.48 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 157.48 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "lunokhod_outreach"
+				(path "/9eb57010-b30c-4ba8-8b6a-122b94c9fa39"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 43.18 104.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dabbaf79-2796-4325-bd4b-cbe6f69a080e")
+		(property "Reference" "#PWR06"
+			(at 43.18 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDD"
+			(at 43.18 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4036,7 +10541,447 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 62.23 162.56 0)
+			(at 43.18 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f6d16265-67c7-4400-817f-ee92a217ff90")
+		)
+		(instances
+			(project "lunokhod_outreach"
+				(path "/9eb57010-b30c-4ba8-8b6a-122b94c9fa39"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 157.48 189.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ded1db9f-ab63-42e8-b704-519095157a7d")
+		(property "Reference" "H3"
+			(at 160.02 187.9599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 160.02 190.4999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.5mm"
+			(at 157.48 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 157.48 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "lunokhod_outreach"
+				(path "/9eb57010-b30c-4ba8-8b6a-122b94c9fa39"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LibraryLoader:MCKNP02WJ0102A19")
+		(at 161.29 110.49 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e83d0979-b224-4268-b629-96a946425942")
+		(property "Reference" "R5"
+			(at 170.18 107.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LibraryLoader:RESAD3800W75L1600D550"
+			(at 170.18 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LibraryLoader:ERJPC3D9763V"
+			(at 175.26 206.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 306.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "MULTICOMP - MCKNP02WJ0102A19 - RES, 1000R, 5%, 2W, AXIAL, WIREWOUND"
+			(at 161.29 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 175.26 506.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "RS Part Number" ""
+			(at 175.26 606.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "RS Price/Stock" ""
+			(at 175.26 706.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Multicomp Pro"
+			(at 175.26 806.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MCKNP02WJ0102A19"
+			(at 175.26 906.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "2"
+			(uuid "0a403c03-bedd-49bb-a6c5-179de454b177")
+		)
+		(pin "1"
+			(uuid "ed1a66ec-6c4f-49d8-b5d3-a8439fd0520a")
+		)
+		(instances
+			(project "lunokhod_outreach"
+				(path "/9eb57010-b30c-4ba8-8b6a-122b94c9fa39"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCBSym:703-0100")
+		(at 267.97 115.57 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f1512279-64e6-4604-a6a8-c86b11c7faa7")
+		(property "Reference" "LED11"
+			(at 270.51 122.428 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "703-0100"
+			(at 272.288 126.746 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LibraryLoader:7030100"
+			(at 174.32 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.32 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "LED, 5MM, RED, 400MCD, 643NM"
+			(at 267.97 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "9.2"
+			(at -125.68 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "RS Part Number" ""
+			(at -225.68 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "RS Price/Stock" ""
+			(at -325.68 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Name" "Multicomp Pro"
+			(at -425.68 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer_Part_Number" "703-0100"
+			(at -525.68 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "2"
+			(uuid "1b00dbb8-c944-4e37-b6ea-1348e02d3ab3")
+		)
+		(pin "1"
+			(uuid "6a966008-9261-4a6e-97e0-b6f0f6c48ab9")
+		)
+		(instances
+			(project "lunokhod_outreach"
+				(path "/9eb57010-b30c-4ba8-8b6a-122b94c9fa39"
+					(reference "LED11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 196.85 31.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f5c5d6b3-5062-4246-867f-4e0a101e11ee")
+		(property "Reference" "#PWR018"
+			(at 196.85 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDD"
+			(at 196.85 26.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 196.85 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4052,7 +10997,7 @@
 		(instances
 			(project "lunokhod_outreach"
 				(path "/9eb57010-b30c-4ba8-8b6a-122b94c9fa39"
-					(reference "#PWR023")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -4060,7 +11005,7 @@
 	)
 	(symbol
 		(lib_id "LibraryLoader:C0603C101K5RACAUTO7411")
-		(at 36.83 151.13 90)
+		(at 113.03 74.93 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4069,8 +11014,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f7563bbe-d3b5-49dd-9274-19c15a5af1cb")
-		(property "Reference" "C3"
-			(at 37.846 142.24 90)
+		(property "Reference" "C4"
+			(at 114.046 66.04 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4081,7 +11026,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 37.592 146.812 90)
+			(at 113.792 70.612 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4092,7 +11037,7 @@
 			)
 		)
 		(property "Footprint" "LibraryLoader:C0603"
-			(at 133.02 142.24 0)
+			(at 209.22 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4104,7 +11049,7 @@
 			)
 		)
 		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf"
-			(at 233.02 142.24 0)
+			(at 309.22 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4116,7 +11061,7 @@
 			)
 		)
 		(property "Description" "SMD Auto X7R, Ceramic, 100 pF, 10%, 50 VDC, 125 VDC, 125C, -55C, X7R, SMD, MLCC, Temperature Stable, Automotive Grade, 2.5 % , 100 GOhms, 4.8 mg, 0603, 1.6mm, 0.8mm, 0.8mm, 0.7mm, 0.35mm, 15000, 78  Weeks, 80"
-			(at 36.83 151.13 0)
+			(at 113.03 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4127,7 +11072,7 @@
 			)
 		)
 		(property "Height" "0.87"
-			(at 433.02 142.24 0)
+			(at 509.22 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4139,7 +11084,7 @@
 			)
 		)
 		(property "RS Part Number" ""
-			(at 533.02 142.24 0)
+			(at 609.22 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4151,7 +11096,7 @@
 			)
 		)
 		(property "RS Price/Stock" ""
-			(at 633.02 142.24 0)
+			(at 709.22 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4163,7 +11108,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Yageo Group"
-			(at 733.02 142.24 0)
+			(at 809.22 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4175,7 +11120,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "C0603C101K5RACAUTO7411"
-			(at 833.02 142.24 0)
+			(at 909.22 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4195,15 +11140,314 @@
 		(instances
 			(project "lunokhod_outreach"
 				(path "/9eb57010-b30c-4ba8-8b6a-122b94c9fa39"
-					(reference "C3")
+					(reference "C4")
 					(unit 1)
 				)
 			)
 		)
 	)
-	(group ""
-		(uuid "70cbe65b-f688-4f82-bd81-7e6e88807798")
-		(members "36f99de4-dff5-4bd3-9373-2efd72af59c1" "5b545d2c-7926-487f-9d6e-7b938d8f8c65")
+	(symbol
+		(lib_id "LibraryLoader:MCKNP02WJ0102A19")
+		(at 161.29 135.89 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fe567bee-788b-4672-a1e4-7d8d7cf29c93")
+		(property "Reference" "R6"
+			(at 170.18 133.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LibraryLoader:RESAD3800W75L1600D550"
+			(at 170.18 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LibraryLoader:ERJPC3D9763V"
+			(at 175.26 232.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 332.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "MULTICOMP - MCKNP02WJ0102A19 - RES, 1000R, 5%, 2W, AXIAL, WIREWOUND"
+			(at 161.29 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 175.26 532.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "RS Part Number" ""
+			(at 175.26 632.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "RS Price/Stock" ""
+			(at 175.26 732.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Multicomp Pro"
+			(at 175.26 832.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MCKNP02WJ0102A19"
+			(at 175.26 932.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "2"
+			(uuid "e25bdee6-0919-477d-b188-122ab0e7e047")
+		)
+		(pin "1"
+			(uuid "214e7958-5163-4f2a-ace3-3155ebf06081")
+		)
+		(instances
+			(project "lunokhod_outreach"
+				(path "/9eb57010-b30c-4ba8-8b6a-122b94c9fa39"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library:B3F-1020")
+		(at 66.04 156.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff6af09b-5cb2-4d7f-99a6-10b6f9479873")
+		(property "Reference" "S3"
+			(at 76.2 148.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "B3F-1020"
+			(at 76.2 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LibraryLoader:B3F1000"
+			(at 82.55 251.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "http://uk.rs-online.com/web/p/products/6821131P"
+			(at 82.55 351.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Switch Tact SPST,flat 5mm act,PC Pins Black Plunger Tactile Switch, SPST-NO 0.05 A@ 24 V dc 0.9mm"
+			(at 66.548 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 82.55 551.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "RS Part Number" "6821131P"
+			(at 82.55 651.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "RS Price/Stock" "http://uk.rs-online.com/web/p/products/6821131P"
+			(at 82.55 751.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "OMRON Electronics"
+			(at 82.55 851.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "B3F-1020"
+			(at 82.55 951.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Allied_Number" "70176105"
+			(at 82.55 1051.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3"
+			(uuid "ccdc8e58-102e-40e2-834b-5c2eb3345740")
+		)
+		(pin "1"
+			(uuid "74d8337c-51f0-48fe-9c54-c03f8bf0f482")
+		)
+		(pin "4"
+			(uuid "1db9dea3-b3a8-4a06-9601-eeb97c0cd375")
+		)
+		(pin "2"
+			(uuid "0b4dad74-3a17-41cf-a316-ab0f52637a0e")
+		)
+		(instances
+			(project "lunokhod_outreach"
+				(path "/9eb57010-b30c-4ba8-8b6a-122b94c9fa39"
+					(reference "S3")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(sheet_instances
 		(path "/"
